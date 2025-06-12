@@ -264,89 +264,130 @@ const Login = () => {
   };
 
   return (
-    <div style={styles.pageContainer}>
-      <div style={styles.overlay}></div>
-      <div style={styles.contentContainer}>
-        <div style={styles.leftSection}>
-          <h1 style={styles.brandName}>EasyGo</h1>
-          <h2 style={styles.heading}>
-            EXPLORE<br />
-            HORIZONS
-          </h2>
-          <p style={styles.subHeading}>
-            Where Your Dream Destinations<br />
-            Become Reality
-          </p>
-          <p style={styles.description}>
-            Embark on a journey where every corner of the world becomes your reach.
-          </p>
-        </div>
-
-        <div style={styles.rightSection}>
-          <div style={styles.formContainer}>
-            <form onSubmit={handleSubmit}>
-              <div style={styles.formGroup}>
-                <label style={styles.label}>Email</label>
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Enter your email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  style={styles.input}
-                />
-              </div>
-              <div style={styles.formGroup}>
-                <label style={styles.label}>Password</label>
-                <input
-                  type="password"
-                  name="password"
-                  placeholder="Enter your password"
-                  value={formData.password}
-                  onChange={handleChange}
-                  style={styles.input}
-                />
-                <Link to="/forgot-password" style={styles.forgotPassword}>
-                  Forgot Password?
-                </Link>
-              </div>
-              
-              <button type="submit" style={{ ...styles.signInButton, ...styles.button, ':hover': styles.buttonHover }}>
-                Login
-              </button>
-
-              <div style={styles.divider}>
-                <div style={styles.dividerLine}></div>
-                <span style={styles.dividerText}>or</span>
-                <div style={styles.dividerLine}></div>
-              </div>
-
-              <div style={styles.socialButtonsContainer}>
-                <button type="button" style={{ ...styles.googleButton, ...styles.button, ':hover': styles.buttonHover }}>
-                  <FaGoogle size={16} />
+    <>
+      <style>{`
+        @media (max-width: 600px) {
+          .login-page-container {
+            flex-direction: column !important;
+            padding: 10px !important;
+            gap: 0 !important;
+          }
+          .login-content-container {
+            flex-direction: column !important;
+            gap: 0 !important;
+          }
+          .login-left-section {
+            order: 0 !important;
+            align-items: center !important;
+            text-align: center !important;
+            padding: 0 !important;
+            margin-bottom: 10px !important;
+          }
+          .login-right-section {
+            order: 1 !important;
+            width: 100% !important;
+            justify-content: center !important;
+            align-items: center !important;
+            padding: 0 !important;
+          }
+          .login-form-container {
+            max-width: 100% !important;
+            padding: 16px !important;
+          }
+          .login-heading {
+            font-size: 22px !important;
+          }
+          .login-subheading {
+            font-size: 13px !important;
+          }
+          .login-left-section p, .login-left-section h1 {
+            font-size: 13px !important;
+          }
+        }
+      `}</style>
+      <div style={styles.pageContainer} className="login-page-container">
+        <div style={styles.overlay}></div>
+        <div style={styles.contentContainer} className="login-content-container">
+          <div style={styles.leftSection} className="login-left-section">
+            <h1 style={styles.brandName}>EasyGo</h1>
+            <h2 style={styles.heading} className="login-heading">
+              EXPLORE<br />
+              HORIZONS
+            </h2>
+            <p style={styles.subHeading} className="login-subheading">
+              Where Your Dream Destinations<br />
+              Become Reality
+            </p>
+            <p style={styles.description}>
+              Embark on a journey where every corner of the world becomes your reach.
+            </p>
+          </div>
+          <div style={styles.rightSection} className="login-right-section">
+            <div style={styles.formContainer} className="login-form-container">
+              <form onSubmit={handleSubmit}>
+                <div style={styles.formGroup}>
+                  <label style={styles.label}>Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    style={styles.input}
+                  />
+                </div>
+                <div style={styles.formGroup}>
+                  <label style={styles.label}>Password</label>
+                  <input
+                    type="password"
+                    name="password"
+                    placeholder="Enter your password"
+                    value={formData.password}
+                    onChange={handleChange}
+                    style={styles.input}
+                  />
+                  <Link to="/forgot-password" style={styles.forgotPassword}>
+                    Forgot Password?
+                  </Link>
+                </div>
+                
+                <button type="submit" style={{ ...styles.signInButton, ...styles.button, ':hover': styles.buttonHover }}>
+                  Login
                 </button>
-                <button type="button" style={{ ...styles.googleButton, ...styles.button, ':hover': styles.buttonHover }}>
-                  <FaFacebook size={16} />
-                </button>
-                <button type="button" style={{ ...styles.googleButton, ...styles.button, ':hover': styles.buttonHover }}>
-                  <FaTwitter size={16} />
-                </button>
-                <button type="button" style={{ ...styles.googleButton, ...styles.button, ':hover': styles.buttonHover }}>
-                  <FaApple size={16} />
-                </button>
-              </div>
 
-              <p style={styles.createAccount}>
-                Are you new?
-                <Link to="/register" style={styles.createAccountLink}>
-                  Create an Account
-                </Link>
-              </p>
-            </form>
+                <div style={styles.divider}>
+                  <div style={styles.dividerLine}></div>
+                  <span style={styles.dividerText}>or</span>
+                  <div style={styles.dividerLine}></div>
+                </div>
+
+                <div style={styles.socialButtonsContainer}>
+                  <button type="button" style={{ ...styles.googleButton, ...styles.button, ':hover': styles.buttonHover }}>
+                    <FaGoogle size={16} />
+                  </button>
+                  <button type="button" style={{ ...styles.googleButton, ...styles.button, ':hover': styles.buttonHover }}>
+                    <FaFacebook size={16} />
+                  </button>
+                  <button type="button" style={{ ...styles.googleButton, ...styles.button, ':hover': styles.buttonHover }}>
+                    <FaTwitter size={16} />
+                  </button>
+                  <button type="button" style={{ ...styles.googleButton, ...styles.button, ':hover': styles.buttonHover }}>
+                    <FaApple size={16} />
+                  </button>
+                </div>
+
+                <p style={styles.createAccount}>
+                  Are you new?
+                  <Link to="/register" style={styles.createAccountLink}>
+                    Create an Account
+                  </Link>
+                </p>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

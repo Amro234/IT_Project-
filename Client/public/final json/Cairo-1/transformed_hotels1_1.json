@@ -1,0 +1,4792 @@
+[
+  {
+    "name": "Cecilia Hostel",
+    "description": "A stay at Cecilia - Hostel places you in the heart of Cairo, within a 15-minute walk of Tahrir Square and Egyptian Museum. This hostel is 9.5 mi (15.3 km) from Giza Pyramid Complex and 2 mi (3.2 km) from Khan el-Khalili. Enjoy recreation amenities such as bicycles to rent or take in the view from a rooftop terrace. Additional features at this hostel include complimentary wireless internet access, concierge services, and an arcade/game room. Guests can catch a ride to nearby destinations on the area shuttle (surcharge). Satisfy your appetite at the hostel's coffee shop/cafe, or stay in and take advantage of the 24-hour room service. A complimentary continental breakfast is served daily from 7 AM to 10 AM. Featured amenities include complimentary wired internet access, complimentary newspapers in the lobby, and dry cleaning/laundry services. Free valet parking is available onsite. Make yourself at home in one of the 18 individually decorated guestrooms, featuring microwaves and LCD televisions. Rooms have private balconies. Prepare your meals in the shared/communal kitchen. Wired and wireless internet access is complimentary, while tablet computers and satellite programming provide entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "47 El Falaky Street,Cairo,Cairo Governorate,Egypt",
+    "email": "info@sunsetinn.com",
+    "mobile_num": "+20 12 3456 7854",
+    "city_id": 1,
+    "number_of_rooms": 25,
+    "hotel_ranking": 2,
+    "amenities": [
+      "Air conditioning",
+      "Airport shuttle",
+      "Balcony",
+      "Kid-friendly",
+      "Crib",
+      "Fireplace",
+      "Heating",
+      "Hot tub",
+      "Ironing board",
+      "Kitchen",
+      "Microwave",
+      "Outdoor grill",
+      "Oven stove",
+      "Patio",
+      "Cable TV",
+      "Washer",
+      "Wheelchair accessible",
+      "Free parking",
+      "Free Wi-Fi"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1pKXlCfy5NK.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1qqhgGLLDvG.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1pKXlCfy5NK.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vUqsuwRkxq.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 85.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 85.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/ori/1vUqsy0iTks.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vUqsETvt8A.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 500.0,
+        "deluxe_price": null,
+        "price": 500.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/ori/1mQaR2pBqpy.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1000.0,
+        "price": 1000.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vUqsETvt8A.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Doudou Pyramids View Hotel",
+    "description": "small hotel has a new and clean rooms all of this rooms has pyramids view. you can eating all meals in our restaurant where pyramids view is fantastic.",
+    "appearance": "Outstanding ",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "1Mina Street, Giza, above Caviar Seafood Restaurant, 5th floor,Giza,Giza Governorate,Egypt",
+    "email": "doudoupyramidsview@gmail.com",
+    "mobile_num": "+20 12 3456 7855",
+    "city_id": 1,
+    "number_of_rooms": 15,
+    "hotel_ranking": 2,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Hot tub",
+      "Air conditioning",
+      "Spa",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uTXDxUXCvu.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uTXDJ8oVrO.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uTXDPqYxMY.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1uTXDtr4bDO.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 40.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 40.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BZUix7veF2.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BMxncVdWBW.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 506.0,
+        "deluxe_price": null,
+        "price": 506.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BZUix5e7ni.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1090.0,
+        "price": 1090.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BMxncVdWBW.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Paradise Boutique Hotel",
+    "description": "In the heart of Cairo, Paradise Boutique Hotel is within a 5-minute drive of Egyptian Museum and Museum of Islamic Art. This hotel is 1.6 mi (2.6 km) from Khan el-Khalili and 2 mi (3.2 km) from Cairo Tower. Make use of convenient amenities such as complimentary wireless internet access, concierge services, and a television in a common area. Take advantage of the hotel's 24-hour room service. A complimentary continental breakfast is served daily from 8:30 AM to 11 AM. Featured amenities include complimentary newspapers in the lobby, dry cleaning/laundry services, and a 24-hour front desk. A roundtrip airport shuttle is provided for a surcharge (available 24 hours). Make yourself at home in one of the 30 air-conditioned rooms featuring flat-screen televisions. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with showers feature complimentary toiletries and slippers. Conveniences include safes and desks, and housekeeping is provided daily.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "18 B 26 July St,Cairo,Cairo Governorate,Egypt",
+    "email": "contact@grandvista.com",
+    "mobile_num": "+20 12 3456 7856",
+    "city_id": 1,
+    "number_of_rooms": 26,
+    "hotel_ranking": 2,
+    "amenities": [
+      "Air conditioning",
+      "Crib",
+      "Hot tub",
+      "Kitchen",
+      "Washer",
+      "Free parking",
+      "Free Wi-Fi"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kBxsP0jLA4.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CWWYkw7DWg.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yXEXLB3mr6.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vXKgIkPVsJ.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 120.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 120.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1kBxtnhwxva.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/flag952_377/1lb42BHmVC8.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 505.0,
+        "deluxe_price": null,
+        "price": 505.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/flag952_377/1lb42ND5vfW.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1010.0,
+        "price": 1010.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/flag952_377/1lb42BHmVC8.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Philo Hotel",
+    "description": "With a stay at Philo Hotel, you'll be centrally located in Cairo, steps from Tahrir Square and 6 minutes by foot from Egyptian Museum. This hotel is 9.3 mi (15 km) from Giza Pyramid Complex and 2.6 mi (4.2 km) from Khan el-Khalili. Make use of convenient amenities, which include complimentary wireless internet access and tour/ticket assistance. Continental breakfasts are available daily from 8:00 AM to 11:00 AM for a fee. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. A roundtrip airport shuttle is provided for a surcharge (available 24 hours). Make yourself at home in one of the 16 individually decorated guestrooms. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Bathrooms with showers are provided. Conveniences include separate sitting areas and portable fans, and housekeeping is provided daily.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "17 Kasr Al Nile,Cairo,Cairo Governorate,Egypt",
+    "email": "reservations@royalpalmhotel.com",
+    "mobile_num": "+20 12 3456 7857",
+    "city_id": 1,
+    "number_of_rooms": 27,
+    "hotel_ranking": 2,
+    "amenities": [
+      "Crib",
+      "Pet-friendly",
+      "Smoke-free",
+      "Free parking"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1plbUSdH6Qo.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plbV7vca5O.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plbUIGIg24.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BHQaD0XjZC.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 245.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 245.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/flag952_377/1BHQaZRnJbG.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/flag952_377/1BHQdfg7YRi.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 510.0,
+        "deluxe_price": null,
+        "price": 510.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/flag952_377/1BHQaxT29FK.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1020.0,
+        "price": 1020.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/flag952_377/1BHQdfg7YRi.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Great sun pyramids inn",
+    "description": "Near Great Sphinx of GizaA complimentary local cuisine breakfast is served daily from 11:00 AM to 11:30 AM.The front desk is staffed during limited hours. Free valet parking is available onsite.Located in Giza (Kafrat al Jabal), Great sun pyramids inn is within a 15-minute walk of Giza Pyramid Complex and Great Sphinx of Giza. This bed & breakfast is 1.2 mi (1.9 km) from Pyramid of Khufu and 4.1 mi (6.5 km) from Grand Egyptian Museum.Make yourself at home in one of the 5 guestrooms. Complimentary wireless internet access is available to keep you connected. Bathrooms with separate bathtubs and showers are provided.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Gamal Abd El-Nasir, Nazlet El Samman,Giza,3387722,Giza Governorate,Egypt",
+    "email": "booking@seabreezeresort.com",
+    "mobile_num": "+20 12 3456 7858",
+    "city_id": 1,
+    "number_of_rooms": 50,
+    "hotel_ranking": 2,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Air conditioning",
+      "Spa",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1zxqpsDqYYE.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1D0qnpAAIY8.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DanaipnWXS.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DflOfGHGow.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 70.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 70.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zxqpnQwvIY.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zxqpoLiexG.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 515.0,
+        "deluxe_price": null,
+        "price": 515.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zxqpnR5yow.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1030.0,
+        "price": 1030.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zxqpoLiexG.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safary Hotel",
+    "description": "With a stay at Safary Hotel in Cairo (Downtown Cairo), you'll be within a 5-minute drive of Tahrir Square and Egyptian Museum. This hostel is 10 mi (16.1 km) from Giza Pyramid Complex and 1.8 mi (2.9 km) from Khan el-Khalili. Make use of convenient amenities, which include complimentary wireless internet access and an arcade/game room. A complimentary English breakfast is served daily from 8:00 AM to 11:00 AM. A roundtrip airport shuttle is complimentary (available 24 hours). Make yourself at home in one of the 50 guestrooms. Complimentary wireless internet access is available to keep you connected. Shared bathrooms are provided. Conveniences include washers/dryers and a turndown service, and housekeeping is provided daily.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "4 Souk El Tawfekeyya,Cairo,Cairo Governorate,Egypt",
+    "email": "hello@mountainviewlodge.com",
+    "mobile_num": "+20 12 3456 7859",
+    "city_id": 1,
+    "number_of_rooms": 309,
+    "hotel_ranking": 2,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Outdoor pool",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1mrhvRdbG12.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAq7Dv6NHO.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAq7CqY3C0.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAq7EUwRgc.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 310.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 310.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/flag952_377/1tAq7Edo4pi.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/flag952_377/1tAq7NwswEg.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 520.0,
+        "deluxe_price": null,
+        "price": 520.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/flag952_377/1tAq7LqsrRu.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1040.0,
+        "price": 1040.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/flag952_377/1tAq7NwswEg.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Arkan Egyptian Museum Hotel",
+    "description": "Near Giza Solar Boat MuseumGrab a bite from the snack bar/deli serving guests of Arkan Egyptian Museum Hotel. Mingle with other guests at the complimentary reception, held daily. A complimentary cooked-to-order breakfast is served on weekdays from 8:00 AM to 11:30 AM.Make use of convenient amenities such as concierge services, babysitting (surcharge), and gift shops/newsstands. This hotel also features a hair salon, wedding services, and a communal living room.Featured amenities include complimentary wired internet access, a computer station, and express check-in. A roundtrip airport shuttle is provided for a surcharge (available 24 hours).Located in Giza (Al Haram), Arkan Egyptian Museum Hotel is within a 10-minute drive of Grand Egyptian Museum and Giza Pyramid Complex. This family-friendly hotel is 2.4 mi (3.9 km) from Pyramid of Khufu and 2.8 mi (4.6 km) from Great Sphinx of Giza.Treat yourself to a stay in one of the 15 individually furnished guestrooms, featuring fireplaces and flat-screen televisions. Your Select Comfort bed comes with down comforters and Egyptian cotton sheets. Prepare your meals in the shared/communal kitchen. Wired and wireless internet access is complimentary, while DVD players and satellite programming provide entertainment",
+    "appearance": "Outstanding ",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "11 Bishr Khattab Street,Giza,Giza Governorate,Egypt",
+    "email": "stay@palmtreeinn.com",
+    "mobile_num": "+20 12 3456 7860",
+    "city_id": 1,
+    "number_of_rooms": 17,
+    "hotel_ranking": 2,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1ABNvCPjp6g.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/flag952_377/1xveOsXTKKI.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/flag952_377/1xveOKTKwbm.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/flag952_377/1xveOEj08Ss.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 95.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 95.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xG4eFyZyVi.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xveOLYsyVG.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 525.0,
+        "deluxe_price": null,
+        "price": 525.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1B7Tjm2Kti0.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1050.0,
+        "price": 1050.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xveOLYsyVG.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cairo Paradise Hotel",
+    "description": "At Cairo Paradise Hotel, exceptional service and top-notch amenities create a memorable experience for guests. Complimentary internet access is available in the hotel to ensure you stay connected during your visit.Arrange your trips to and from the airport using the hotel's convenient transportation services booking. For guests with their own vehicle, parking facilities are provided.Due to health concerns, smoking is strictly prohibited within the entire premises of hotel. For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones. A delightful breakfast is the perfect way to begin your day, and at Cairo Paradise Hotel, you can always indulge in a scrumptious meal on-site. All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it.At Cairo Paradise Hotel, experience the ease of having groceries brought straight to your accommodation through their efficient service.",
+    "appearance": "Outstanding ",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "41 Sherif St,Cairo,Cairo Governorate,Egypt",
+    "email": "frontdesk@bluehorizonhotel.com",
+    "mobile_num": "+20 12 3456 7861",
+    "city_id": 1,
+    "number_of_rooms": 32,
+    "hotel_ranking": 2,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Pet-friendly",
+      "Fitness centre",
+      "Spa",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1yVe9laZaXT.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/530756336.jpg?k=d9e59071575ff12036939e9f5bc5b01bc5b391e206e3b980e7e0a53b30d6152d&o=&hp=1",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/530756162.jpg?k=f8ad0f713b368b5cf9a42dbd1c4fe97c5ec47081f305a527dc88492adfe7f0eb&o=&hp=1",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/530756336.jpg?k=d9e59071575ff12036939e9f5bc5b01bc5b391e206e3b980e7e0a53b30d6152d&o=&hp=1",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 150.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 150.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1A2bMYZKfTi.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uaqdA8LCne.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 530.0,
+        "deluxe_price": null,
+        "price": 530.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tYIx74gbvO.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1060.0,
+        "price": 1060.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uaqdA8LCne.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cairo Hub Hostel",
+    "description": "With a stay at Cairo Hub Hostel, you'll be centrally located in Cairo, steps from Tahrir Square and 7 minutes by foot from Egyptian Museum. This hostel is 9.4 mi (15.1 km) from Giza Pyramid Complex and 2.8 mi (4.5 km) from Khan el-Khalili. Make use of convenient amenities such as complimentary wireless internet access, tour/ticket assistance, and a reception hall. Getting to nearby attractions is a breeze with the area shuttle (surcharge). A complimentary continental breakfast is served daily from 8:30 AM to 10:30 AM. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. A roundtrip airport shuttle is provided for a surcharge (available 24 hours). Make yourself at home in one of the 5 air-conditioned guestrooms. Complimentary wireless internet access is available to keep you connected. Bathrooms have separate bathtubs and showers and hair dryers.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El-Tahrir Square Building No. 11, Apartment 19, 4th floor,Cairo,Cairo Governorate,Egypt",
+    "email": "rooms@desertrose.com",
+    "mobile_num": "+20 12 3456 7862",
+    "city_id": 1,
+    "number_of_rooms": 33,
+    "hotel_ranking": 2,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Parking ($)",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1B6rAPyDW8w.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AmPdopDMBO.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1A2VpHIANhu.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1A2VpDVQzUk.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 110.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 110.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AmPfdqPftm.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AmPfDG9Tmo.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 535.0,
+        "deluxe_price": null,
+        "price": 535.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1A2VpyPDnOg.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1070.0,
+        "price": 1070.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AmPfDG9Tmo.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cairo City",
+    "description": "A stay at Cairo City places you in the heart of Cairo, within a 15-minute walk of Tahrir Square and Egyptian Museum. This guesthouse is 9.8 mi (15.8 km) from Giza Pyramid Complex and 1.4 mi (2.3 km) from Khan el-Khalili. Make use of convenient amenities such as complimentary wireless internet access, concierge services, and a television in a common area. A complimentary continental breakfast is served daily from 8:30 AM to 11:00 AM. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and self parking (subject to charges) is available onsite. Make yourself at home in one of the 15 air-conditioned rooms featuring minibars. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Bathrooms with shower/tub combinations feature jetted bathtubs and complimentary toiletries",
+    "appearance": "Outstanding ",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "5 Sherif El-Sagheer, Bab Al Louq,Cairo,Cairo Governorate,Egypt",
+    "email": "inquiries@coastlineinn.com",
+    "mobile_num": "+20 12 3456 7863",
+    "city_id": 1,
+    "number_of_rooms": 15,
+    "hotel_ranking": 2,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1D6UH6t0Ryw.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1D6UH6t0Ryw.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAONJJok8g.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAONMUX9Je.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 275.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 275.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAOO143Qje.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAONzITcRi.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 540.0,
+        "deluxe_price": null,
+        "price": 540.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAONVx9ZBK.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1080.0,
+        "price": 1080.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAONzITcRi.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Egyptian Night Hostel",
+    "description": "With a stay at Egyptian Night Hostel, you'll be centrally located in Cairo, steps from Egyptian Museum and 4 minutes by foot from Tahrir Square. This hostel is 9.7 mi (15.6 km) from Giza Pyramid Complex and 2.2 mi (3.5 km) from Khan el-Khalili. Make use of convenient amenities such as complimentary wireless internet access, concierge services, and a fireplace in the lobby. Satisfy your appetite at the hostel's coffee shop/cafe. A complimentary continental breakfast is served daily from 8:00 AM to 11:30 AM. Featured amenities include a computer station, dry cleaning/laundry services, and a 24-hour front desk. A shuttle from the airport to the hotel is complimentary (available 24 hours). Make yourself at home in one of the 18 air-conditioned rooms featuring flat-screen televisions. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with showers feature complimentary toiletries and slippers. Conveniences include safes and electric kettles, as well as phones with free local calls.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Down Town 13 Meret Basha, Ismailia,Cairo,Cairo Governorate,Egypt",
+    "email": "welcome@whiteorchidhotel.com",
+    "mobile_num": "+20 12 3456 7864",
+    "city_id": 1,
+    "number_of_rooms": 19,
+    "hotel_ranking": 2,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Parking ($)",
+      "Pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1uazvcEgEYo.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1uazvcEgEYo.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hCLfvrJTHi.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CVrs7FV2zm.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 90.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 90.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krb34B8DaE.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krb6IxhjzO.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 545.0,
+        "deluxe_price": null,
+        "price": 545.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krb4jeSrSM.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1090.0,
+        "price": 1090.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krb6IxhjzO.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Panorama Ramsis Hotel & Cafe",
+    "description": "With a stay at Panorama Ramsis Hotel & Cafe, you'll be centrally located in Cairo, within a 5-minute drive of Khan el-Khalili and Tahrir Square. This hotel is 11.2 mi (18 km) from Giza Pyramid Complex and 2.5 mi (4.1 km) from Egyptian Museum. Take in the views from a terrace and make use of amenities such as complimentary wireless internet access and concierge services. Grab a bite to eat at one of the hotel's 2 restaurants, or stay in and take advantage of the 24-hour room service. Snacks are also available at the coffee shop/cafe. Mingle with other guests at the complimentary reception, held daily. Wrap up your day with a drink at the bar/lounge. A complimentary continental breakfast is served daily from 6:00 AM to 11:00 AM. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. Make yourself at home in one of the 114 air-conditioned rooms featuring fireplaces and flat-screen televisions. Complimentary wireless internet access keeps you connected, and cable programming is available for your entertainment. Conveniences include phones, as well as minibars and complimentary bottled water.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "saif El Dine El Mahrany 10, Ramses,Cairo,Cairo Governorate,Egypt",
+    "email": "reception@citycenterinn.com",
+    "mobile_num": "+20 12 3456 7865",
+    "city_id": 1,
+    "number_of_rooms": 20,
+    "hotel_ranking": 3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Free parking",
+      "Air conditioning",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1Akikxd24Cs.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kC852nF7QA.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1oWSLSnGRW0.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1qyuseBJeUg.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 160.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 160.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/S4TN0Fky/bed-1.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/C38b4gxY/bed-2.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 550.0,
+        "deluxe_price": null,
+        "price": 550.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/M5hCnDw7/bed-3.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1100.0,
+        "price": 1100.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/C38b4gxY/bed-2.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cairo Inn",
+    "description": "With a stay at Cairo Inn, you'll be centrally located in Cairo, within a 10-minute walk of Tahrir Square and Egyptian Museum. This hotel is 1.2 mi (2 km) from American University of Cairo and 1.9 mi (3 km) from Cairo Tower. Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless internet access and concierge services. Additional features at this hotel include a hair salon, shopping on site, and a television in a common area. Enjoy a meal at the restaurant, or stay in and take advantage of the hotel's room service. A complimentary buffet breakfast is served daily from 8:30 AM to 11:30 AM. Featured amenities include a business center, express check-out, and dry cleaning/laundry services. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and free self parking is available onsite. Make yourself at home in one of the 25 air-conditioned guestrooms. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with shower/tub combinations feature deep soaking bathtubs and hair dryers. Conveniences include safes and coffee/tea makers, as well as phones with free local calls.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "6 Talaat Harb Square,Cairo,Cairo Governorate,Egypt",
+    "email": "guestservices@oceanbreeze.com",
+    "mobile_num": "+20 12 3456 7866",
+    "city_id": 1,
+    "number_of_rooms": 54,
+    "hotel_ranking": 3,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Pet-friendly",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Child-friendly",
+      "Smoke-free property"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1pWiaAzp8ac.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1yVe9laZaXT.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1hYPnd0Mve0.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1hZ16sBvmbC.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 60.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 60.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/mmfwrjz/bed-4.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/v2jwkNc/bed-9.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 555.0,
+        "deluxe_price": null,
+        "price": 555.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/zTRpq7DW/bed-8.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1110.0,
+        "price": 1110.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/v2jwkNc/bed-9.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Gate Hotel Front Pyramids & Sphinx View",
+    "description": "With a stay at The Gate Hotel Front Pyramids & Sphinx View, you'll be centrally located in Giza, steps from Giza Plateau and within a 5-minute walk of Giza Pyramid Complex. This bed & breakfast is 0.3 mi (0.4 km) from Great Sphinx of Giza and 3 mi (4.8 km) from Pyramid of Khufu. Take in the views from a terrace and make use of amenities such as complimentary wireless internet access and concierge services. Additional amenities at this Mediterranean bed & breakfast include gift shops/newsstands, wedding services, and a fireplace in the lobby. If you'd like to spend the day shopping, you can hop on the complimentary shuttle. Enjoy a meal at the restaurant or snacks in the bed & breakfast's coffee shop/cafe. Quench your thirst with your favorite drink at the bar/lounge. Buffet breakfasts are available daily from 7:30 AM to 11:00 AM for a fee. Featured amenities include a computer station, dry cleaning/laundry services, and a 24-hour front desk. A cruise ship terminal shuttle is provided at no charge (available 24 hours), and free self parking is available onsite. Make yourself at home in one of the 15 individually furnished guestrooms, featuring minibars and flat-screen televisions. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with showers feature bidets and slippers. Conveniences include laptop-compatible safes and desks, and housekeeping is provided on request.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "29 Abou Al Hool Al Seiahi,Giza,Giza Governorate,Egypt",
+    "email": "book@thegoldenbay.com",
+    "mobile_num": "+20 12 3456 7867",
+    "city_id": 1,
+    "number_of_rooms": 18,
+    "hotel_ranking": 3,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Full-service laundry",
+      "Accessible",
+      "Smoke-free property"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1plaMoSuW6Q.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1qyuseBJeUg.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1xXb1GNn3BC.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1u1cwx9cG9q.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 220.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 220.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/FkTpG0Pv/bed-10.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/nskC0bpr/bed-12.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 560.0,
+        "deluxe_price": null,
+        "price": 560.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/XZXmRvdm/bed-11.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1120.0,
+        "price": 1120.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/nskC0bpr/bed-12.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grand City Hotel",
+    "description": "With a stay at Grand City Hotel, you'll be centrally located in Cairo, steps from Tahrir Square and 8 minutes by foot from Egyptian Museum. This hotel is 9.5 mi (15.3 km) from Giza Pyramid Complex and 2.2 mi (3.6 km) from Khan el-Khalili. Take in the views from a terrace and make use of amenities such as complimentary wireless internet access and concierge services. Take advantage of the hotel's 24-hour room service. Continental breakfasts are available daily from 8:00 AM to 10:00 AM for a fee. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. Treat yourself to a stay in one of the 7 individually decorated guestrooms, featuring fireplaces and heated floors. Your memory foam bed comes with Egyptian cotton sheets. Flat-screen televisions with satellite programming provide entertainment, while complimentary wireless internet access keeps you connected. Conveniences include desks and complimentary newspapers, and housekeeping is provided daily",
+    "appearance": "Outstanding ",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Bostan Ibn Al Quraish El Tahrir Square,Cairo,Cairo Governorate,Egypt",
+    "email": "info@lakesideresort.com",
+    "mobile_num": "+20 12 3456 7868",
+    "city_id": 1,
+    "number_of_rooms": 24,
+    "hotel_ranking": 3,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Parking ($)",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1AxzzklYOgE.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1D0qnpAAIY8.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1jcZZ6nakHC.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/530756162.jpg?k=f8ad0f713b368b5cf9a42dbd1c4fe97c5ec47081f305a527dc88492adfe7f0eb&o=&hp=1",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 80.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 80.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/jZh2Ksvb/bed-14.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/gMKybkxd/bed-16.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 565.0,
+        "deluxe_price": null,
+        "price": 565.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/SDKWHmSF/bed-15.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1130.0,
+        "price": 1130.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/gMKybkxd/bed-16.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Turquoise Pyramids View Hotel",
+    "description": "Near Giza Pyramid ComplexYou can enjoy a meal at the restaurant serving the guests of Turquoise Pyramids View Hotel, or stop in at the snack bar/deli. Full breakfasts are available daily from 7:00 AM to 11:30 AM for a fee.Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless internet access and concierge services. Additional features at this hotel include gift shops/newsstands, a television in a common area, and a reception hall.Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. Free self parking is available onsite.With a stay at Turquoise Pyramids View Hotel, you'll be centrally located in Giza, within a 5-minute drive of Giza Pyramid Complex and Pyramid of Khufu. This hotel is 1.5 mi (2.4 km) from Great Sphinx of Giza and 2.4 mi (3.8 km) from Grand Egyptian Museum.Make yourself at home in one of the 32 air-conditioned rooms featuring heated floors and flat-screen televisions. Rooms have private balconies or patios. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Conveniences include safes and desks, as well as phones with free local calls.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "In front of Pyramids Gates,Giza,12511,Giza Governorate,Egypt",
+    "email": "connect@theriverhouse.com",
+    "mobile_num": "+20 12 3456 7869",
+    "city_id": 1,
+    "number_of_rooms": 30,
+    "hotel_ranking": 3,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1rGMjhy2jgA.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1CW75nGXJ6M.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1uTXDtr4bDO.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1rbfcNOmLuM.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 140.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 140.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/V0jWQ01J/bed-17.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/jvgc6H2S/bed-19.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 570.0,
+        "deluxe_price": null,
+        "price": 570.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/m5SWKMF0/bed-18.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1140.0,
+        "price": 1140.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/jvgc6H2S/bed-19.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "9 Pyramids Inn",
+    "description": "With a stay at 9 Pyramids Inn in Giza (Al Haram), you'll be steps from Pyramid of Khufu and 4 minutes by foot from Giza Pyramid Complex. This hotel is 0.5 mi (0.8 km) from Great Sphinx of Giza and 3.7 mi (6 km) from Grand Egyptian Museum. Take advantage of recreation opportunities such as a fitness center or take in the view from a rooftop terrace and a garden. Additional amenities at this hotel include complimentary wireless internet access, concierge services, and a fireplace in the lobby. Enjoy a meal at the restaurant, or stay in and take advantage of the hotel's 24-hour room service. Quench your thirst with your favorite drink at the bar/lounge. A complimentary local cuisine breakfast is served daily from 7:30 AM to 9:30 AM. Featured amenities include a business center, dry cleaning/laundry services, and a 24-hour front desk. Treat yourself to a stay in one of the 3 individually decorated guestrooms, featuring fireplaces and LED televisions. Wireless internet access (surcharge) keeps you connected, and satellite programming is available for your entertainment. Conveniences include coffee/tea makers and complimentary bottled water, and housekeeping is provided daily.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Al Haram,Giza,Giza Governorate,Egypt",
+    "email": "admin@emeraldstay.com",
+    "mobile_num": "+20 12 3456 7870",
+    "city_id": 1,
+    "number_of_rooms": 25,
+    "hotel_ranking": 3,
+    "amenities": [
+      "Air conditioning",
+      "Airport shuttle",
+      "Crib",
+      "Pet-friendly",
+      "Smoke-free",
+      "Cable TV",
+      "Wheelchair accessible",
+      "Free parking",
+      "Free Wi-Fi"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kreR5ONE8U.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1jcZZ6nakHC.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1oWSLSnGRW0.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DflOfGHGow.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 185.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 185.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/9mjtYncQ/bed-20.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/cS62y8YL/bed-22.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 575.0,
+        "deluxe_price": null,
+        "price": 575.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/XZ4CbFQt/bed-21.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1150.0,
+        "price": 1150.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/cS62y8YL/bed-22.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Parkside Boutique Furnished Apartments",
+    "description": "With a stay at Parkside Boutique Furnished Apartments, you'll be centrally located in Cairo, within a 15-minute drive of City Stars and Khan el-Khalili. This apartment is 7.7 mi (12.4 km) from Egyptian Museum and 7.6 mi (12.2 km) from Tahrir Square. Make use of convenient amenities, which include complimentary wireless internet access and concierge services. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and free valet parking is available onsite. Make yourself at home in one of the 34 individually decorated guestrooms, featuring kitchenettes with full-sized refrigerators/freezers and ovens. Your bed comes with down comforters and premium bedding. 55-inch flat-screen televisions with premium TV channels provide entertainment, while complimentary wireless internet access keeps you connected. Conveniences include phones, as well as safes and desks.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "17 Rafiq Salah Eldin st, off Al-Hegaz st,Cairo,Cairo Governorate,Egypt",
+    "email": "hello@thebluffinn.com",
+    "mobile_num": "+20 12 3456 7871",
+    "city_id": 1,
+    "number_of_rooms": 30,
+    "hotel_ranking": 3,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Parking ($)",
+      "Outdoor pool",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1CG6yrG1rk4.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1AislRbEniU.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1tgJytgSigE.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plbUIGIg24.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 130.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 130.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/zVQc40YK/bed-23.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/20npJwsr/bed-27.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 580.0,
+        "deluxe_price": null,
+        "price": 580.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/RGrR90Hs/bed-25.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1160.0,
+        "price": 1160.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/20npJwsr/bed-27.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Afnan Cairo Airort",
+    "description": "In Cairo (An-Nuzhah)Make use of convenient amenities, which include complimentary wireless internet access and tour/ticket assistance.Featured amenities include a 24-hour front desk, laundry facilities, and an elevator. Self parking (subject to charges) is available onsite.With a stay at Afnan Cairo Airort, you'll be centrally located in Cairo, within a 15-minute drive of City Stars and St. Mark's Coptic Orthodox Church. This apartment is 10.2 mi (16.4 km) from Khan el-Khalili and 11.3 mi (18.1 km) from Tahrir Square.Make yourself at home in one of the 17 air-conditioned rooms featuring kitchens with full-sized refrigerators/freezers and ovens. 32-inch Smart televisions with satellite programming provide entertainment, while complimentary wireless internet access keeps you connected. Conveniences include microwaves and electric kettles.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "2h Taha Hussain  Road New Nozha,Cairo,4473004,Cairo Governorate,Egypt",
+    "email": "lodge@redcanyonresort.com",
+    "mobile_num": "+20 12 3456 7872",
+    "city_id": 1,
+    "number_of_rooms": 17,
+    "hotel_ranking": 3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Free parking",
+      "Air conditioning",
+      "Pet-friendly",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Business centre"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1rjApF10CC4.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1ySOytIlV4I.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1qqhgGLLDvG.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1nxkJ48MMz6.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 100.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 100.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/vpf8Tkq/bed-28.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/XZ4PZY3H/bed-33.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 585.0,
+        "deluxe_price": null,
+        "price": 585.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/4wcnRhHj/bed-32.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1170.0,
+        "price": 1170.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/XZ4PZY3H/bed-33.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kemet Boutique Hotel",
+    "description": "With a stay at Kemet Boutique Hotel in Giza (Al Haram), you'll be within a 5-minute drive of Giza Plateau and Great Sphinx of Giza. This guesthouse is 2.2 mi (3.5 km) from Giza Pyramid Complex and 2.4 mi (3.9 km) from Pyramid of Khufu. Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless internet access and concierge services. A complimentary continental breakfast is served daily from 7:00 AM to 9:00 AM. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. A shuttle from the airport to the hotel is provided for a surcharge (available 24 hours). Make yourself at home in one of the 12 individually decorated guestrooms, featuring minibars and flat-screen televisions. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers. Conveniences include phones, as well as desks and coffee/tea makers.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "2 Nameis Al Gazar,Giza,Giza Governorate,Egypt",
+    "email": "contact@forestretreat.com",
+    "mobile_num": "+20 12 3456 7873",
+    "city_id": 1,
+    "number_of_rooms": 60,
+    "hotel_ranking": 3,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Parking ($)",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Pet-friendly",
+      "Fitness centre",
+      "Spa",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Kitchen in some rooms",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly",
+      "Smoke-free property"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1ycp28iMzfO.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1D6UH6t0Ryw.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AmPdopDMBO.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1ycp28iMzfO.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 235.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 235.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/XrHhzv5m/bed-34.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/TV1w6zm/bed-36.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 590.0,
+        "deluxe_price": null,
+        "price": 590.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/Hf9q37Kf/bed-35.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1180.0,
+        "price": 1180.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/TV1w6zm/bed-36.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celia Pyramids View Inn",
+    "description": "With a stay at Celia Pyramids View inn in Giza (Al Haram), you'll be within a 5-minute drive of Giza Pyramid Complex and Great Sphinx of Giza. This bed & breakfast is 2.6 mi (4.2 km) from Pyramid of Khufu and 3.3 mi (5.4 km) from Grand Egyptian Museum. Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless internet access and concierge services. At Celia Pyramids View inn, enjoy a satisfying meal at the restaurant. Mingle with other guests at the complimentary reception, held daily. Wrap up your day with a drink at the bar/lounge. A complimentary continental breakfast is served daily from 7:00 AM to 10:00 AM. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. A roundtrip airport shuttle is provided for a surcharge (available 24 hours). Make yourself at home in one of the 15 individually decorated guestrooms, featuring minibars and LED televisions. Satellite television is provided for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers. Conveniences include desks and electric kettles, and housekeeping is provided daily.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "111 Zaghloul,Giza,Giza Governorate,Egypt",
+    "email": "nan",
+    "mobile_num": "+20 12 3456 7874",
+    "city_id": 1,
+    "number_of_rooms": 11,
+    "hotel_ranking": 3,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Full-service laundry",
+      "Accessible",
+      "Smoke-free property"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1z3ttpO4nRK.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1vlAd0vMC2Y.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kC852nF7QA.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1ljtuj0VY9a.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 75.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 75.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/8gCWQ8Jm/bed-37.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/RkgHv6fR/bed-39.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 595.0,
+        "deluxe_price": null,
+        "price": 595.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/nN3HVPdf/bed-38.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1190.0,
+        "price": 1190.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/RkgHv6fR/bed-39.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pyramid Front Hotel",
+    "description": "With a stay at Pyramid Front Hotel in Giza (Al Haram), you'll be within a 5-minute drive of Giza Pyramid Complex and Pyramid of Khufu. This upscale hotel is 2.2 mi (3.5 km) from Great Sphinx of Giza and 2.4 mi (3.8 km) from Grand Egyptian Museum. Take advantage of recreation opportunities such as an outdoor pool, or other amenities including complimentary wireless internet access and concierge services. Enjoy a meal at the restaurant or snacks in the hotel's coffee shop/cafe. Mingle with other guests at the complimentary reception, held daily. Quench your thirst with your favorite drink at the bar/lounge. A complimentary continental breakfast is served daily from 7:00 AM to 10:00 AM. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and free self parking is available onsite. Make yourself at home in one of the 76 air-conditioned rooms featuring fireplaces and LED televisions. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Conveniences include phones, as well as minibars and electric kettles.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Al Mansoureya Rd,Giza,Giza Governorate,Egypt",
+    "email": "nan",
+    "mobile_num": "+20 12 3456 7875",
+    "city_id": 1,
+    "number_of_rooms": 91,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1tvxRssi2ze.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1oWSLSnGRW0.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kCDQwzHbDa.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1w4ojo4t9jG.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 50.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 50.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/Z6dGMDdB/bed-40.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/d0jZS31H/bed-42.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 600.0,
+        "deluxe_price": null,
+        "price": 600.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/0V26vBzN/bed-41.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1200.0,
+        "price": 1200.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/d0jZS31H/bed-42.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jaz Pyramids Resort",
+    "description": "Welcome To Jaz Pyramids Resort Step into a world of wonder at Jaz Pyramids Resort, effective 1st October 2024 (formerly Pyramids Resort By Jaz), where every moment is wrapped in the tranquility of our expansive 9-acre garden sanctuary. Behold the majesty of the iconic Giza Pyramids and Sphinx, painting an enchanting backdrop to your stay. With nature's splendor at your fingertips, lose yourself in the embrace of lush landscapes, verdant palm forests, and captivating vistas, promising an unforgettable retreat in the heart of history and beauty. Here, amidst the whispers of ancient legends, our iconic property seamlessly blends historical grandeur with modernized comforts, offering a truly magical experience that transcends time.",
+    "appearance": "Outstanding ",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Cairo - Alexandria Desert Rd, Giza,Giza,Giza Governorate,Egypt",
+    "email": "nan",
+    "mobile_num": "+20 12 3456 7876",
+    "city_id": 1,
+    "number_of_rooms": 40,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Parking ($)",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1vhcDqPKEh2.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BHQaD0XjZC.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1uyDD3nvdLi.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1xDgb4xD6jS.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 115.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 115.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/bjpRmshQ/bed-43.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/3mRVm14Q/bed-45.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 605.0,
+        "deluxe_price": null,
+        "price": 605.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/0zjT8N7/bed-44.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1210.0,
+        "price": 1210.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/3mRVm14Q/bed-45.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Triumph Plaza Hotel",
+    "description": "A stay at Triumph Plaza Hotel places you in the heart of Cairo, within a 5-minute drive of St. Mark's Coptic Orthodox Church and Ain Shams University. This 4-star hotel is 6.2 mi (9.9 km) from Egyptian Museum and 4 mi (6.4 km) from City Stars. Pamper yourself with onsite massages or enjoy recreation amenities such as a health club. Additional features at this Edwardian hotel include complimentary wireless Internet access, concierge services, and gift shops/newsstands. Grab a bite at Shiraz Restaurant, one of the hotel's 3 restaurants, or stay in and take advantage of the 24-hour room service. Snacks are also available at the coffee shop/cafe. Buffet breakfasts are available daily from 6:30 AM to 10:30 AM for a fee. Featured amenities include complimentary wired Internet access, limo/town car service, and complimentary newspapers in the lobby. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and self parking (subject to charges) is available onsite. Make yourself at home in one of the 147 air-conditioned rooms featuring LED televisions. Rooms have private balconies. Complimentary wired and wireless Internet access keeps you connected, and digital programming provides entertainment. Private bathrooms with bathtubs or showers feature complimentary toiletries and bidets.",
+    "appearance": "Outstanding ",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El-Khalifa El-Maamoun, St? Heliopolis, Cairo Governorate,Cairo,Cairo Governorate,Egypt",
+    "email": "nan",
+    "mobile_num": "+20 12 3456 7877",
+    "city_id": 1,
+    "number_of_rooms": 147,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Airport shuttle",
+      "Crib",
+      "Pet-friendly",
+      "Smoke-free",
+      "Cable TV",
+      "Wheelchair accessible",
+      "Free parking",
+      "Free Wi-Fi"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kASlWO09Ik.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1uazvcEgEYo.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1sHgKYQ70kw.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1qwpPQLC61G.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 125.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 125.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/LzktxYHk/bed-46.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/cc7cnpFv/bed-48.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 610.0,
+        "deluxe_price": null,
+        "price": 610.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/k2rHvsrY/bed-47.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1220.0,
+        "price": 1220.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/cc7cnpFv/bed-48.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Novotel Cairo Airport",
+    "description": "With a stay at Novotel Cairo Airport in Cairo (Heliopolis), you'll be within a 10-minute drive of St. Mark's Coptic Orthodox Church and Egyptian Textile Museum. This 4-star hotel is 13.1 mi (21 km) from Egyptian Museum and 7.2 mi (11.6 km) from City Stars.Relax and unwind with massages and body treatments. You're sure to appreciate the recreational amenities, including a health club, an outdoor pool, and a sauna. Additional amenities at this hotel include complimentary wireless Internet access, concierge services, and babysitting (surcharge).Enjoy international cuisine at Le Jardin, one of the hotel's 3 restaurants, or stay in and take advantage of the 24-hour room service. Snacks are also available at the 2 coffee shops/cafes. Mingle with other guests at the complimentary reception, held daily. Relax with a refreshing drink from the poolside bar or one of the 2 bars/lounges. Buffet breakfasts are available daily from 5:30 AM to 10:30 AM for a fee.Featured amenities include limo/town car service, a computer station, and complimentary newspapers in the lobby. A roundtrip airport shuttle is complimentary (available 24 hours).Make yourself at home in one of the 313 guestrooms featuring minibars and LCD televisions. Complimentary wireless Internet access keeps you connected, and satellite programming is available for your entertainment. Bathrooms have bathtubs or showers and hair dryers. Conveniences include phones, as well as safes and desks.",
+    "appearance": "Outstanding ",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Airport, Sheraton Al Matar, El Nozha, Cairo Governorate,Cairo,Cairo Governorate,Egypt",
+    "email": "nan",
+    "mobile_num": "+20 12 3456 7877",
+    "city_id": 1,
+    "number_of_rooms": 313,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Parking ($)",
+      "Outdoor pool",
+      "Air conditioning",
+      "Pet-friendly",
+      "Fitness centre",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Kitchen in rooms",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1B9JYC27Fjq.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1zYwrbL51MQ.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1tgJytgSigE.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CVrs7FV2zm.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 55.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 55.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/tpr71GZC/bed-49.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/3mt18RM2/bed-51.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 615.0,
+        "deluxe_price": null,
+        "price": 615.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/350NFZZx/bed-50.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1230.0,
+        "price": 1230.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/3mt18RM2/bed-51.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Azal Pyramids Hotel",
+    "description": "Located in Giza (Al-'Umraniyah), Azal Pyramids Hotel is within a 10-minute drive of Giza Plateau and Giza Pyramid Complex. This luxury hotel is 4.1 mi (6.6 km) from Great Sphinx of Giza and 4.1 mi (6.6 km) from Pyramid of Khufu. Pamper yourself with a visit to the spa, which offers massages, body treatments, and facials. This hotel also features complimentary wireless internet access, concierge services, and gift shops/newsstands. Enjoy a meal at the restaurant or snacks in the hotel's coffee shop/cafe. Wrap up your day with a drink at the poolside bar. Featured amenities include a computer station, dry cleaning/laundry services, and a 24-hour front desk. This hotel has 2 meeting rooms available for events. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and self parking (subject to charges) is available onsite. Make yourself at home in one of the 402 guestrooms featuring minibars and LCD televisions. Your pillowtop bed comes with Egyptian cotton sheets. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Bathrooms have deep soaking bathtubs and rainfall showerheads",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "252 Al Haram 7,Giza,Giza Governorate,Egypt",
+    "email": "nan",
+    "mobile_num": "+20 12 3456 7878",
+    "city_id": 1,
+    "number_of_rooms": 304,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Air conditioning",
+      "Full-service laundry"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1u1cwx9cG9q.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1qqhgGLLDvG.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DflOfGHGow.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1rjApF10CC4.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 195.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 195.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/Y421fyH2/bed-52.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/YBvyk7DF/bed-54.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 620.0,
+        "deluxe_price": null,
+        "price": 620.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/h1sNKGPb/bed-53.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1240.0,
+        "price": 1240.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/YBvyk7DF/bed-54.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Turquoise Pyramids & Grand Egyptian Museum View Hotel",
+    "description": "With a stay at Turquoise Pyramids View Hotel, you'll be centrally located in Giza, within a 5-minute drive of Giza Pyramid Complex and Pyramid of Khufu. This hotel is 1.5 mi (2.4 km) from Great Sphinx of Giza and 2.4 mi (3.8 km) from Grand Egyptian Museum. Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless internet access and concierge services. Additional features at this hotel include gift shops/newsstands, a television in a common area, and a reception hall. You can enjoy a meal at the restaurant serving the guests of Turquoise Pyramids View Hotel, or stop in at the snack bar/deli. Full breakfasts are available daily from 7:00 AM to 11:30 AM for a fee. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. Free self parking is available onsite. Make yourself at home in one of the 32 air-conditioned rooms featuring heated floors and flat-screen televisions. Rooms have private balconies or patios. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Conveniences include safes and desks, as well as phones with free local calls.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "7 El-Remaya, Square,Giza,Giza Governorate,Egypt",
+    "email": "nan",
+    "mobile_num": "+20 12 3456 7879",
+    "city_id": 1,
+    "number_of_rooms": 30,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Free parking",
+      "Air conditioning",
+      "Pet-friendly",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Business centre"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1wDj8w34fKg.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kreR5ONE8U.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/flag952_377/1xveOsXTKKI.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1u1cwx9cG9q.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 180.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 180.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/20qFSWHN/bed-55.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/FkhCXSf8/bed-57.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 625.0,
+        "deluxe_price": null,
+        "price": 625.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/mrTw7vKk/bed-56.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1250.0,
+        "price": 1250.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/FkhCXSf8/bed-57.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Novotel Cairo El Borg",
+    "description": "Discover contemporary comfort at Novotel Cairo EL Borg nestled in the vibrant heart of Cairo. Novotel Cairo EL Borg is a stylish 4-star retreat offering breathtaking Nile River views. Experience our Superior Rooms, Junior and Superior Suites with breathtaking views of the Nile River and the iconic Cairo Tower. Immerse yourself in our pool, spa, fitness facilities, and amazing dining outlets while indulging in the vibrancy of our prime downtown location.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "3 Saraya El, Gezira St, Zamalek, Cairo Governorate,Cairo,Cairo Governorate,Egypt",
+    "email": "welcome@beachharmony.com",
+    "mobile_num": "+20 12 3456 7880",
+    "city_id": 1,
+    "number_of_rooms": 141,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Beach access",
+      "Restaurant",
+      "Room service",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1oOBjBCjbyM.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kC852nF7QA.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1ySOytIlV4I.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1Akikxd24Cs.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 340.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 340.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/v62B8vqB/bed-58.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/KpQJVJ9T/bed-61.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 630.0,
+        "deluxe_price": null,
+        "price": 630.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/b5XVyDg2/bed-60.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1260.0,
+        "price": 1260.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/KpQJVJ9T/bed-61.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Barceló Cairo Pyramids",
+    "description": "Chic and modern high end hotel just a few minutes from the Sphinx and the Great Pyramids of Giza and 30 minutes from Cairos city center.Free WIFI in all public areas and rooms. Free safe box in all rooms with laptop capacity.Heated rooftop pool with a big terrace for sunbathing and a pool bar. Towels sun umbrellas and sun beds available without any charge. Nice Panoramic Restaurant on the 12th floor with astonishing views to the 3 Pyramids of Giza. 3 restaurants offering Italian Mediterranean and International cuisine. 24 hours lobby bar Chesterfield style bar and pool bar. Laundry and dry cleaning service. 24 Hours Reception luggage store lobby bar and room service. Car rental. ATM machine and currency exchange. Excursions and medical services on request",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "229 Al Haram, At Talbeyah Al Qebleyah, El Omraniya,Giza,Giza Governorate,Egypt",
+    "email": "info@windsorpalacehotel.com",
+    "mobile_num": "+20 12 3456 7881",
+    "city_id": 1,
+    "number_of_rooms": 39,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Air conditioning",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1ubnw6bdafK.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CVrs7FV2zm.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kB21YLeXQY.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kBftr9e2qI.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 145.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 145.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/zH6CtHrz/bed-62.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/sJkGy0MY/bed-65.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 635.0,
+        "deluxe_price": null,
+        "price": 635.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/zTdPNsQd/bed-63.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1270.0,
+        "price": 1270.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/sJkGy0MY/bed-65.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Khan DuiDar Inn - Pyramids View Rooftop",
+    "description": "With a stay at Khan Duidar Inn - Pyramids View Rooftop in Giza (Al Haram), you'll be within a 5-minute drive of Giza Plateau and Great Sphinx of Giza. This bed & breakfast is 2.1 mi (3.4 km) from Giza Pyramid Complex and 2.3 mi (3.8 km) from Pyramid of Khufu. Make use of convenient amenities such as complimentary wireless internet access, concierge services, and wedding services. Enjoy a meal at the restaurant or snacks in the coffee shop/cafe. The bed & breakfast also offers 24-hour room service. Mingle with other guests at the complimentary reception, held daily. Wrap up your day with a drink at the bar/lounge. A complimentary buffet breakfast is served daily from 7:00 AM to 10:00 AM. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. Free self parking is available onsite. Make yourself at home in one of the 13 air-conditioned rooms featuring fireplaces and Smart televisions. Your pillowtop bed comes with down comforters and premium bedding. Rooms have private balconies. Complimentary wireless internet access is available to keep you connected.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "10 Zaghloul St, Nazlet El Siman, Giza, Egypt,Giza,Giza Governorate,Egypt",
+    "email": "contact@skylineresort.com",
+    "mobile_num": "+20 12 3456 7882",
+    "city_id": 1,
+    "number_of_rooms": 60,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Air conditioning",
+      "Restaurant",
+      "Full-service laundry",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1tgJytgSigE.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1oHqugUCzrq.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plbV7vca5O.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kryU5kb4I0.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 105.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 105.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/tPLRsRzP/bed-66.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/Kzw7Bb5R/bed-68.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 640.0,
+        "deluxe_price": null,
+        "price": 640.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/FqD9k6mW/bed-67.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1280.0,
+        "price": 1280.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/Kzw7Bb5R/bed-68.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Swiss Inn Nile Hotel",
+    "description": "When you stay at Swiss Inn Nile Hotel in Giza, you'll be connected to the convention center, within a 10-minute drive of Tahrir Square and Egyptian Museum. This hotel is 7.8 mi (12.5 km) from Giza Pyramid Complex and 5.8 mi (9.3 km) from Khan el-Khalili. Enjoy recreation amenities such as an outdoor pool or take in the view from a rooftop terrace. This hotel also features complimentary wireless internet access, concierge services, and gift shops/newsstands. Enjoy a meal at the restaurant, or stay in and take advantage of the hotel's 24-hour room service. Relax with your favorite drink at the bar/lounge or the poolside bar. Buffet breakfasts are available daily for a fee. Featured amenities include a business center, express check-out, and dry cleaning/laundry services. Self parking (subject to charges) is available onsite. Make yourself at home in one of the 90 air-conditioned rooms featuring minibars. Cable television is provided for your entertainment. Private bathrooms with shower/tub combinations feature rainfall showerheads and designer toiletries. Conveniences include phones, as well as safes and desks.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "200 Al Bahr Al Aazam, Saqiyet Mekki, Al,Giza,Giza Governorate,Egypt",
+    "email": "service@newharborinn.com",
+    "mobile_num": "+20 12 3456 7883",
+    "city_id": 1,
+    "number_of_rooms": 90,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Parking ($)",
+      "Outdoor pool",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kB21YLeXQY.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAONJJok8g.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1B9JYC27Fjq.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1vR6DORmfYs.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 200.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 200.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/rB13MWW/bed-69.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/LhvgPk8Y/bed-71.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 645.0,
+        "deluxe_price": null,
+        "price": 645.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/TMhKNxqH/bed-70.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1290.0,
+        "price": 1290.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/LhvgPk8Y/bed-71.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hilton Pyramids Golf",
+    "description": "Located on outskirts of Cairo in the cosmopolitan 6th of October City, The Hilton Pyramids Golf hotel is just 15 minutes from Smart Village and the magnificent pyramids of Giza, one of the seven wonders of the world. Enjoy golf course views at Hilton Pyramids Golf as you lunch at Fairway Restaurant or sip a cocktail at the swim-up island bar. Choose from seven bars and restaurant at this Egyptian golf hotel or visit nearby Cairo attractions including DreamPark amusement park, just five minutes away. Do business in one of seven meeting rooms for 10-600 people and keep in touch with WiFi, available in public areas and meeting rooms at this Egyptian golf hotel. From guest rooms to suites, all Hilton Pyramids Golf accommodations offer golf course or pool views from the balcony.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El Wahat Rd, First,6th of October City,Giza Governorate,Egypt",
+    "email": "booking@mountainpeaklodge.com",
+    "mobile_num": "+20 12 3456 7884",
+    "city_id": 1,
+    "number_of_rooms": 227,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Beach access",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1hZ16sBvmbC.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1uazvcEgEYo.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1ycp28iMzfO.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1hZ1jv191bG.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 168.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 168.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/WvZsSdyD/bed-72.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/gMxxnWv1/bed-74.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 650.0,
+        "deluxe_price": null,
+        "price": 650.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/Q7n3RqV0/bed-73.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1300.0,
+        "price": 1300.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/gMxxnWv1/bed-74.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hilton Cairo Nile Maadi",
+    "description": "Welcome to Hilton Cairo Nile Maadi, where comfort and hospitality meet to provide you with an unforgettable stay. Our hotel offers 255 rooms and suites overlooking the Nile, Pyramids and historical city of Cairo, with dedicated two floors of modern conference and event facilities. The hotel is ideally located in the heart of Cairo, adjacent to the Nile River, few minutes away from major historical sites. Explore our dining options from O'Nile or Dayma Levantine cuisines, where they will take you through different senses. We are also offering eforea spa where you can indulge your senses and rejuvenate your mind, body and soul.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "47-B Nile Corniche, Maadi,Cairo,Cairo Governorate,Egypt",
+    "email": "hello@harborlightinn.com",
+    "mobile_num": "+20 12 3456 7885",
+    "city_id": 1,
+    "number_of_rooms": 255,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Free parking",
+      "Pool",
+      "Hot tub",
+      "Air conditioning",
+      "Spa",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1zpq7ogVOWQ.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1mrhvRdbG12.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kBftr9e2qI.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1o4wFAUaIP6.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 264.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 264.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/R4MHwmVS/bed-75.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/MYQpdf0/bed-77.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 655.0,
+        "deluxe_price": null,
+        "price": 655.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/1JJ9KhV8/bed-76.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1310.0,
+        "price": 1310.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/MYQpdf0/bed-77.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hilton Cairo Heliopolis Hotel",
+    "description": "Off a major thoroughfare, our upscale hotel is five kilometers from Cairo International Airport, eight kilometers from Baron Empain Palace, and nine kilometers from Cairo International Convention Center. Our airy, chic rooms have WiFi, flat-screen TVs, and minibars. Upgraded rooms add balconies or patios with pool views, and suites add kitchenettes and/or separate living rooms. Room service is available. Standard WiFi access with speed 15 mb. is complimentary internet and premium WIFI with high-speed 30 mb. is 160 EGP per day - free for Diamond Guests. There are 12 restaurants, including a pub and bar and open-air venues, as well as Asian and French options. Other amenities include our three outdoor pools (one for kids), a squash court and a gym, as well as 23 meeting rooms. Breakfast and parking are available.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El-Orouba, Sheraton Al Matar, El Nozha, Cairo Governorate,Cairo,Cairo Governorate,Egypt",
+    "email": "reservations@desertlilyresort.com",
+    "mobile_num": "+20 12 3456 7886",
+    "city_id": 1,
+    "number_of_rooms": 589,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Free parking",
+      "Pet-friendly",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1vlAd0vMC2Y.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plbV7vca5O.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1A8BIj4Cuqc.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1qyuseBJeUg.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 213.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 213.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/5X6nb32B/bed-78.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/Q3174xWW/bed-80.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 660.0,
+        "deluxe_price": null,
+        "price": 660.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/v4jDFQmz/bed-79.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1320.0,
+        "price": 1320.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/Q3174xWW/bed-80.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kempinski Nile Hotel Cairo",
+    "description": "Discover the perfect blend of convenience and luxury at our strategically located downtown hotel. Ideal for business travellers, our hotel is just a few miles away from Cairo's iconic attractions, including the Pyramids of Giza, the Egyptian Museum, the Cairo Opera House and more. With 137 rooms and 54 exclusive suites, we offer flexible options to cater to solo travellers, couples, and large groups. Each suite features a private balcony, providing a serene retreat. Indulge your taste buds at our four exceptional restaurants and lounges, where Kempinski's culinary expertise shines. Our leisure spa awaits, where you can refresh and recharge for ultimate relaxation. End your day at our Rooftop pool, which offers stunning views of Cairo's skyline. Your well-being is our priority. That's why we've implemented Kempinski White Glove Services, ensuring a healthy and safe environment for all guests and employees worldwide.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "12 Ahmed Ragheb, Qasr El Nil, Cairo Governorate,Cairo,Cairo Governorate,Egypt",
+    "email": "stay@thepinehouse.com",
+    "mobile_num": "+20 12 3456 7887",
+    "city_id": 1,
+    "number_of_rooms": 191,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Free parking",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1qyuseBJeUg.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_000ghmmL.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1z3ttpO4nRK.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1CWMUFg6oVy.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 419.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 419.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/wFGDwfHS/bed-81.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/2YtPRmx4/bed-83.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 665.0,
+        "deluxe_price": null,
+        "price": 665.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/LDPTCw6q/bed-82.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1330.0,
+        "price": 1330.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/2YtPRmx4/bed-83.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Le Passage Cairo Hotel & Casino",
+    "description": "With a stay at Le Passage Cairo Hotel & Casino in Cairo (Heliopolis), you'll be within a 15-minute drive of City Stars and St. Mark's Coptic Orthodox Church. This family-friendly hotel is 10.9 mi (17.5 km) from Khan el-Khalili and 12.7 mi (20.4 km) from Tahrir Square. Relax at the full-service spa, where you can enjoy massages, body treatments, and facials. You can take advantage of recreational amenities such as a nightclub, a health club, and an outdoor pool. This hotel also features complimentary wireless internet access, concierge services, and an arcade/game room. Guests can catch a ride to nearby destinations on the complimentary area shuttle. Grab a bite at Orangerie Restaurant, one of the hotel's 5 restaurants, or stay in and take advantage of the 24-hour room service. Snacks are also available at the coffee shop/cafe. Unwind at the end of the day with a drink at the bar/lounge or the poolside bar. Buffet breakfasts are available daily from 4:30 AM to 10:30 AM for a fee. Featured amenities include a business center, express check-out, and dry cleaning/laundry services. Event facilities at this hotel consist of a conference center and a meeting room. A roundtrip airport shuttle is complimentary (available 24 hours). Make yourself at home in one of the 424 air-conditioned rooms featuring minibars and LCD televisions. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Bathrooms feature shower/tub combinations, complimentary toiletries, and hair dryers. Conveniences include phones, as well as safes and electric kettles.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Al Houreya - Heliopolis, Sheraton Al Matar,Cairo,Cairo Governorate,Egypt",
+    "email": "guestcare@islandbreezehotel.com",
+    "mobile_num": "+20 12 3456 7888",
+    "city_id": 1,
+    "number_of_rooms": 100,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Beach access",
+      "Restaurant",
+      "Room service",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kBftr9e2qI.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1D0qnpAAIY8.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1oWSLSnGRW0.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/530756162.jpg?k=f8ad0f713b368b5cf9a42dbd1c4fe97c5ec47081f305a527dc88492adfe7f0eb&o=&hp=1",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 129.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 129.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/mgGScKz/bed-84.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/tjQ9YGd/bed-86.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 670.0,
+        "deluxe_price": null,
+        "price": 670.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/93whZZVz/bed-85.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1340.0,
+        "price": 1340.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/tjQ9YGd/bed-86.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ramses Hilton",
+    "description": "Set on the banks of the River Nile right in the heart of Cairo, the Ramses Hilton hotel is the perfect base for exploring all that Egypt's capital has to offer. Take in breathtaking views of the Nile or the majestic city of Cairo from the private balconies of its 811 guest rooms and suites. The Ramses Hilton hotel boasts a range of dining venues and facilities to meet the needs of the discerning traveler: including a British-style pub ''Sherlock Holmes'', an authentic Indian restaurant ''Namaste'', a Mediterranean Grill ''Citadel'', an airy café ''Garden Court'', an all-day dining restaurant ''Terrace Café'', Breezes lounge & grill, Opia rooftop lounge & Bar located on the 36th floors, a heated outdoor pool with river views, an onsite casino, a fitness center, a shopping Galleria with 250 shops and an exclusive Executive or Ramses Lounge. We also offer evening receptions every night. Only 45 minutes from Cairo International Airport, the Ramses Hilton hotel is 5 minutes from the Egyptian Museum and within easy reach of famous Cairo attractions. Let the staff at this Cairo hotel arrange a day trip or organize transport to the surrounding region. Do business in one of 7 meeting rooms or celebrate in the ballroom for up to 500 guests.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "1115 Corniche El Nile,Cairo,Cairo Governorate,Egypt",
+    "email": "contact@majesticcoast.com",
+    "mobile_num": "+20 12 3456 7889",
+    "city_id": 1,
+    "number_of_rooms": 50,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Restaurant",
+      "Room service",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1oHqugUCzrq.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1oWSLSnGRW0.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1tvxRssi2ze.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DanaipnWXS.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 310.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 310.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/p6Z7V5Cd/bed-87.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/05kSXcc/bed-89.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 675.0,
+        "deluxe_price": null,
+        "price": 675.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/7Dmxqcp/bed-88.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1350.0,
+        "price": 1350.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/05kSXcc/bed-89.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Radisson Blu Hotel, Cairo Heliopolis",
+    "description": "Radisson Hotel Group is implementing the Radisson Hotels Safety Protocol, a new program of in-depth cleanliness and disinfection procedures, in partnership with SGS, the world’s leading Health and Safety inspection company. The Radisson Hotels Safety protocol is an extension to the brand commitment which includes 20 Steps and an additional 10-Step protocol for Meetings and Events. These steps include hand sanitizing stations at all entrances, the use of Personal Protective Equipment-PPE, and protective screens, enhanced and recorded cleaning and disinfection frequency, social distancing in all areas of its hotels, reiteration of food safety standards and comprehensive staff training. For additional information please refer to www.radissonhotels.com/safe13;10;13;10;Superbly located in Heliopolis, the Radisson Blu Hotel, Cairo is the hotel of choice for business travelers and tourists. Providing spacious, well appointed guest rooms, the hotel is the perfect oasis for guests visiting the city. Flexible meeting rooms and a day-light ballroom make the hotel one of the area's premier conference venues. After a hard day's work, or following a visit to Cairo's sights, guests can relax and unwind in the Egyptian sun at the hotels rooftop pool and elegant spa area.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Abd El-Hameed Badawi, St,Cairo,Cairo Governorate,Egypt",
+    "email": "hello@valleyviewresort.com",
+    "mobile_num": "+20 12 3456 7890",
+    "city_id": 1,
+    "number_of_rooms": 427,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Kitchen in some rooms",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kAV32tMYrS.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1A2VpHIANhu.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plbV7vca5O.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAq7EUwRgc.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 144.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 144.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/B2HFvTpy/bed-90.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/cBx4MGR/bed-92.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 680.0,
+        "deluxe_price": null,
+        "price": 680.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/MLPhvBf/bed-91.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1360.0,
+        "price": 1360.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/cBx4MGR/bed-92.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sheraton Cairo Hotel & Casino",
+    "description": "Located on the banks of the River Nile. Our family-friendly 5 star hotel offers effortless service and modern accommodations in the heart of Cairo, Egypt. Select from a variety of dining options, including 24-hour room service, an authentic Japanese restaurant, an Egyptian restaurant, and our popular Italian restaurant in addition to several coffee shops and bars. If you are looking to host a business meeting or special event, our business hotel has an array of inspiring and flexible spaces, complete with the latest technology and bespoke planning services. Take a dive into our outdoor pool or get active in our 24-hour fitness center. Rejuvenate in our spa with its wide variety of treatments. All of our hotel rooms and suites offer stunning views of downtown Cairo, some featuring private balconies. Upgrade to our Club Level hotel rooms with lounge access, or to one of our suites with separate sleeping and living accommodation. Some of our thoughtful amenities include free Wi-Fi and bottled water.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Charles de Gaulle, Ad Doqi A, Dokki,Giza,Giza Governorate,Egypt",
+    "email": "info@blueoasis.com",
+    "mobile_num": "+20 12 8765 4321",
+    "city_id": 1,
+    "number_of_rooms": 120,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Smoke-free property"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1jcGprAfCbm.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/530756162.jpg?k=f8ad0f713b368b5cf9a42dbd1c4fe97c5ec47081f305a527dc88492adfe7f0eb&o=&hp=1",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1plbUSdH6Qo.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/flag952_377/1xveOKTKwbm.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 387.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 387.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/236JPJC0/bed-95.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/ym2r2q99/bed-97.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 685.0,
+        "deluxe_price": null,
+        "price": 685.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/rG5rQMMv/bed-96.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1370.0,
+        "price": 1370.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/ym2r2q99/bed-97.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dusit Thani LakeView Cairo",
+    "description": "When you stay at Dusit Thani LakeView Cairo in New Cairo, you'll be near the airport and 5 minutes by car from German University in Cairo. This luxury hotel is 10.4 mi (16.7 km) from City Stars and 14.3 mi (23 km) from Khan el-Khalili. Pamper yourself with a visit to the spa, which offers massages, body treatments, and facials. You can take advantage of recreational amenities such as a health club, an outdoor pool, and a spa tub. This hotel also features complimentary wireless internet access, concierge services, and a hair salon. Enjoy Asian cuisine at TAO, one of the hotel's 7 restaurants, or stay in and take advantage of the 24-hour room service. Relax with a refreshing drink from the poolside bar or one of the 3 bars/lounges. Buffet breakfasts are available daily from 6:30 AM to 10:30 AM for a fee. Featured amenities include a business center, complimentary newspapers in the lobby, and dry cleaning/laundry services. A roundtrip airport shuttle is complimentary (available 24 hours). Make yourself at home in one of the 449 air-conditioned rooms featuring minibars. Rooms have private balconies. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with bathtubs or showers feature designer toiletries and hair dryers.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El-Tessen street,New Cairo,Cairo Governorate,Egypt",
+    "email": "checkin@urbanhaven.com",
+    "mobile_num": "+20 12 1111 2222",
+    "city_id": 1,
+    "number_of_rooms": 188,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Kitchen in some rooms",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1jcrI7h5xoA.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kASlWO09Ik.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1plcVRSeZag.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1hZ1jv191bG.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 400.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 400.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/QFkJ7bfq/bed-98.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/VY7Fc25t/bed-100.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 690.0,
+        "deluxe_price": null,
+        "price": 690.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/qPgd8xm/bed-99.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1380.0,
+        "price": 1380.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/VY7Fc25t/bed-100.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Holiday Inn Cairo Maadi",
+    "description": "Welcome to Holiday Inn Cairo Maadi, the perfect choice for your stay in Cairo. Located on the renowned Maadi Corniche, our hotel offers a stunning view of the Nile River, creating a truly magical atmosphere. We are proud to present our collection of 171 rooms & Suites, designed for both business and leisure purposes. Each unit offers breathtaking views of the city or the majestic Nile River. Indulge in the culinary delights of our exquisite restaurants, where our skilled chefs will tantalize your taste buds with their creations. For a more relaxed atmosphere, unwind in our stylish bar or lounge. Our international restaurants offer a plethora of culinary delights that will satisfy even the most discerning palate. Our banquet rooms, equipped with state-of-the-art technology and bathed in natural daylight, provide the perfect setting for your special occasions. Our dedicated team of professionals will meticulously plan every aspect of your event, from tailored menus to innovative coffee breaks. With our unparalleled expertise, we guarantee an unforgettable experience. Unwind and rejuvenate at our fitness center, boasting a wide range of cutting-edge cardio and strength machines. We invite you to immerse yourself in luxury and comfort during your stay at Holiday Inn Cairo.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "29 A Cornish el Nile,Cairo,Cairo Governorate,Egypt",
+    "email": "booknow@tranquilbay.com",
+    "mobile_num": "+20 12 3333 4444",
+    "city_id": 1,
+    "number_of_rooms": 214,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Air conditioning",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1ohfxHBOc2Q.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1yVe9laZaXT.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1wDj8w34fKg.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1CWMUFg6oVy.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 212.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 212.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/dwNT0RQS/bed-101.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/d03trg40/bed-103.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 695.0,
+        "deluxe_price": null,
+        "price": 695.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/jvRs904B/bed-102.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1390.0,
+        "price": 1390.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/d03trg40/bed-103.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Concorde El Salam Cairo Hotel & Casino",
+    "description": "With a stay at Concorde El Salam Hotel, you'll be centrally located in Cairo, within a 15-minute drive of City Stars and Baron Empain Palace. This family-friendly hotel is 9.5 mi (15.3 km) from Khan el-Khalili and 10.3 mi (16.6 km) from Tahrir Square. Pamper yourself with a visit to the spa, which offers massages. If you're looking for recreational opportunities, you'll find a health club, an outdoor pool, and a hot tub. This hotel also features complimentary wireless internet access, concierge services, and babysitting (surcharge). Getting to nearby attractions is a breeze with the complimentary area shuttle. Enjoy international cuisine at Cafe Jardin, one of the hotel's 6 restaurants, or stay in and take advantage of the 24-hour room service. Snacks are also available at the coffee shop/cafe. Relax with a refreshing drink from the poolside bar or one of the 2 bars/lounges. Buffet breakfasts are available daily from 6 AM to 10 AM for a fee. Featured amenities include a business center, limo/town car service, and express check-in. Planning an event in Cairo? This hotel has 4672 square feet (434 square meters) of space consisting of conference space and meeting rooms. A roundtrip airport shuttle is complimentary (available 24 hours). Treat yourself to a stay in one of the 320 individually decorated guestrooms, featuring fireplaces and LCD televisions. Rooms have private balconies. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Conveniences include phones, as well as safes and desks.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "69 Abd El-Hameed Badawi, St,Cairo,Cairo Governorate,Egypt",
+    "email": "contact@crystalview.com",
+    "mobile_num": "+20 12 5555 6666",
+    "city_id": 1,
+    "number_of_rooms": 99,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Smoke-free property"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kAObONdQoU.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plbV7vca5O.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1uTXDtr4bDO.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hCLfvrJTHi.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 147.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 147.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/9HLktG4H/bed-104.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/YBMLcFTk/bed-106.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 700.0,
+        "deluxe_price": null,
+        "price": 700.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/99ZP7vN3/bed-105.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1400.0,
+        "price": 1400.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/YBMLcFTk/bed-106.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Triumph Luxury Hotel",
+    "description": "Triumph Luxury hotel is your gate to experience a luxurious lifestyle during your whole time here. Relish the incomparable around-the-clock service provided by our highly trained staff-scrumptious savouries and desserts at our wide variety of restaurants. welcomes you whether its a business trip or a calming vacation- rest assured that all your commands will be fulfilled quickly and efficiently for a time well-spent. Triumph Hotel is dry hotel not offering any alcoholic beverages in its outlets. Pre-Authorization for the Credit card will be obtained to guarantee bookings. Triumph Luxury Hotel is recognized as TripAdvisor travellers Choice for 2021.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Block 19 In front of Katameya Heights Road Cairo القاهرة,New Cairo,Cairo Governorate,Egypt",
+    "email": "reservations@royaltidehotel.com",
+    "mobile_num": "+20 12 7777 8888",
+    "city_id": 1,
+    "number_of_rooms": 249,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Breakfast",
+      "Wi-Fi ($)",
+      "Free parking",
+      "Pools",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1xXb1GNn3BC.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uTXDxUXCvu.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plbUIGIg24.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1pNNxu34Nlm.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 258.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 258.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/pj7fB9sX/bed-107.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/fYhT6XPJ/bed-110.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 705.0,
+        "deluxe_price": null,
+        "price": 705.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/Jjn17px1/bed-109.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1410.0,
+        "price": 1410.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/fYhT6XPJ/bed-110.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "JW Marriott Hotel Cairo",
+    "description": "Welcome to the JW Marriott Hotel Cairo, where you can experience true luxury with our 5-star accommodations and award-winning service. Ideally located in New Cairo, just a short distance from Cairo International Airport, our hotel is perfect for both event attendees at the Al Manara Convention Centre and families on holiday. Our 445 impeccably appointed rooms and suites are designed for your comfort, featuring refined amenities that cater to your needs. Indulge in exquisite dining at our 10 diverse restaurants, offering Italian, Asian, American, and Oriental cuisines. Challenge yourself with a round of golf at the Mirage City Golf Club, or relax at our Mandara Spa. Take advantage of our stunning man-made beach and thrilling kids water activities and enjoy an immersive family time. One of the best hotels in Cairo, we are committed to sustainability, implementing initiatives such as LED lighting and solar energy utilization. During your stay, explore the nearby malls with ease.",
+    "appearance": "Outstanding",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Ring Road, Mirage City,,New Cairo,Cairo Governorate,Egypt",
+    "email": "stay@theamberlodge.com",
+    "mobile_num": "+20 12 9999 0000",
+    "city_id": 1,
+    "number_of_rooms": 445,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Free parking",
+      "Air conditioning",
+      "Pet-friendly",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_000ghmmL.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1plcVRSeZag.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1Akikxd24Cs.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/flag952_377/1xveOsXTKKI.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 336.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 336.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/99gWZRpF/bed-111.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/k2fCpRrs/bed-113.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 710.0,
+        "deluxe_price": null,
+        "price": 710.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/FkKn7V4X/bed-112.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1420.0,
+        "price": 1420.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/k2fCpRrs/bed-113.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Waldorf Astoria Cairo Heliopolis",
+    "description": "A beacon of personalized hospitality and Egyptian heritage, the Waldorf Astoria Cairo is an exclusive gateway to authentic experiences, where unforgettable moments are curated for each and every guest. Located in Heliopolis, described as the most “Mediterranean” part of the metropolis, designed to serve as an oasis for those who wish to stay away from the crowded downtown Cairo. our hotel boasts luxury accommodations, elegant design, unparalleled dining and events. This hotel represents our door to Africa, the first Waldorf Astoria to Egypt, where ancient Cairo meets a new sophisticated luxury era. At a glance • 235 spacious and residential guest rooms • 17 lavish and well-appointed suites • Brand’s signature service, The Personal Concierge • Four destination dining concepts • Outdoor swimming pool surrounded by beautiful gardens • Five luxury spa treatment suites • Six meeting rooms and a business center • Bridal suite adjacent to The Grand ballroom, accommodating up to 1600 guests",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "4948+RFR, El-Orouba, Sheraton Al Matar,Cairo,Cairo Governorate,Egypt",
+    "email": "bookings@panoramahill.com",
+    "mobile_num": "+20 12 1023 4567",
+    "city_id": 1,
+    "number_of_rooms": 277,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Kitchen in some rooms",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1w4ojo4t9jG.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BHQaD0XjZC.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kB21YLeXQY.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1oHqugUCzrq.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 387.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 387.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/DHW2mSMJ/bed-114.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/MD7vNdSJ/bed-116.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 715.0,
+        "deluxe_price": null,
+        "price": 715.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/KxKqYRK4/bed-115.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1430.0,
+        "price": 1430.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/MD7vNdSJ/bed-116.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Royal Maxim Palace Kempinski Cairo",
+    "description": "Live moments that present captivating experiences with excellent European service under the azure cupolas crowning our Palace. Featuring 245 guest rooms and suites as private retreats the focus of the design is both comfort and elegance. With a wide variety of restaurants and bars to choose from; allow us to take you on a culinary journey at one of our different venues for an experience like never before. The Palace is also home to the countrys largest ballroom and an array of meeting spaces.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "First Settlement, Eastern Ring Road,New Cairo,Cairo Governorate,Egypt",
+    "email": "hello@greenleafsuites.com",
+    "mobile_num": "+20 12 6789 0123",
+    "city_id": 1,
+    "number_of_rooms": 243,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Free parking",
+      "Air conditioning",
+      "Pet-friendly",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Business centre"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1jbvIMjUYSc.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1pKXlCfy5NK.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1yEFVNPAWe4.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kAV32tMYrS.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 328.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 328.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/Tq436wzG/bed-117.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/fzPp0qYM/bed-119.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 725.0,
+        "deluxe_price": null,
+        "price": 725.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/9HQf1hhx/bed-118.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1450.0,
+        "price": 1450.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/fzPp0qYM/bed-119.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Seasons Hotel Cairo at Nile Plaza",
+    "description": "Discover 30 storeys of dining, entertainment, and Egyptian art deco influenced d�cor at our luxury Cairo hotel. Situated on the legendary Corniche along the Nile River, Four Seasons Hotel Cairo at Nile Plaza is a place to treat yourself. Featuring 365 luxury guest rooms and suites; 3 heated pools - a free form swimming pool, a lap pool with adjacent whirlpool and a children''s pool nearby for kids 4-12 years of age; largest Spa facility in Cairo with 14 treatment rooms; a 24-hour state-of-the-art health club; 9 restaturants and lounges; family activities, on-site activities with children amenities.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "1089 CORNICHE EL NIL,Cairo,Cairo Governorate,Egypt",
+    "email": "guest@beachfrontretreat.com",
+    "mobile_num": "+20 12 1357 2468",
+    "city_id": 1,
+    "number_of_rooms": 371,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Smoke-free property"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1q6gGpOnIHu.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1vmiQwAWERq.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1qyuseBJeUg.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1mrhvRdbG12.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 677.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 677.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/C5M27NPR/bed-120.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/4nbR15r2/bed-122.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 730.0,
+        "deluxe_price": null,
+        "price": 730.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/HLZF8fpW/bed-121.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1460.0,
+        "price": 1460.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/4nbR15r2/bed-122.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hyatt Regency Cairo West",
+    "description": "Discover timeless accommodation locally inspired by Egyptian culture and its take on ancient solar boats when staying at Hyatt Regency Cairo West. Experience a blend of thoughtfully designed technology enabled guest rooms visionary highly adaptable meeting spaces and an array of dynamic and exciting dining options. Relax socialize and connect with family and friends to the breathtaking views of the Giza Pyramids as our floor to ceiling windows offer guests a unique panoramic view over the city. Celebrations and events are made even more exciting when held at our expandable ballroom featuring the first 360 degree projection technology in Cairo.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "238C+WMG, Cairo - Alexandria Desert Rd, First,6th of October City,Giza Governorate,Egypt",
+    "email": "service@thecrownvilla.com",
+    "mobile_num": "+20 12 2468 1357",
+    "city_id": 1,
+    "number_of_rooms": 251,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Free parking",
+      "Air conditioning",
+      "Kitchen in some rooms",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Smoke-free property"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1CW75nGXJ6M.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hCLfvrJTHi.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1A8BIj4Cuqc.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1oWSLSnGRW0.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 245.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 245.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/84sGtDXw/bed-123.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/HTLMnsk1/bed-125.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 735.0,
+        "deluxe_price": null,
+        "price": 735.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/gLNG5zBL/bed-124.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1470.0,
+        "price": 1470.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/HTLMnsk1/bed-125.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tolip Golden Plaza",
+    "description": "Located in Cairo (Nasr City), Tolip Golden Plaza is within a 15-minute walk of City Stars and Tivoli Dome. This family-friendly hotel is 9.5 mi (15.3 km) from Egyptian Museum and 7.7 mi (12.4 km) from Khan el-Khalili.Take time to pamper yourself with a visit to the full-service spa. You can take advantage of recreational amenities such as an outdoor pool, a sauna, and a fitness center. Additional features at this hotel include complimentary wireless Internet access, concierge services, and wedding services.Grab a bite to eat at one of the hotel's 2 restaurants, or stay in and take advantage of the 24-hour room service. Snacks are also available at the coffee shop/cafe. Unwind at the end of the day with a drink at the bar/lounge or the poolside bar.Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and multilingual staff. Planning an event in Cairo? This hotel has facilities measuring 19235 square feet (1787 square meters), including a conference center. Self parking (subject to charges) is available onsite.Treat yourself to a stay in one of the 365 guestrooms, featuring fireplaces and flat-screen televisions. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Conveniences include phones, as well as safes and desks.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Masaken Al Mohandesin,Cairo,Cairo Governorate,Egypt",
+    "email": "team@copperhillinn.com",
+    "mobile_num": "+20 12 1112 2233",
+    "city_id": 1,
+    "number_of_rooms": 365,
+    "hotel_ranking": 5,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Pool",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Restaurant",
+      "Kitchen in rooms",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1kCDQwzHbDa.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DanaipnWXS.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BHQaD0XjZC.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1D0qnpAAIY8.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 193.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 193.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/k6Gy2Wfz/bed-126.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/tPx3g5r0/bed-128.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 740.0,
+        "deluxe_price": null,
+        "price": 740.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/Lzd10X7Z/bed-127.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 1480.0,
+        "price": 1480.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/tPx3g5r0/bed-128.jpg"
+          }
+        ]
+      }
+    ]
+  }
+]

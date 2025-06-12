@@ -1,9 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FaGoogle, FaFacebook, FaApple } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { setUser } from '../../redux/features/userSlice';
 
 const UserRegistration = () => {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -16,32 +20,24 @@ const UserRegistration = () => {
   });
 
   const [error, setError] = useState("");
-  const [languages, setLanguages] = useState([]);
-  const [loadingLanguages, setLoadingLanguages] = useState(false);
 
-  const username = "Abdelrahman_Mohamed";
-
-  useEffect(() => {
-    setLoadingLanguages(true);
-    fetch("https://restcountries.com/v3.1/all")
-      .then((response) => response.json())
-      .then((data) => {
-        const languageSet = new Set();
-        data.forEach((country) => {
-          if (country.languages) {
-            Object.values(country.languages).forEach((language) => {
-              languageSet.add(language);
-            });
-          }
-        });
-        setLanguages(Array.from(languageSet).sort());
-        setLoadingLanguages(false);
-      })
-      .catch((error) => {
-        console.error("Error fetching languages:", error);
-        setLoadingLanguages(false);
-      });
-  }, []);
+  const languages = [
+    "Arabic",
+    "English",
+    "French",
+    "Spanish",
+    "German",
+    "Italian",
+    "Portuguese",
+    "Russian",
+    "Chinese",
+    "Japanese",
+    "Korean",
+    "Turkish",
+    "Hindi",
+    "Dutch",
+    "Swedish"
+  ];
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -59,7 +55,20 @@ const UserRegistration = () => {
       setError("Please select your gender.");
       return;
     }
-    console.log("User Registered:", formData);
+
+    // In a real application, you would make an API call here to register the user
+    // For now, we'll just dispatch the user data to Redux
+    const userData = {
+      firstName: formData.firstName,
+      lastName: formData.lastName,
+      email: formData.email,
+      phoneNumber: formData.phoneNumber,
+      language: formData.language,
+      gender: formData.gender,
+    };
+
+    dispatch(setUser(userData));
+    navigate('/home'); // Redirect to home page after successful registration
   };
 
   const styles = {
@@ -362,7 +371,6 @@ const UserRegistration = () => {
                     value={formData.language}
                     onChange={handleChange}
                     required
-                    disabled={loadingLanguages}
                   >
                     <option value="">Select language</option>
                     {languages.map((language, index) => (

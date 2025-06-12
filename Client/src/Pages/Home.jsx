@@ -211,8 +211,8 @@ function Home() {
       <div className="relative">
         <div className="absolute inset-0 z-0">
           <img
-            className="w-full h-[500px] object-cover object-center"
-            src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=2000"
+            className="w-full h-[500px] object-cover object-center brightness-75"
+            src="https://images.unsplash.com/photo-1692986172397-ef662fba9152?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Beautiful landscape"
           />
           <div className="absolute inset-0 bg-opacity-40"></div>

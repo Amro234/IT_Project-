@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { Users, Calendar, DollarSign, TrendingUp, Package, Settings, LogOut, ChevronRight, AlertCircle, LayoutDashboard, Menu, X } from 'lucide-react';
+import { Building2, Calendar, DollarSign, TrendingUp, Package, Settings, LogOut, ChevronRight, AlertCircle, LayoutDashboard, Menu, X } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const AdminDashboard = () => {
@@ -30,8 +30,8 @@ const AdminDashboard = () => {
       case 'dashboard':
         navigate('/admin/dashboard');
         break;
-      case 'users':
-        navigate('/admin/users');
+      case 'hotels':
+        navigate('/admin/hotels');
         break;
       case 'settings':
         navigate('/admin/settings');
@@ -63,7 +63,7 @@ const AdminDashboard = () => {
   const metrics = [
     { title: 'Total Bookings', value: '1,234', icon: <Calendar className="w-6 h-6" />, change: '+12%', color: 'bg-blue-500' },
     { title: 'Total Revenue', value: '$45,678', icon: <DollarSign className="w-6 h-6" />, change: '+8%', color: 'bg-green-500' },
-    { title: 'Active Users', value: '856', icon: <Users className="w-6 h-6" />, change: '+5%', color: 'bg-purple-500' },
+    { title: 'Active Users', value: '856', icon: <Building2 className="w-6 h-6" />, change: '+5%', color: 'bg-purple-500' },
     { title: 'Conversion Rate', value: '3.2%', icon: <TrendingUp className="w-6 h-6" />, change: '+2%', color: 'bg-orange-500' },
   ];
 
@@ -98,11 +98,11 @@ const AdminDashboard = () => {
             </li>
             <li>
               <button
-                onClick={() => handleTabClick('users')}
+                onClick={() => handleTabClick('hotels')}
                 className="flex items-center w-full p-2 text-gray-700 rounded-lg hover:bg-gray-100"
               >
-                <Users className="w-5 h-5 mr-3" />
-                Users
+                <Building2 className="w-5 h-5 mr-3" />
+                Hotels
               </button>
             </li>
             <li>

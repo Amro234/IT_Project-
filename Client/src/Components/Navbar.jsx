@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useSelector } from 'react-redux';
 import { 
   HomeIcon, 
   TargetIcon, 
@@ -10,12 +11,12 @@ import {
   HamburgerMenuIcon,
   Cross2Icon
 } from '@radix-ui/react-icons';
-// import Header from './Header';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
+  const { isAuthenticated, user } = useSelector((state) => state.user);
   
   // Handle scroll effect
   useEffect(() => {
@@ -27,8 +28,9 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { path: '/home', name: 'Home', icon: <HomeIcon /> },
+    { path: '/', name: 'Home', icon: <HomeIcon /> },
     { path: '/for-u', name: 'For U', icon: <TargetIcon /> },
+    { path: '/hotels', name: 'Hotels', icon: <HomeIcon /> },
     { path: '/contact', name: 'Contact Us', icon: <EnvelopeClosedIcon /> },
     { path: '/special-offers', name: 'Special Offers', icon: <StarIcon /> },
     { path: '/about', name: 'About Us', icon: <PersonIcon /> },
@@ -36,7 +38,6 @@ const Navbar = () => {
 
   return (
     <>
-      {/* <Header /> */}
       <motion.nav
         initial={{ y: -100 }}
         animate={{ y: 0 }}
@@ -64,7 +65,8 @@ const Navbar = () => {
                   <li key={link.path}>
                     <Link
                       to={link.path}
-                      className={`nav-link ${location.pathname === link.path ? 'active' : ''}`}
+                      className={`nav-link ${(location.pathname === link.path || (link.path === '/' && location.pathname === '/home')) ? 'active' : ''}`}
+                      onClick={() => setIsOpen(false)}
                     >
                       <span className="link-icon">{link.icon}</span>
                       <span className="link-text">{link.name}</span>
@@ -72,7 +74,8 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-
+              {/* Overlay for mobile menu */}
+              {isOpen && <div className="mobile-overlay" onClick={() => setIsOpen(false)}></div>}
               {/* Mobile Menu Button */}
               <button
                 className={`menu-toggle ${isOpen ? 'active' : ''}`}
@@ -83,33 +86,33 @@ const Navbar = () => {
               </button>
             </div>
 
-            {/* Login Button in the pink area */}
+            {/* Login/User Profile area */}
             <div className="login-area">
-              <Link to="/" className="login-button">
-                Login
-              </Link>
+              {isAuthenticated ? (
+                <Link to="/user-profile" className="user-profile-link" onClick={() => setIsOpen(false)}>
+                  <span className="user-name">{user?.firstName || 'User'}</span>
+                </Link>
+              ) : (
+                <Link to="/login" className="login-button" onClick={() => setIsOpen(false)}>
+                  Login
+                </Link>
+              )}
             </div>
           </div>
         </div>
-        {/* <Header /> */}
 
         <style jsx>{`
           .navbar-custom {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
             padding: 0.5rem 0;
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
+            background: #fff;
+            backdrop-filter: none;
             transition: all 0.3s ease;
             border-bottom: 1px solid rgba(0, 0, 0, 0.1);
           }
 
           .navbar-custom.scrolled {
             padding: 0.3rem 0;
-            background: rgba(255, 255, 255, 0.98);
+            background: #fff;
             box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
           }
 
@@ -217,6 +220,29 @@ const Navbar = () => {
             transform: translateY(-2px);
           }
 
+          .user-profile-link {
+            display: inline-block;
+            padding: 0.3rem 1rem;
+            background-color: #f0f0f0;
+            color: #333;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+          }
+
+          .user-profile-link:hover {
+            background-color: #e0e0e0;
+            transform: translateY(-2px);
+          }
+
+          .user-name {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+          }
+
           .menu-toggle {
             display: none;
             background: transparent;
@@ -229,20 +255,28 @@ const Navbar = () => {
           @media (max-width: 991px) {
             .menu-toggle {
               display: block;
+              z-index: 10001;
+              position: fixed;
+              top: 1.2rem;
+              right: 1.5rem;
             }
 
             .nav-links {
               position: fixed;
               top: 0;
-              right: -100%;
+              right: -60vw;
               height: 100vh;
-              width: 100%;
-              max-width: 300px;
-              background: rgba(255, 255, 255, 0.98);
-              backdrop-filter: blur(10px);
+              width: 60vw;
+              max-width: 350px;
+              min-width: 220px;
+              background: #fff;
+              box-shadow: -2px 0 16px rgba(0,0,0,0.08);
               flex-direction: column;
-              padding: 5rem 2rem;
-              transition: 0.3s ease-in-out;
+              align-items: center;
+              justify-content: flex-start;
+              padding: 3.5rem 1.5rem 2rem 1.5rem;
+              transition: right 0.3s ease-in-out;
+              z-index: 10000;
             }
 
             .nav-links.active {
@@ -252,6 +286,28 @@ const Navbar = () => {
             .nav-link {
               width: 100%;
               justify-content: center;
+              font-size: 1.2rem;
+              margin-bottom: 1.2rem;
+              padding: 1rem 0;
+              border-radius: 8px;
+            }
+
+            .login-area {
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              margin-top: 2rem;
+            }
+
+            .mobile-overlay {
+              display: block;
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 100vw;
+              height: 100vh;
+              background: rgba(0,0,0,0.2);
+              z-index: 9999;
             }
           }
         `}</style>

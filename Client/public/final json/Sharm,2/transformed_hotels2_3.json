@@ -1,0 +1,3937 @@
+[
+  {
+    "name": "Club El Faraana Reef Resort",
+    "description": "Located directly at the Cliff of Ras Um Sid, the Faraana Reef Resort overlooks the Red Sea. It includes a private beach, 3 swimming pools and a club. Diving and other water sports can be arranged upon request. All rooms and suites at the Faraana feature a balcony or terrace with a garden, pool or sea view. Each one includes a satellite TV, a minibar and a closet. The suite includes a spacious living room. Guests can feast on a selection of grilled dishes served at the Panorama and Grill Restaurant while enjoying the spectacular sea view. Cocktails, mocktails and light snacks are served at the 3 pool bars. After an energizing workout at the gym, guests can enjoy a game of tennis at the tennis court. For more relaxed options, a sauna and a hot tub are available at the spa for an additional fee. A variety of shops is available at the retail shopping mall on site. Naama Bay with its promenade and markets is a 5-minute drive away. A shuttle service is available to Naama Bay.",
+    "appearance": "Outstanding",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Hadabah Om El Sid,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "rooms@urbanretreat099.hotel",
+    "mobile_num": "+20 12 4323 6890",
+    "city_id": 2,
+    "number_of_rooms": 155,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Parking ($)",
+      "Air conditioning",
+      "Pet-friendly",
+      "Bar",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1DioNI1Njqw.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CQt2e3hbNe.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wgfcqOd08o.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wgfc7UK98Y.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 126.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 126.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wGWIsv44ne.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1x6gDfiCewU.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1093.0,
+        "deluxe_price": null,
+        "price": 1093.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wVUx5uJeE0.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2389.0,
+        "price": 2389.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1x6gDfiCewU.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Amphoras Aqua",
+    "description": "With a stay at Amphoras Aqua in Sharm El Sheikh (El Hadaba), you'll be within a 15-minute drive of Naama Bay and Naama Bay Beach. This beach resort is 7.9 mi (12.8 km) from Domina Coral Bay Congress Centre and 8.4 mi (13.6 km) from Shark's Bay. Pamper yourself with a visit to the spa, which offers body treatments. You're sure to appreciate the recreational amenities, which include 2 outdoor swimming pools, a waterslide, and a sauna. Additional amenities at this resort include complimentary wireless internet access, concierge services, and gift shops/newsstands. Getting to nearby attractions is a breeze with the complimentary area shuttle. All-inclusive rates are available at this resort. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Enjoy international cuisine at Blue Bar, one of the resort's many dining establishments, which include 2 restaurants and a coffee shop/cafe. Relax with a refreshing drink from the poolside bar or one of the 5 bars/lounges. A complimentary full breakfast is served daily from 7 AM to 10 AM. Featured amenities include limo/town car service, dry cleaning/laundry services, and a 24-hour front desk. Guests may use a roundtrip airport shuttle for a surcharge, and free self parking is available onsite. Make yourself at home in one of the 250 air-conditioned rooms featuring minibars. Rooms have private patios. Private bathrooms with showers feature rainfall showerheads and complimentary toiletries. Conveniences include safes and complimentary bottled water, and housekeeping is provided daily.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "St UMM EL SID HILL, Al Fanar, Sharm Al Shiekh,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "info@copperleaf100.org",
+    "mobile_num": "+20 12 4323 6891",
+    "city_id": 2,
+    "number_of_rooms": 145,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Fitness centre",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Kitchen in some rooms",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1CzCwm5gK0U.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CzCwbzfP3y.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CzCvOFI7xS.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CzCwjVzGOA.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 127.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 127.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CzCvX40QY8.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CzCweJY6be.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1101.0,
+        "deluxe_price": null,
+        "price": 1101.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CzCw51USek.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2401.0,
+        "price": 2401.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CzCweJY6be.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Palma di Sharm Hollywood Aqua Park Resort",
+    "description": "With a stay at Palma Di Sharm Resort in Sharm El Sheikh, you'll be a 5-minute drive from Naama Bay and 8 minutes from Domina Coral Bay Congress Centre. This hotel is 3.5 mi (5.6 km) from Shark's Bay and 4.5 mi (7.2 km) from Naama Bay Beach. Make use of convenient amenities, which include complimentary wireless internet access and concierge services. Getting to the surf and sand is a breeze with the complimentary beach shuttle. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Grab a bite to eat at one of the hotel's many dining establishments, which include 2 restaurants and 4 coffee shops/cafes. Relax with a refreshing drink at one of the 2 bars/lounges. Featured amenities include a 24-hour front desk and luggage storage. Free self parking is available onsite. Make yourself at home in one of the 177 air-conditioned rooms featuring fireplaces and flat-screen televisions. Cable television is provided for your entertainment. Conveniences include separate sitting areas and minibars, and housekeeping is provided daily.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "15 Salam Street,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "checkin@forestglade101.org",
+    "mobile_num": "+20 12 4323 6892",
+    "city_id": 2,
+    "number_of_rooms": 410,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Air conditioning",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1y0gjp0zjSo.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1qBbaBqUoXm.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1y0gjpnhb5m.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1y0gjpHIt6E.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 70.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 70.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Bgxjne1d6w.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/JR5ZpH31/bed-520.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1105.0,
+        "deluxe_price": null,
+        "price": 1105.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wgejDlgWuA.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2407.0,
+        "price": 2407.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/JR5ZpH31/bed-520.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seasun Hotel",
+    "description": "Situated close to Dahab Canyon and Mount Sinai, Sea Sun Hotel offers a professional diving and water sports centre, dolphin-safari trips and excellent evening entertainment. Enjoy stylish and well-appointed rooms at Sun Sea Hotel, complete with stunning views of the sea and mountains from your private balcony. Keep in touch with friends and family with free wireless internet access. Explore the stunning Red Sea using Sea Sun’s unique Spi watercrafts. Join a professional guided tour or go diving at the beautiful Dahab Canyon. Take part in an exciting dolphin safari or one of Sea Sun’s organised boat trips. After a day of adventures in the water, Sea Sun Hotel offers plenty of ways for you to relax. Spend time in the sauna. Relax by the pool and enjoy a drink, whilst admiring the beautiful views of the Red Sea. Sample the delicious cuisine on offer at Sea Sun’s specialist restaurants, offering Asian and Italian delicacies. In the evening, dance the night away to 80s music, salsa or jazz at the lively Moonlight Bar.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "GGX9+X22, Blue Hole Rd, Ø¹Ø³Ù„Ø©ØŒ Dahab,Dahab,South Sinai Governorate,Egypt",
+    "email": "desk@highlandresort102.net",
+    "mobile_num": "+20 12 4323 6893",
+    "city_id": 2,
+    "number_of_rooms": 215,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1w013o27lXW.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vWHgf3OYo0.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vWHgf6WKxq.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1taJDJ8uIO4.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 71.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 71.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1z6xUjF8AoM.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/N2R5Swky/bed-522.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1109.0,
+        "deluxe_price": null,
+        "price": 1109.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1taJDBx0MY8.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2413.0,
+        "price": 2413.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/N2R5Swky/bed-522.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Le Mirage New Tower",
+    "description": "Offering a fitness centre and a private beach area, Le Mirage New Tower is located in Sharm El Sheikh. WiFi access is available in public areas. The hotel is 4.9 km from Naama Bay. Each room here will provide you with a flat-screen TV, air conditioning and a minibar. Featuring a bath or shower, private bathroom also comes with a hairdryer. You can enjoy sea view from the room. Extras include a seating area and satellite channels. Guests can enjoy all day dining at the restaurant. Other facilities offered at the property include entertainment staff, a nightclub and a shared lounge. The property offers free parking. Le Mirage New Tower is 13.8 km from Ras Mohammed National Park and 2.8 km from Il Mercato Mall. Sharm el-Sheikh International Airport is 12 km away.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Om El Sid Cliff,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "info@seabreeze103.co",
+    "mobile_num": "+20 12 4323 6894",
+    "city_id": 2,
+    "number_of_rooms": 300,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1tcoT3MxRMQ.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tcoT2OWg3S.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vVtvUmKaYw.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tcoSXNQ7m0.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 73.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 73.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tcoSZCeRi0.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tcoSWpy3Oo.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1117.0,
+        "deluxe_price": null,
+        "price": 1117.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tcoSUSsqaI.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2425.0,
+        "price": 2425.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tcoSWpy3Oo.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dar Dahab",
+    "description": "Located in Dahab, Dar Dahab is by the sea, a 1-minute drive from Asala Beach and 6 minutes from Dahab Beach. This beach aparthotel is 3.1 mi (4.9 km) from Dahab Lagoon and 3.9 mi (6.3 km) from Dahab Bay. Take time to pamper yourself with a visit to the full-service spa. Additional features at this aparthotel include complimentary wireless internet access, concierge services, and barbecue grills. Enjoy a meal at the restaurant, or stay in and take advantage of the aparthotel's room service. Wrap up your day with a drink at the bar/lounge. Continental breakfasts are available daily for a fee. Featured amenities include a business center, express check-in, and express check-out. Planning an event in Dahab? This aparthotel has 592 square feet (55 square meters) of space consisting of conference space and a meeting room. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and free self parking is available onsite. Make yourself at home in one of the 10 air-conditioned rooms featuring kitchenettes with refrigerators and stovetops. Complimentary wireless internet access keeps you connected, and LCD televisions are provided for your entertainment. Conveniences include safes and coffee/tea makers, and housekeeping is provided daily.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Dar Dahab, Assalah,St. Catherine,46617,South Sinai Governorate,Egypt",
+    "email": "rooms@greenvalley104.hotel",
+    "mobile_num": "+20 12 4323 6895",
+    "city_id": 2,
+    "number_of_rooms": 248,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Free parking",
+      "Air conditioning",
+      "Kitchen in some rooms",
+      "Airport shuttle",
+      "Full-service laundry"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1rtxiLj7eI8.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ygrVIO7B5e.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ygrVuLxKKY.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ygrVbx4HBe.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 172.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 172.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ygrV8uSWty.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ygrVdCvLQA.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1121.0,
+        "deluxe_price": null,
+        "price": 1121.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ygrVnj9f44.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2431.0,
+        "price": 2431.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ygrVdCvLQA.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Skyrock Garden Dahab",
+    "description": "When you stay at this villa in Dahab, you'll be on the beach, within a 5-minute drive of Asala Beach and Dahab Beach. This 4-star villa is 2.8 mi (4.5 km) from Dahab Lagoon and 3.6 mi (5.8 km) from Dahab Bay. Take in the views from a garden and make use of amenities such as concierge services and barbecue grills. Continental breakfasts are available daily from 8:00 AM to 11:00 AM for a fee. A roundtrip airport shuttle is provided for a surcharge (available 24 hours). Make yourself comfortable in this individually decorated villa, featuring a kitchen with a full-sized refrigerator/freezer and an oven. A 100-cm flat-screen television with satellite programming provides entertainment, while complimentary wireless Internet access keeps you connected. Conveniences include a separate sitting area and a microwave.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Al Assalah , sea front,St. Catherine,South Sinai Governorate,Egypt",
+    "email": "checkin@greenvalley107.net",
+    "mobile_num": "+20 12 4323 6898",
+    "city_id": 2,
+    "number_of_rooms": 140,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Golf",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1AcHOjylJde.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wgdJCra1Uc.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AcHOjhBDsk.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wgdJjnuboA.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 175.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 175.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/XfQnNh6K/bed-525.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/fmyq8C1/bed-527.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1133.0,
+        "deluxe_price": null,
+        "price": 1133.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/TMCFR9dh/bed-526.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2450.0,
+        "price": 2450.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/fmyq8C1/bed-527.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "New Dahab Bay Hotel",
+    "description": "On the beachEnjoy a meal at the restaurant or snacks in the hotel's coffee shop/cafe. Mingle with other guests at the complimentary reception, held daily. Unwind at the end of the day with a drink at the bar/lounge or the beach bar. A complimentary continental breakfast is served daily from 8:30 AM to 10:30 AM.Relax at the full-service spa, where you can enjoy massages, body treatments, and facials. This hotel also features complimentary wireless internet access, concierge services, and barbecue grills.Featured amenities include complimentary newspapers in the lobby, dry cleaning/laundry services, and luggage storage. Free self parking is available onsite.When you stay at New Dahab Bay Hotel in Dahab, you'll be on the beach and within a 5-minute drive of Ras Abu Galum Nature Reserve. This beach hotel is 2 mi (3.3 km) from Asala Beach and 2.4 mi (3.9 km) from Blue Hole.Make yourself at home in one of the 40 air-conditioned rooms featuring minibars and LCD televisions. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with separate bathtubs and showers feature complimentary toiletries and bidets. Conveniences include in-room massages, and housekeeping is provided daily",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Blue Hole Rd,Dahab,South Sinai Governorate,Egypt",
+    "email": "stay@desertrose108.net",
+    "mobile_num": "+20 12 4323 6899",
+    "city_id": 2,
+    "number_of_rooms": 142,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Crib",
+      "Heating",
+      "Kitchen",
+      "Microwave",
+      "Outdoor grill",
+      "Oven stove",
+      "Patio",
+      "Pet-friendly",
+      "Smoke-free",
+      "Cable TV",
+      "Wheelchair accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plcDi7DpN6.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plcDWNnNmg.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plcDxbNGiQ.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plcE4k2rAI.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 70.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 70.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plcCZKPcI0.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plcCU8zPq0.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1137.0,
+        "deluxe_price": null,
+        "price": 1137.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plcDED3I9a.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2456.0,
+        "price": 2456.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plcCU8zPq0.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sea Beach Aqua Park Resort Managed By Blue Resorts",
+    "description": "Near Rehana BeachAll-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Grab a bite to eat at one of the hotel's many dining establishments, which include 2 restaurants and 2 coffee shops/cafes. Mingle with other guests at the complimentary reception, held daily. Wind down with a drink at one of the 4 bars/lounges or 2 poolside bars. A complimentary buffet breakfast is served daily from 7:00 AM to 10:00 AM. Relax at the full-service spa, where you can enjoy massages. After dipping into one of the 3 outdoor swimming pools, you can spend some time at the private beach. Additional features at this hotel include wireless internet access (surcharge), concierge services, and free babysitting.Featured amenities include a computer station, dry cleaning/laundry services, and a 24-hour front desk. Free self parking is available onsite.With a stay at Sea Beach Aqua Park Resort Managed By Blue Resorts in Sharm El Sheikh (Nabq), you'll be within a 15-minute drive of Nabq Bay and SOHO Square. This beach hotel is 14.3 mi (23 km) from Naama Bay and 9.6 mi (15.4 km) from Shark's Bay.Make yourself at home in one of the 470 guestrooms featuring minibars and flat-screen televisions. Cable television is provided for your entertainment. Bathrooms feature separate bathtubs and showers, bidets, and hair dryers. Conveniences include phones, as well as safes and electric kettles.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Sharm El Sheikh - Dahab Rd,Sharm El Sheikh,46619,South Sinai Governorate,Egypt",
+    "email": "rooms@sunsetinn110.org",
+    "mobile_num": "+20 12 4323 6901",
+    "city_id": 2,
+    "number_of_rooms": 470,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Parking",
+      "Pool",
+      "Air conditioning",
+      "Pet-friendly",
+      "Restaurant",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1zpq4kMAGcg.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1B7TDOpkag8.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zpq3rBjAT6.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zpq3Sh2lDW.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 72.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 72.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zpq3eLXua4.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zpq3jrMd0Y.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1145.0,
+        "deluxe_price": null,
+        "price": 1145.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1B7TDNgEobm.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2468.0,
+        "price": 2468.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zpq3jrMd0Y.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rehana Sharm Resort - Aquapark & Spa - Couples and Family Only",
+    "description": "With a stay at Rehana Sharm Resort - Aqua Park & Spa - Families & Couples Only in Sharm El Sheikh, you'll be within a 10-minute drive of Nabq Bay and SOHO Square. This upscale hotel is 6.8 mi (11 km) from Shark's Bay and 9.5 mi (15.4 km) from Domina Coral Bay Congress Centre. Relax at the full-service spa, where you can enjoy massages, body treatments, and facials. You're sure to appreciate the recreational amenities, which include 14 outdoor swimming pools, a waterslide, and an outdoor tennis court. This hotel also features complimentary wireless internet access, concierge services, and gift shops/newsstands. Getting to nearby attractions is a breeze with the area shuttle (surcharge). All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Enjoy a meal at the restaurant, or stay in and take advantage of the hotel's room service. Unwind at the end of the day with a drink at the bar/lounge or the poolside bar. Featured amenities include a business center, dry cleaning/laundry services, and a 24-hour front desk. Free self parking is available onsite. Make yourself at home in one of the 468 air-conditioned rooms featuring minibars and Smart televisions. Rooms have private balconies. Satellite television is provided for your entertainment. Bathrooms feature bathtubs or showers, hair dryers, and slippers.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "7th KM North Sharm Airport,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "reservations@mountainpeak111.hotel",
+    "mobile_num": "+20 12 4323 6902",
+    "city_id": 2,
+    "number_of_rooms": 170,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Hot tub",
+      "Air conditioning",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1CFWdWdI9mo.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krzEoAdduM.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hZ1euyeeMU.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hZ1etPnID6.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 177.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 177.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krzBZAdwLC.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krzC9bKnew.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1149.0,
+        "deluxe_price": null,
+        "price": 1149.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krzJppuWk0.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2474.0,
+        "price": 2474.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krzC9bKnew.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Happy Life Village Dahab",
+    "description": "With a stay at Happy Life Village Dahab in Dahab, you'll be near the bay, and 5 mi (8 km) from Dahab Bay and 6.3 mi (10.1 km) from Dahab Beach. This beach resort is 6.7 mi (10.8 km) from Dahab Lagoon and 6.9 mi (11.1 km) from Asala Beach. Relax at the full-service spa, where you can enjoy massages, body treatments, and facials. After dipping into one of the 3 outdoor swimming pools, you can spend some time at the private beach. Additional amenities at this resort include complimentary wireless internet access, concierge services, and an arcade/game room. If you'd like to spend the day shopping, you can hop on the complimentary shuttle. All-inclusive rates are available at this resort. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Enjoy international cuisine at Main Restaurant, one of the resort's 2 restaurants, or stay in and take advantage of the 24-hour room service. Snacks are also available at the coffee shop/cafe. When you are in need of a refreshing drink, visit the beach bar or one of 3 bars/lounges, or 3 poolside bars. A complimentary buffet breakfast is served daily. Featured amenities include complimentary wired internet access, dry cleaning/laundry services, and a 24-hour front desk. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and free self parking is available onsite. Make yourself at home in one of the 344 air-conditioned rooms featuring refrigerators and minibars. Rooms have private furnished balconies or patios. Satellite television is provided for your entertainment. Private bathrooms have deep soaking bathtubs and complimentary toiletries.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "CFR6+FV9, El-Mobasat - Wadi Kena,St. Catherine,South Sinai Governorate,Egypt",
+    "email": "desk@grandstay112.net",
+    "mobile_num": "+20 12 4323 6903",
+    "city_id": 2,
+    "number_of_rooms": 110,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Airport shuttle",
+      "Balcony",
+      "Kid-friendly",
+      "Crib",
+      "Fireplace",
+      "Heating",
+      "Hot tub",
+      "Ironing board",
+      "Kitchen",
+      "Microwave",
+      "Outdoor grill",
+      "Oven stove",
+      "Patio",
+      "Cable TV",
+      "Washer",
+      "Wheelchair accessible",
+      "Free parking",
+      "Free Wi-Fi"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1CPpy0lovsI.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CPpy1AjrkQ.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hYZsPZVRcs.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1taHaGDUrpm.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 178.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 178.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krfbslaNHi.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krfjO9a9Q4.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1153.0,
+        "deluxe_price": null,
+        "price": 1153.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krfjnMuQEg.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2480.0,
+        "price": 2480.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krfjO9a9Q4.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Regency Plaza Aqua Park and Spa Resort",
+    "description": "When you stay at Regency Plaza Aqua Park in Sharm El Sheikh, you'll be in a shopping district, within a 15-minute drive of Nabq Bay and SOHO Square. This beach hotel is 10 mi (16.1 km) from Shark's Bay and 12.9 mi (20.7 km) from Domina Coral Bay Congress Centre. Treat yourself with massages and body treatments. After dipping into one of the 6 outdoor swimming pools, you can spend some time at the private beach. This hotel also features complimentary wireless internet access, a hair salon, and shopping on site. Grab a bite at Floret Main Restaurant, one of the hotel's 6 restaurants, or stay in and take advantage of the 24-hour room service. Snacks are also available at the 6 coffee shops/cafes. Mingle with other guests at the complimentary reception, held daily. Relax with a refreshing drink from the beach bar or one of the 6 bars/lounges. A complimentary buffet breakfast is served daily from 7:00 AM to 10:00 AM. Featured amenities include a 24-hour front desk, multilingual staff, and luggage storage. Free self parking is available onsite. Make yourself at home in one of the 590 air-conditioned rooms featuring minibars. Bathrooms have bathtubs or showers and hair dryers. Conveniences include phones, as well as electric kettles and free tea bags/instant coffee.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El GharqanaØŒ NABQ BAY, Second Sharm Al Shiekh,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "support@grandstay113.co",
+    "mobile_num": "+20 12 4323 6904",
+    "city_id": 2,
+    "number_of_rooms": 203,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Air conditioning",
+      "Restaurant",
+      "Room service",
+      "Full-service laundry",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1vVtud1RBja.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zKroML6DK0.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vVtucL6Xsc.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1lPKNIfkDm0.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 179.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 179.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xDhDkxdxxm.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AREeqK4C5O.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1157.0,
+        "deluxe_price": null,
+        "price": 1157.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BbyVY9LzeU.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2486.0,
+        "price": 2486.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AREeqK4C5O.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sharm Bride Resort Aqua & Spa",
+    "description": "When you stay at Sharm Bride Resort Aqua & SPA in Sharm El Sheikh, you'll be in a shopping district, within a 15-minute drive of Nabq Bay and SOHO Square. This hotel is 12.3 mi (19.7 km) from Naama Bay and 7.6 mi (12.2 km) from Shark's Bay. Take in the views from a garden and make use of amenities such as complimentary wireless internet access and gift shops/newsstands. Getting to the surf and sand is a breeze with the complimentary beach shuttle. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Grab a bite to eat at one of the hotel's many dining establishments, which include 2 restaurants and a coffee shop/cafe. Mingle with other guests at the complimentary reception, held daily. Relax with a refreshing drink at one of the 2 bars/lounges. A complimentary buffet breakfast is served daily from 7:00 AM to 10:00 AM. Featured amenities include a 24-hour front desk, luggage storage, and laundry facilities. Free self parking is available onsite. Make yourself at home in one of the 127 air-conditioned rooms featuring minibars and LCD televisions. Satellite television is provided for your entertainment. Bathrooms have bathtubs and hair dryers. Conveniences include phones, as well as safes and blackout drapes/curtains.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Nabq bay,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "info@forestglade114.hotel",
+    "mobile_num": "+20 12 4323 6905",
+    "city_id": 2,
+    "number_of_rooms": 147,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1CWhr94rTaM.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1kHiRxPVUvm.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1kHiRCRk3UQ.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DanvJyqDPq.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 180.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 180.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DanvxuLc9q.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1kHiTLBDfZ6.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1161.0,
+        "deluxe_price": null,
+        "price": 1161.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1D0qLIf7RtK.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2492.0,
+        "price": 2492.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1kHiTLBDfZ6.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sharm Inn Amarein - Boutique Hotel",
+    "description": "With a stay at Sharm Inn Amarein - Boutique Hotel in Sharm El Sheikh (El Hadaba), you'll be a 5-minute drive from Red Sea and 5 minutes from Naama Bay. This hotel is 5.2 mi (8.3 km) from Naama Bay Beach and 7.6 mi (12.3 km) from Domina Coral Bay Congress Centre. Enjoy recreational amenities such as an outdoor pool and a steam room. Additional amenities at this hotel include complimentary wireless internet access and concierge services. Getting to the surf and sand is a breeze with the complimentary beach shuttle. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Grab a bite to eat at one of the hotel's many dining establishments, which include 2 restaurants and a coffee shop/cafe. Relax with a refreshing drink at one of the 2 bars/lounges. Buffet breakfasts are available daily from 7:00 AM to 9:00 AM for a fee. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and multilingual staff. Free self parking is available onsite. Make yourself at home in one of the 90 air-conditioned rooms featuring minibars and LCD televisions. Rooms have private balconies or patios. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with shower/tub combinations feature deep soaking bathtubs and rainfall showerheads.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Hadabet Om Elseid,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "hello@royalpalms115.org",
+    "mobile_num": "+20 12 4323 6906",
+    "city_id": 2,
+    "number_of_rooms": 313,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Restaurant",
+      "Kitchen in rooms",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1C6BQ0pPTQk.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1s9F3IALehy.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1C6BQ0Ofvqg.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1s9F3LAY5BS.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 65.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 65.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1s9F3MEOQ48.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1s9F3nUAW1q.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1165.0,
+        "deluxe_price": null,
+        "price": 1165.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1s9F3CjSsU0.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2498.0,
+        "price": 2498.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1s9F3nUAW1q.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sea Beach Aqua Park Resort",
+    "description": "When you stay at Sea Beach Aqua Park Resort Managed By Blue Resorts in Sharm El Sheikh, you'll be on the waterfront, within a 15-minute drive of Nabq Bay and SOHO Square. This beach hotel is 14.3 mi (23 km) from Naama Bay and 9.6 mi (15.4 km) from Shark's Bay. Relax at the full-service spa, where you can enjoy massages. After dipping into one of the 3 outdoor swimming pools, you can spend some time at the private beach. Additional features at this hotel include wireless internet access (surcharge), concierge services, and free babysitting. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Grab a bite to eat at one of the hotel's many dining establishments, which include 2 restaurants and 2 coffee shops/cafes. Mingle with other guests at the complimentary reception, held daily. Wind down with a drink at one of the 4 bars/lounges or 2 poolside bars. A complimentary buffet breakfast is served daily from 7:00 AM to 10:00 AM. Featured amenities include a computer station, dry cleaning/laundry services, and a 24-hour front desk. Free self parking is available onsite. Make yourself at home in one of the 470 guestrooms featuring minibars and flat-screen televisions. Cable television is provided for your entertainment. Bathrooms feature separate bathtubs and showers, bidets, and hair dryers. Conveniences include phones, as well as safes and electric kettles.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El Salam, Coast Rd, Second Sharm Al Shiekh,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "rooms@riverview116.org",
+    "mobile_num": "+20 12 4323 6907",
+    "city_id": 2,
+    "number_of_rooms": 215,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1CMdfua1FKw.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1jcsnoqdvva.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DQIzozM8ms.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BR2O3mR2Sc.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 89.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 89.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hZeJdV1C5a.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BR2O3to1Es.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1173.0,
+        "deluxe_price": null,
+        "price": 1173.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BR2O328f3a.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2510.0,
+        "price": 2510.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BR2O3to1Es.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viking Club Hotel",
+    "description": "Near Naama Bay BeachYou can enjoy a meal at the restaurant serving the guests of Viking Club Hotel, or stop in at the grocery/convenience store. Quench your thirst with your favorite drink at the bar/lounge. Buffet breakfasts are available daily for a fee.Make use of convenient amenities such as complimentary wireless internet access, concierge services, and a television in a common area.Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and multilingual staff.With a stay at Viking Club Hotel in Sharm El Sheikh, you'll be a 4-minute drive from Naama Bay and 10 minutes from Naama Bay Beach. This bed & breakfast is 5 mi (8.1 km) from Domina Coral Bay Congress Centre and 5.5 mi (8.9 km) from Shark's Bay.Make yourself at home in one of the 20 air-conditioned rooms featuring minibars. Private bathrooms have rainfall showerheads and complimentary toiletries. Conveniences include safes and electric kettles, and housekeeping is provided daily.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El-Salam,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "support@riverview117.hotel",
+    "mobile_num": "+20 12 4323 6908",
+    "city_id": 2,
+    "number_of_rooms": 217,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Parking",
+      "Pool",
+      "Air conditioning",
+      "Pet-friendly",
+      "Restaurant",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zMjj6JZUrK.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plcA24DZpS.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plczAQzXDW.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1plcAgeBo3K.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 156.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 156.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ABM1g7c42A.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zMjj5XJXOg.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1206.0,
+        "deluxe_price": null,
+        "price": 1206.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vBZsyDltPG.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2558.0,
+        "price": 2558.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zMjj5XJXOg.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ivy Cyrene Island Aqua Park Resort",
+    "description": "The Ivy Cyrene Island Aqua Park Resort provides a great place for travelers to relax after a busy day. The Ivy Cyrene Island Aqua Park Resort offers a pleasant stay in Sharm El Sheikh for those traveling for business or leisure. Sharm El Sheikh International Airport is located approximately 10km away from this hotel. Seeing Sharm El Sheikh's sights from this hotel is easy with Sunny Beach ( Access Beach ), Porto Sharm New Beach and Ras Nasrani Beach all close by. When guests have some time on their hands they can make use of the onsite facilities. Guests of this Sharm El Sheikh hotel can make use of the parking facilities.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El Monatzah AreaØŒ Ras Nusrani,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "hello@royalpalms118.hotel",
+    "mobile_num": "+20 12 4323 6909",
+    "city_id": 2,
+    "number_of_rooms": 218,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Pool",
+      "Spa",
+      "Restaurant",
+      "Full-service laundry",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1AvzcoY0nCM.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1z3vfzF21eU.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1onzT6Q4xbO.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1onzSXYwUA8.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 66.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 66.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uXxftZRy6Y.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uXxfld90k0.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1214.0,
+        "deluxe_price": null,
+        "price": 1214.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uXxfq80fdu.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2571.0,
+        "price": 2571.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uXxfld90k0.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Verginia Sharm Resort & Aqua Park",
+    "description": "With a stay at Verginia Sharm Resort & Aqua Park in Sharm El Sheikh (El Hadaba), you'll be a 5-minute drive from Naama Bay and 9 minutes from Naama Bay Beach. This beach hotel is 8.1 mi (13.1 km) from Domina Coral Bay Congress Centre and 8.3 mi (13.3 km) from Shark's Bay. Relax and unwind with massages, body treatments, and facials. You can take advantage of recreational amenities such as a complimentary water park, a health club, and an outdoor pool. Additional features at this hotel include complimentary wireless internet access, concierge services, and a hair salon. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Enjoy a meal at the restaurant or snacks in the coffee shop/cafe. The hotel also offers 24-hour room service. Mingle with other guests at the complimentary reception, held daily. Relax with a refreshing drink from the poolside bar or one of the 2 bars/lounges. A complimentary continental breakfast is served daily from 7:00 AM to 9:00 AM. Featured amenities include a business center, dry cleaning/laundry services, and a 24-hour front desk. Planning an event in Sharm El Sheikh? This hotel has 1722 square feet (160 square meters) of space consisting of conference space and meeting rooms. Free self parking is available onsite. Make yourself at home in one of the 156 air-conditioned rooms featuring minibars and LCD televisions. Cable television is provided for your entertainment. Bathrooms feature separate bathtubs and showers, complimentary toiletries, and hair dryers. Conveniences include phones, as well as safes and desks.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Sharm Al Shiekh,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "reservations@seabreeze119.co",
+    "mobile_num": "+20 12 4323 6910",
+    "city_id": 2,
+    "number_of_rooms": 296,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Crib",
+      "Heating",
+      "Kitchen",
+      "Microwave",
+      "Outdoor grill",
+      "Oven stove",
+      "Patio",
+      "Pet-friendly",
+      "Smoke-free",
+      "Cable TV",
+      "Wheelchair accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1jab9QCHx0Q.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uopMDVy1EI.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AmPxhTfJ72.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CWhNfJc4ne.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 67.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 67.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uopM6ZN0Nq.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uopMlI5Ekg.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1218.0,
+        "deluxe_price": null,
+        "price": 1218.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uopNql02ha.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2577.0,
+        "price": 2577.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uopMlI5Ekg.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Club Reef Resort & Spa",
+    "description": "Club Reef Resort offers top-notch services and amenities, ensuring guests experience utmost comfort. Maintain seamless communication using the complimentary Wi-Fi at resort.For visitors traveling by automobile, complimentary parking is available. For visitors wishing to smoke, designated smoking zones can be found. At the resort, an assortment of easily accessible and delicious meal choices are available to satisfy your appetite whenever it strikes.Club Reef Resort provides a superb assortment of leisure amenities for guests to enjoy. During your stay, don't forget to allocate some moments to experience the readily available shoreline.Be sure to drop by the pool at resort at least once during your stay. At Club Reef Resort, utmost care is taken to ensure guests' comfort. Relish your preferred beverage in your swimwear by the resort's poolside bar.",
+    "appearance": "Outstanding",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Towers Bay,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "rooms@riverview190.org",
+    "mobile_num": "+20 12 4323 6610",
+    "city_id": 2,
+    "number_of_rooms": 500,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Crib",
+      "Heating",
+      "Kitchen",
+      "Microwave",
+      "Outdoor grill",
+      "Oven stove",
+      "Patio",
+      "Pet-friendly",
+      "Smoke-free",
+      "Cable TV",
+      "Wheelchair accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1xXctjdzH7a.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1jb9FfPfy3C.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1jb9Gnd2fwA.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1jb9EVZB4Zy.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 120.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 120.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ChBY0LqVHi.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1iGIQMC8QW4.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1230.0,
+        "deluxe_price": null,
+        "price": 1230.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wGXcemg2uk.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2595.0,
+        "price": 2595.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1iGIQMC8QW4.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Red C Villas",
+    "description": "Located in Dahab on the Red Sea Coast, Red C Villas and Apartments are situated between the Sinai Mountains and the sea. The property features a superb swimming pool with a children's section, and offers free WiFi in all areas. Centered around the swimming pool, the self-catered apartments feature a modern arabesque décor and are fitted with local stone and timber furnishings. Each fully air-conditioned apartment offers either balcony or garden with seating areas and views of the pool and mountains, and some come with stunning sea views. All have a kitchen complete with a fridge, stovetop and kettle. A washing machine is shared between all the apartments. The beach and local shops are a short walk away from from Red C Villas and Sharm El Sheikh International Airport is 60 minutes by car. Free public parking is possible at a location nearby.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El Salam Road,St. Catherine,South Sinai Governorate,Egypt",
+    "email": "support@bluemoon120.hotel",
+    "mobile_num": "+20 12 4323 6911",
+    "city_id": 2,
+    "number_of_rooms": 296,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Pool",
+      "Air conditioning",
+      "Beach access",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1CNW5jQrWZa.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DpjZ8C9lfO.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wgdJGpSm1a.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yDSFuJjTyM.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 120.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 120.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wLKxrzHU1G.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yDSFuJjTyM.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1234.0,
+        "deluxe_price": null,
+        "price": 1234.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wLKxaqozYc.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2601.0,
+        "price": 2601.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yDSFuJjTyM.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Old Vic Sharm Resort",
+    "description": "With a stay at Old Vic Sharm Resort in Sharm El Sheikh (El Hadaba), you'll be a 5-minute drive from Naama Bay and 9 minutes from Naama Bay Beach. This upscale hotel is 7.8 mi (12.5 km) from Domina Coral Bay Congress Centre and 8.3 mi (13.3 km) from Shark's Bay. Take time to pamper yourself with a visit to the full-service spa. You're sure to appreciate the recreational amenities, including an outdoor pool, a steam room, and a fitness center. This hotel also features complimentary wireless internet access, concierge services, and gift shops/newsstands. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Enjoy local cuisine at Victoria, one of the hotel's 2 restaurants, or stay in and take advantage of the room service. Unwind at the end of the day with a drink at the bar/lounge or the poolside bar. Buffet breakfasts are available daily from 7 AM to 10 AM for a fee. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and multilingual staff. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and free self parking is available onsite. Make yourself at home in one of the 136 guestrooms featuring refrigerators and LCD televisions. Rooms have private balconies or patios. Satellite television is provided for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "V8C6+57H, Sharm Al Shiekh,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "checkin@bluemoon121.org",
+    "mobile_num": "+20 12 4323 6912",
+    "city_id": 2,
+    "number_of_rooms": 526,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Air conditioning",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1vWIkzzmeM8.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hZ8XZEtYOY.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hZ8Y0Z565a.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yXNE1MTtok.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 177.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 177.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krmRGBhtfy.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krmOfnYaM8.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1242.0,
+        "deluxe_price": null,
+        "price": 1242.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krmRRm5PKU.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2613.0,
+        "price": 2613.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krmOfnYaM8.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ghazala Beach Hotel",
+    "description": "The Ghazala Beach Hotel is an ideal spot for travelers wanting to discover the city. The Ghazala Beach Hotel offers a pleasant stay in Sharm El Sheikh for those traveling for business or leisure. From the hotel, Sharm El Sheikh International Airport is just 10km away. Guests will find Somewhere Under The Blue Sky, Scritta SHARM and Turkish bath sofya sharm just a short distance from the hotel. In their spare time, guests can explore the hotel's surroundings.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El-Salam, Qesm Sharm Ash Sheikh,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "reservations@crystalbay122.com",
+    "mobile_num": "+20 12 4323 6913",
+    "city_id": 2,
+    "number_of_rooms": 136,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Air conditioning",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1Dz6YMwzzDq.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CHhntSABmU.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Cwxre5s14k.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wGXv9VCq8E.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 355.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 355.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DOjBdZ9WyQ.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Dz6YL2SQvu.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1246.0,
+        "deluxe_price": null,
+        "price": 1246.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Dz6YLgvUZO.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2619.0,
+        "price": 2619.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Dz6YL2SQvu.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Le Mirage New Tiran",
+    "description": "When you stay at Le Mirage New Tiran in Sharm El Sheikh, you'll be on the beach, just steps from Naama Bay and 3 minutes by foot from Naama Bay Beach. This beach hotel is 3.4 mi (5.5 km) from Domina Coral Bay Congress Centre and 4.3 mi (6.9 km) from Shark's Bay. Enjoy recreational amenities such as an outdoor pool and an indoor pool. Additional features at this hotel include complimentary wireless internet access and concierge services. Grab a bite at one of the hotel's 2 restaurants, or stay in and take advantage of the room service (during limited hours). Relax with your favorite drink at the bar/lounge or the poolside bar. A complimentary buffet breakfast is served daily from 7 AM to 10 AM. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and laundry facilities. Make yourself at home in one of the 50 guestrooms featuring minibars and LCD televisions. Rooms have private furnished balconies. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with showers feature hair dryers and bathrobes.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Mamlaket El Bahrain St.,Off El Sultan Qabous St,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "info@mountainpeak124.hotel",
+    "mobile_num": "+20 12 4323 6915",
+    "city_id": 2,
+    "number_of_rooms": 255,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1CH8tnugpws.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1s9FVHLwlm8.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1s9FVQ4ICGs.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1s9FVS3l71u.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 357.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 357.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1s9FVWy5qBG.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1s9FVIsXive.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1254.0,
+        "deluxe_price": null,
+        "price": 1254.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1s9FVJQ6Dhm.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2631.0,
+        "price": 2631.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1s9FVIsXive.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Iberotel Redsina",
+    "description": "In the vicinity of the hotel`s own beach lies the hotel Iberotel Redsina*****. There is a shuttle between the hotel and the airport (for a fee). On the beach are sun loungers and beach towels available. The hotel has a 24h reception (check-in is possible around the clock), a lobby bar, Wi-Fi, internet access, a supermarket, cash machine, a hairdresser, a jacuzzi, a first aid kit as well as parking spaces (limited). Outside there is a children's pool, where pool towels are available for free. Furthermore, you can relax outdoors on the terrace. For the young hotel guests there is a playground. For very young guests, kid`s chairs can also be provided. You can store your luggage in the hotel's storage room. There is also a laundry service available at an additional cost to customers. Ironing equipment can be rented at the hotel for a fee. For your comfort, in addition to the concierge service the hotel page will ensure you are looked after. If necessary, you can contact the medical centre at any time (for a fee). For conventions and other business meetings, the hotel offers EXTRA_FEE conference rooms. If you want to explore the holiday region, you can use the car rental service close to the hotel (extra fee). Euro/Master Card and Visa are accepted as means of payment. Due to its barrier-free facilities , such as barrier-free entrances and wheelchair accessible rooms, the hotel is also suitable for wheelchair users. Catering As catering services the hotel offers all-inclusive. Breakfast is offered continental or from the buffet. For the meals, there are a restaurant (calorie-reduced dishes) and several bars. Distances Airport: approximately at 8 km Sports & Leisure A sauna (extra fee) awaits you for relaxation. The hotel also offers massages (extra fee) and beauty treatments (extra fee). Infants can be looked after in the hotel`s own baby club. For older children the care takes place in the children`s club. Junior hotel guests can also let off steam in the mini disco. Additional...",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Qesm Sharm Ash Sheikh, SinaÃ­ del Sur, TRASLADOS,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "support@coastview125.com",
+    "mobile_num": "+20 12 4323 6916",
+    "city_id": 2,
+    "number_of_rooms": 256,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Pet-friendly",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1u8rZWGMIvK.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1u8rZWHV864.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1u8rZV4iIsU.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1u8rZUzmD0A.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 361.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 361.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yWsBMNbPtS.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yWsBMByqJO.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1258.0,
+        "deluxe_price": null,
+        "price": 1258.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yWsBMHvYl2.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2637.0,
+        "price": 2637.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yWsBMByqJO.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Delta Sharm Resort ,Official Web, Delta Rent, Sharm El Sheikh, South Sinai, Egypt",
+    "description": "With a stay at DELTA SHARM RESORT ,Official Web, DELTA RENT, Sharm El Sheikh, South Sinai, Egypt in Sharm El Sheikh (El Hadaba), you'll be within a 5-minute drive of Red Sea and Naama Bay. This beach hotel is 2.6 mi (4.3 km) from Naama Bay Beach and 5.7 mi (9.1 km) from Domina Coral Bay Congress Centre. Relax at the full-service spa, where you can enjoy massages and facials. You're sure to appreciate the recreational amenities, which include 10 outdoor swimming pools, a health club, and a waterslide. This hotel also features complimentary wireless internet access and concierge services. Satisfy your appetite for lunch or dinner at the hotel's restaurant, or stay in and take advantage of the 24-hour room service. Relax with your favorite drink at the bar/lounge or the poolside bar. Continental breakfasts are available daily from 7:00 AM to 10:00 AM for a fee. Featured amenities include complimentary wired internet access, dry cleaning/laundry services, and a 24-hour front desk. Free self parking is available onsite. Make yourself at home in one of the 255 guestrooms featuring refrigerators and flat-screen televisions. Satellite television is provided for your entertainment. Bathrooms feature bathtubs or showers with rainfall showerheads and complimentary toiletries. Conveniences include phones, as well as safes and minibars.",
+    "appearance": "Outstanding",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Delta Sharm Resort, Second Sharm Al Shiekh,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "contact@bluemoon128.hotel",
+    "mobile_num": "+20 12 4323 6919",
+    "city_id": 2,
+    "number_of_rooms": 255,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Wi-Fi ($)",
+      "Free parking",
+      "Pools",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1CIQzGXkFMI.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1kDWArhEhCo.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vWIjsGQ7Ys.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DRO4xz4Lm0.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 361.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 361.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1kDWC7cPk3K.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1kDWGS64dZ6.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1270.0,
+        "deluxe_price": null,
+        "price": 1270.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1kDWH3gnYCQ.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2655.0,
+        "price": 2655.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1kDWGS64dZ6.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Xperience Hill-Top Beach Resort",
+    "description": "With a stay at Xperience Hill-Top Beach Resort in Sharm El Sheikh (El Hadaba), you'll be within a 5-minute drive of Naama Bay and Red Sea. This beach hotel is 5.3 mi (8.5 km) from Naama Bay Beach and 7.9 mi (12.8 km) from Domina Coral Bay Congress Centre. Don't miss out on the many recreational opportunities, including a sauna, a fitness center, and bicycles to rent. Additional amenities at this hotel include complimentary wireless internet access, concierge services, and barbecue grills. You can enjoy a meal at the restaurant serving the guests of Xperience Hill-Top Beach Resort, or stop in at the snack bar/deli. Wrap up your day with a drink at the bar/lounge. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. Guests may use a roundtrip airport shuttle for a surcharge, and free self parking is available onsite. Make yourself at home in one of the 16 air-conditioned guestrooms. Private bathrooms with showers feature bathrobes and slippers. Conveniences include safes and desks, and housekeeping is provided daily.",
+    "appearance": "Outstanding",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "V859+G6P, Border St, Second Sharm Al Shiekh,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "checkin@citylodge129.org",
+    "mobile_num": "+20 12 4323 6920",
+    "city_id": 2,
+    "number_of_rooms": 103,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Pool",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Restaurant",
+      "Kitchen in rooms",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1CFU3f7hs3e.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Dm3H54rb7q.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DttcKgezWo.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Dm3GXNoAuY.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 126.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 126.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DttcL5CbgQ.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/6JcDpTZP/bed-528.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1274.0,
+        "deluxe_price": null,
+        "price": 1274.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CFU3sOi9W0.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2661.0,
+        "price": 2661.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/6JcDpTZP/bed-528.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reef Oasis Beach Aqua Park Resort",
+    "description": "With a stay at Reef Oasis Beach Aqua Park Resort in Sharm El Sheikh (El Hadaba), you'll be within a 10-minute drive of Naama Bay and Red Sea. This upscale property is 6.9 mi (11.1 km) from Naama Bay Beach and 9 mi (14.5 km) from Domina Coral Bay Congress Centre. Relax at the full-service spa, where you can enjoy massages, body treatments, and facials. You're sure to appreciate the recreational amenities, which include 11 outdoor swimming pools, an outdoor tennis court, and a sauna. Additional amenities at this property include complimentary wireless internet access, concierge services, and an arcade/game room. Guests can catch a ride to nearby destinations on the area shuttle (surcharge). This property is all inclusive. Rates include meals and beverages at onsite dining establishments. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Grab a bite to eat at one of the property's 3 restaurants, or stay in and take advantage of the 24-hour room service. Snacks are also available at the 7 coffee shops/cafes. Mingle with other guests at the complimentary reception, held daily. Need to unwind? Take a break at the bar/lounge, the beach bar, or the poolside bar for a tasty beverage. A complimentary buffet breakfast is served daily from 7 AM to 10 AM. Featured amenities include a business center, dry cleaning/laundry services, and a 24-hour front desk. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and free self parking is available onsite. Make yourself at home in one of the 670 air-conditioned rooms featuring minibars and LED televisions. Complimentary wireless internet access is available to keep you connected. Private bathrooms with showers feature complimentary toiletries and bidets. Conveniences include phones, as well as safes and desks.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Marine sports club, st, Sharm Al Shiekh,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "checkin@citylodge130.org",
+    "mobile_num": "+20 12 4323 6921",
+    "city_id": 2,
+    "number_of_rooms": 255,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1vWIjCUGdHO.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Bhe8YpBiMM.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1nc7lmTSMHm.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ncg3caP8re.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 156.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 156.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Bhe99Rew6c.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wRpQOar7IQ.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1278.0,
+        "deluxe_price": null,
+        "price": 1278.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Bhe96oDXu8.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2667.0,
+        "price": 2667.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wRpQOar7IQ.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "SUNRISE Remal Resort - All inclusive",
+    "description": "Near SOHO SquareGrab a bite at Heliodoro restaurant, one of the resort's 6 restaurants, or stay in and take advantage of the 24-hour room service. Snacks are also available at the coffee shop/cafe. Relax with a refreshing drink from the beach bar or one of the 7 bars/lounges. A complimentary buffet breakfast is served daily from 7:00 AM to 10:30 AM.Relax at the full-service spa, where you can enjoy massages and facials. After dipping into one of the 3 outdoor swimming pools, you can spend some time at the private beach. Additional features at this resort include complimentary wireless internet access, concierge services, and babysitting (surcharge). The complimentary beach shuttle makes getting to the surf and sand a breeze.Featured amenities include a 24-hour front desk, multilingual staff, and a safe deposit box at the front desk. Planning an event in Sharm El Sheikh? This resort has 5597 square feet (520 square meters) of space consisting of conference space and 4 meeting rooms. Free self parking is available onsite.With a stay at SUNRISE Remal Resort - All inclusive in Sharm El Sheikh, you'll be a 4-minute drive from Shark's Bay and 9 minutes from SOHO Square. This family-friendly resort is 8.4 mi (13.5 km) from Nabq Bay and 9.2 mi (14.9 km) from Domina Coral Bay Congress Centre.Make yourself at home in one of the 335 individually decorated guestrooms, featuring minibars and LED televisions. Rooms have private balconies or patios. Satellite television is provided for your entertainment. Private bathrooms with bathtubs feature complimentary toiletries and hair dryers.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El Montaza, Ras Nasrani, Sharm El Sheikh,Sharm El Sheikh,46628,South Sinai Governorate,Egypt",
+    "email": "contact@riverview131.com",
+    "mobile_num": "+20 12 4323 6922",
+    "city_id": 2,
+    "number_of_rooms": 250,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Beach access",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1ADpwF79Ck8.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AJ5N6QqlGg.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AJ4satR7Jm.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1pFkj0wS7Ze.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 340.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 340.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ADoOTVbzUc.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uopMOs4Dv2.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1286.0,
+        "deluxe_price": null,
+        "price": 1286.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ADoOvCuPK0.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2679.0,
+        "price": 2679.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uopMOs4Dv2.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cataract Resort Naama Bay",
+    "description": "With a stay at Cataract Resort Naama Bay in Sharm El Sheikh, you'll be within a 10-minute walk of Naama Bay Beach and Naama Bay. This hotel is 3.7 mi (6 km) from Domina Coral Bay Congress Centre and 4.2 mi (6.8 km) from Shark's Bay. Take advantage of recreation opportunities such as an outdoor pool, or other amenities including complimentary wireless internet access and concierge services. A complimentary buffet breakfast is served daily from 7:00 AM to 10:00 AM. Featured amenities include dry cleaning/laundry services and a 24-hour front desk. Make yourself at home in one of the 112 air-conditioned guestrooms. Bathrooms have showers and hair dryers.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Naama Bay,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "info@seabreeze132.org",
+    "mobile_num": "+20 12 4323 6923",
+    "city_id": 2,
+    "number_of_rooms": 112,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Parking",
+      "Pool",
+      "Air conditioning",
+      "Pet-friendly",
+      "Restaurant",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1CSF5p6G90I.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Dm2BDfBJFS.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Dm2BIF7Dyg.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Dm2BGXwTio.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 177.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 177.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zhKToU4ElG.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Dm2BEEKH05.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1290.0,
+        "deluxe_price": null,
+        "price": 1290.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wGXGIsyRwY.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2685.0,
+        "price": 2685.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Dm2BEEKH05.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Queen Sharm Resort",
+    "description": "Near Aqua Blue Water ParkGrab a bite to eat at one of the hotel's many dining establishments, which include 3 restaurants and a coffee shop/cafe. When you are in need of a refreshing drink, visit the beach bar or one of 2 bars/lounges, or 2 poolside bars. A complimentary buffet breakfast is served daily from 7:00 AM to 10:00 AM.Pamper yourself with a visit to the spa, which offers massages and body treatments. After dipping into one of the 2 outdoor swimming pools, you can spend some time at the private beach. Additional amenities at this hotel include complimentary wireless internet access, concierge services, and a hair salon.Featured amenities include a business center, express check-in, and a 24-hour front desk. Free self parking is available onsite.With a stay at Queen Sharm Resort in Sharm El Sheikh (El Hadaba), you'll be a 4-minute drive from Naama Bay and 9 minutes from Naama Bay Beach. This beach hotel is 8.4 mi (13.5 km) from Domina Coral Bay Congress Centre and 8.9 mi (14.3 km) from Shark's Bay.Stay in one of 418 guestrooms featuring flat-screen televisions. Satellite television is provided for your entertainment. Private bathrooms with bathtubs feature complimentary toiletries and hair dryers. Conveniences include phones, as well as safes and blackout drapes/curtains.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Ras Um El Sid,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "hello@seabreeze134.co",
+    "mobile_num": "+20 12 4323 6925",
+    "city_id": 2,
+    "number_of_rooms": 255,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Heating",
+      "Ironing board",
+      "Kitchen",
+      "Microwave",
+      "Oven stove",
+      "Patio",
+      "Pet-friendly",
+      "Smoke-free",
+      "Cable TV",
+      "Wheelchair accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1krLV0FQyZ2.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hYWmCn1PNL.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hYWmX3I2NG.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hYWmGOEdDW.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 357.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 357.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krMb1MFz0s.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krLWU8pIDC.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1302.0,
+        "deluxe_price": null,
+        "price": 1302.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krLRasHD68.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2704.0,
+        "price": 2704.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krLWU8pIDC.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "El Hayat Sharm Hotel",
+    "description": "With a stay at El Hayat Sharm Hotel, you'll be centrally located in Sharm El Sheikh, within a 15-minute drive of Nabq Bay and SOHO Square. This upscale hotel is 8.3 mi (13.4 km) from Shark's Bay and 11.6 mi (18.7 km) from Domina Coral Bay Congress Centre. Pamper yourself with a visit to the spa, which offers massages. You can soak up the sun at the private beach or enjoy other recreational amenities including a sauna and a fitness center. Additional features at this hotel include complimentary wireless internet access, concierge services, and babysitting (surcharge). The complimentary beach shuttle makes getting to the surf and sand a breeze. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Stop by the hotel's restaurant, Hathor Restaurant, for lunch, dinner, or brunch. Dining is also available at the coffee shop/cafe, and 24-hour room service is provided. Relax with a refreshing drink at one of the 2 bars/lounges. A complimentary local cuisine breakfast is served daily from 7:00 AM to 10:00 AM. Featured amenities include a business center, express check-in, and express check-out. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and free valet parking is available onsite. Make yourself at home in one of the 212 individually decorated guestrooms. Rooms have private balconies or patios. Satellite television is provided for your entertainment. Bathrooms have bathtubs or showers and hair dryers.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "13 B Peace Road,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "support@bluemoon136.hotel",
+    "mobile_num": "+20 12 4323 6927",
+    "city_id": 2,
+    "number_of_rooms": 262,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Free parking",
+      "Air conditioning",
+      "Restaurant",
+      "Room service",
+      "Kitchen in rooms",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1vTou6pbNpS.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vTou7c0NMY.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tSSAxYhpiE.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tSSAmTDJEA.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 359.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 359.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tSSAFxcJ7a.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tSSA6jf3wY.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1310.0,
+        "deluxe_price": null,
+        "price": 1310.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tSSA8sEU6I.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2716.0,
+        "price": 2716.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tSSA6jf3wY.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Camel Dive Club & Hotel - Boutique Hotel",
+    "description": "A stay at Camel Dive Club & Hotel places you in the heart of Sharm El Sheikh, steps from Naama Bay and Naama Bay Beach. This hotel is 3.6 mi (5.8 km) from Domina Coral Bay Congress Centre and 4.1 mi (6.6 km) from Shark's Bay. Relax on the private beach or enjoy other recreational amenities such as an outdoor pool. Additional features at this hotel include complimentary wireless internet access, concierge services, and a banquet hall. Enjoy a meal at the restaurant or snacks in the hotel's coffee shop/cafe. Relax with a refreshing drink at one of the 3 bars/lounges. A complimentary continental breakfast is served daily from 6:30 AM to 10:30 AM. Featured amenities include a business center, a 24-hour front desk, and luggage storage. Free self parking is available onsite. Make yourself at home in one of the 38 air-conditioned rooms featuring minibars and flat-screen televisions. Rooms have private furnished balconies or patios. Complimentary wireless internet access keeps you connected, and cable programming is available for your entertainment. Bathrooms have showers and hair dryers.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Naama Bay,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "info@grandstay138.co",
+    "mobile_num": "+20 12 4323 6929",
+    "city_id": 2,
+    "number_of_rooms": 296,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1jcTh0g3L6E.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1jcThaM4CRO.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wGZKDgdBIc.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wGZKHdbffa.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 100.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 100.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hZ1bxKhiKs.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wGZKTSjJ1C.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1319.0,
+        "deluxe_price": null,
+        "price": 1319.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wGZKEMJx7O.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2728.0,
+        "price": 2728.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wGZKTSjJ1C.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Xperience Golden Sandy Beach",
+    "description": "With a stay at Xperience Golden Sandy Beach in Sharm El Sheikh, you'll be a 1-minute drive from Red Sea and 8 minutes from Naama Bay. This beach hotel is 5.1 mi (8.3 km) from Naama Bay Beach and 8.2 mi (13.2 km) from Domina Coral Bay Congress Centre. Pamper yourself with onsite massages or enjoy recreation amenities such as a private beach. This hotel also features complimentary wireless internet access and concierge services. Enjoy a meal at the restaurant or snacks in the hotel's coffee shop/cafe. Relax with your favorite drink at the bar/lounge or the beach bar. Featured amenities include a 24-hour front desk, luggage storage, and a safe deposit box at the front desk. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and free self parking is available onsite. Make yourself at home in one of the 16 air-conditioned rooms featuring free minibar items and LCD televisions. Satellite television is provided for your entertainment. Bathrooms have showers and hair dryers. Conveniences include phones, as well as safes and coffee/tea makers.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "V74R+VGM, Dusti Road, Sharm Elshiekh,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "info@horizonhills139.org",
+    "mobile_num": "+20 12 4323 6930",
+    "city_id": 2,
+    "number_of_rooms": 296,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1yMEurPSJji.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Dm2gVOPvxu.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Dm2gOpgX16.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1kruWynx89a.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 200.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 200.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1kruQGHGM0w.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Dm2gTFqfbW.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1323.0,
+        "deluxe_price": null,
+        "price": 1323.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Dm2hf3A8Le.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2734.0,
+        "price": 2734.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Dm2gTFqfbW.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ecotel Dahab Bay View Resort",
+    "description": "With a stay at Ecotel Dahab Bay View Resort in Dahab, you'll be within a 15-minute drive of Dahab Lagoon and Asala Beach. This beach hotel is 3.5 mi (5.6 km) from Dahab Bay and 4.8 mi (7.7 km) from Dahab Beach. Relax at the full-service spa, where you can enjoy massages, body treatments, and facials. After dipping into one of the 2 outdoor swimming pools, you can spend some time at the private beach. Additional amenities at this hotel include complimentary wireless internet access, concierge services, and an arcade/game room. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Enjoy a meal at the restaurant, or stay in and take advantage of the hotel's 24-hour room service. Buffet breakfasts are available daily for a fee. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and multilingual staff. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and free self parking is available onsite. Make yourself at home in one of the 218 air-conditioned rooms featuring minibars and LED televisions. Rooms have private balconies. Satellite television is provided for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Qunai Valley,St. Catherine,South Sinai Governorate,Egypt",
+    "email": "rooms@sunsetinn140.hotel",
+    "mobile_num": "+20 12 4323 6931",
+    "city_id": 2,
+    "number_of_rooms": 431,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1yzngld7CJa.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yTEEpOUhDa.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yTEFdICczC.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yTEEUkMBYA.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 210.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 210.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hvO7mEr5du.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xG3Qqzfrvq.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1331.0,
+        "deluxe_price": null,
+        "price": 1331.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xG3PXOEWdO.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2746.0,
+        "price": 2746.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xG3Qqzfrvq.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Coral Sea Aqua Club Resort",
+    "description": "When you stay at Coral Sea Aqua Club in Sharm El Sheikh, you'll be near the beach, within a 15-minute drive of Nabq Bay and SOHO Square. This all-inclusive hotel is 13.1 mi (21 km) from Naama Bay and 8.4 mi (13.5 km) from Shark's Bay. Pamper yourself with a visit to the spa, which offers massages and facials. You can take advantage of recreational amenities such as a complimentary water park, a health club, and an outdoor pool. This hotel also features concierge services, a hair salon, and shopping on site. This hotel is all inclusive. Rates include meals and beverages at onsite dining establishments. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Grab a bite at Dine Around, one of the hotel's 4 restaurants, or stay in and take advantage of the 24-hour room service. Snacks are also available at the coffee shop/cafe. Relax with a refreshing drink from the poolside bar or one of the 2 bars/lounges. A complimentary buffet breakfast is served daily from 7:00 AM to 10:00 AM. Featured amenities include a 24-hour front desk, multilingual staff, and luggage storage. Free self parking is available onsite. Treat yourself to a stay in one of the 212 guestrooms, featuring fireplaces and LCD televisions. Conveniences include phones, as well as safes and desks.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El-Salam, Second Sharm Al Shiekh,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "support@desertrose141.hotel",
+    "mobile_num": "+20 12 4323 6932",
+    "city_id": 2,
+    "number_of_rooms": 860,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1jgJdQq5C2Q.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1jgJghcPqgM.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krlTtjdLfW.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1jgJgqfIu76.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 177.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 177.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1lb7EUSbMrK.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krlMO9PdaE.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1339.0,
+        "deluxe_price": null,
+        "price": 1339.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krlVeCfZO8.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2758.0,
+        "price": 2758.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krlMO9PdaE.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Retac Qunay Dahab Resort & Spa",
+    "description": "Located in Dahab, Retac Qunay Dahab Resort & Spa is within a 15-minute drive of Dahab Lagoon and Ras Abu Galum Nature Reserve. This beach hotel is 2.4 mi (3.9 km) from Dahab Bay and 3.7 mi (6 km) from Dahab Beach. Relax at the full-service spa, where you can enjoy massages. After dipping into one of the 4 outdoor swimming pools, you can spend some time at the private beach. Additional features at this hotel include complimentary wireless internet access, wedding services, and a picnic area. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Grab a bite at Vie Restaurant, one of the hotel's 3 restaurants, or stay in and take advantage of the 24-hour room service. Snacks are also available at the coffee shop/cafe. Relax with a refreshing drink from the poolside bar or one of the 3 bars/lounges. Featured amenities include complimentary wired internet access, a 24-hour business center, and express check-out. Planning an event in Dahab? This hotel has 1013 square feet (94 square meters) of space consisting of conference space and 2 meeting rooms. A shuttle from the airport to the hotel is provided for a surcharge (available 24 hours), and free self parking is available onsite. Make yourself at home in one of the 182 guestrooms featuring minibars and LCD televisions. Your room comes with a pillowtop bed. Rooms have private balconies. Complimentary wired and wireless internet access keeps you connected, and cable programming provides entertainment. Private bathrooms with separate bathtubs and showers feature complimentary toiletries and bathrobes.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "1 Al Tahrir Street,St. Catherine,South Sinai Governorate,Egypt",
+    "email": "rooms@riverview142.net",
+    "mobile_num": "+20 12 4323 6933",
+    "city_id": 2,
+    "number_of_rooms": 231,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1DTuq6ofNqE.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xuyq3Xfs9a.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vWHXffZXzO.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DTupTGQfyE.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 361.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 361.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AjfZPxFClG.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DRNIiChenu.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1351.0,
+        "deluxe_price": null,
+        "price": 1351.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DTupTN5FkY.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2776.0,
+        "price": 2776.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DRNIiChenu.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gafy Resort Aqua Park",
+    "description": "A stay at Gafy Resort Aqua Park places you in the heart of Sharm El Sheikh, within a 5-minute drive of Naama Bay and Domina Coral Bay Congress Centre. This upscale hotel is 3.1 mi (5.1 km) from Shark's Bay and 3.9 mi (6.3 km) from Naama Bay Beach. Relax at the full-service spa, where you can enjoy massages. After dipping into one of the 6 outdoor swimming pools, you can spend some time at the private beach. Additional features at this hotel include complimentary wireless internet access, concierge services, and free babysitting. This hotel is all inclusive. Rates include meals and beverages at onsite dining establishments. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Enjoy international cuisine at Hours Restaurant, a beachfront restaurant, or stay in and take advantage of the 24-hour room service. Relax with a refreshing drink at the bar/lounge, the poolside bar, or one of 2 beach bars. Buffet breakfasts are available daily for a fee. Featured amenities include a 24-hour business center, dry cleaning/laundry services, and a 24-hour front desk. Free self parking is available onsite. Treat yourself to a stay in one of the 200 guestrooms, featuring fireplaces and private spa tubs. Rooms have private furnished balconies or patios. LCD televisions are provided for your entertainment. Conveniences include safes and desks, and housekeeping is provided daily.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Neama Bay,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "checkin@greenvalley143.hotel",
+    "mobile_num": "+20 12 4323 6934",
+    "city_id": 2,
+    "number_of_rooms": 256,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Fitness centre",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Kitchen in some rooms",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1z8Wd6OBQYM.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yP9cCISOCQ.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1u9tfwqFrRC.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1u9tflJAu0U.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 165.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 165.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1u9tffCmsuY.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1u9tfCwtCfK.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1359.0,
+        "deluxe_price": null,
+        "price": 1359.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1u9tf7MYhGg.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2788.0,
+        "price": 2788.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1u9tfCwtCfK.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tamra Beach Resort",
+    "description": "When you stay at Tamra Beach Resort in Sharm El Sheikh, you'll be on the beach, within a 10-minute drive of Nabq Bay and SOHO Square. This beach hotel is 11.5 mi (18.5 km) from Naama Bay and 6.8 mi (11 km) from Shark's Bay. Take advantage of recreational opportunities offered, including a health club, an outdoor pool, and a hot tub. Additional amenities at this hotel include wireless internet access (surcharge), concierge services, and gift shops/newsstands. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Satisfy your appetite for lunch or dinner at the hotel's restaurant, or stay in and take advantage of the room service (during limited hours). When you are in need of a refreshing drink, visit the beach bar or one of 2 bars/lounges, or 2 poolside bars. Featured amenities include express check-in, a 24-hour front desk, and ATM/banking services. Free self parking is available onsite. Make yourself at home in one of the 244 air-conditioned rooms featuring minibars. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Bathrooms feature bathtubs or showers, complimentary toiletries, and hair dryers. Conveniences include separate sitting areas, and housekeeping is provided daily.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Nabq Bay,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "stay@horizonhills144.net",
+    "mobile_num": "+20 12 4323 6935",
+    "city_id": 2,
+    "number_of_rooms": 289,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Air conditioning",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1A4WslVPrOw.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AREczRAZWM.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DOjzxCpswo.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CwxvGnlUT6.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 70.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 70.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DsquG9trQk.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yWsCUhMZoI.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1367.0,
+        "deluxe_price": null,
+        "price": 1367.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yWsCTn1iI8.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2800.0,
+        "price": 2800.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yWsCUhMZoI.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ivy Cyrene Sharm Resort Adults Friendly Plus 13",
+    "description": "With a stay at Ivy Cyrene Sharm Resort Adults Friendly Plus 13 in Sharm El Sheikh, you'll be within a 10-minute drive of Shark's Bay and SOHO Square. This hotel is 10.3 mi (16.6 km) from Naama Bay and 6.8 mi (10.9 km) from Nabq Bay. Make use of convenient amenities, which include complimentary wireless internet access and shopping on site. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Grab a bite to eat at one of the hotel's many dining establishments, which include 3 restaurants and a coffee shop/cafe. Mingle with other guests at the complimentary reception, held daily. Need to unwind? Take a break with a tasty beverage at one of the 6 bars/lounges. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. Free self parking is available onsite. Make yourself at home in one of the 230 individually decorated guestrooms, featuring minibars and LCD televisions. Your memory foam bed comes with down comforters and Egyptian cotton sheets. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Bathrooms feature bathtubs, designer toiletries, and bidets.",
+    "appearance": "Outstanding",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El Montazah,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "stay@coastview145.net",
+    "mobile_num": "+20 12 4323 6936",
+    "city_id": 2,
+    "number_of_rooms": 573,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1DsqvjkGfHa.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hYURn1njVK.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hYURCPyIzS.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hYURADy2wo.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 147.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 147.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wGYl29FTsk.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xabhEm9ID6.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1371.0,
+        "deluxe_price": null,
+        "price": 1371.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xabhL39eFi.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2806.0,
+        "price": 2806.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xabhEm9ID6.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jaz Neo Naama Bay",
+    "description": "The Jaz Neo Naama Bay provides a great place for travelers to relax after a busy day. The Jaz Neo Naama Bay is an ideal choice for travelers who want to take in the sights and sounds of Sharm El Sheikh. The hotel offers easy access to Sharm El Sheikh International Airport, just 11km away. This hotel is located near many of Sharm El Sheikh's attractions including Egypt Tor | Escursioni Sharm El Sheikh Excursions, Excursions by Irina and Bubbles Dive Club. In their spare time, guests can explore the hotel's surroundings. This Sharm El Sheikh hotel offers parking on site.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Naama Bay, Sharm Al Shiekh,Sharm El Sheikh,South Sinai Governorate,Egypt",
+    "email": "contact@sunsetinn146.hotel",
+    "mobile_num": "+20 12 4323 6937",
+    "city_id": 2,
+    "number_of_rooms": 326,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Pool",
+      "Hot tub",
+      "Air conditioning",
+      "Spa",
+      "Restaurant",
+      "Room service",
+      "Kitchen in some rooms",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1CnXHZMhHOw.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1A1CZMveLv2.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wLQxqrQwms.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1oCowCsmDFC.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 230.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 230.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1pYRAcrCo8M.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1w5Jv9HMiL6.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1391.0,
+        "deluxe_price": null,
+        "price": 1391.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vg2Pu3ItMs.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2837.0,
+        "price": 2837.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1w5Jv9HMiL6.jpg"
+          }
+        ]
+      }
+    ]
+  }
+]

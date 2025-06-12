@@ -1,0 +1,3958 @@
+[
+  {
+    "name": "Sunrise Alma Bay Resort",
+    "description": "With a stay at SUNRISE Alma Bay Resort in Hurghada (Village Road), you'll be within a 15-minute drive of Marina Hurghada and Red Sea. This all-inclusive hotel is 10.8 mi (17.4 km) from Hurghada City Center and 2.1 mi (3.4 km) from Senzo Mall. Pamper yourself with onsite massages or enjoy recreation amenities such as an outdoor pool. This hotel is all inclusive. Rates include meals and beverages at onsite dining establishments. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Satisfy your appetite at one of the hotel's 5 restaurants. Relax with a refreshing drink from the beach bar or one of the 3 bars/lounges. A complimentary buffet breakfast is served daily from 7:00 AM to 10:00 AM. Featured amenities include a 24-hour front desk, ATM/banking services, and an elevator. Free self parking is available onsite. Make yourself at home in one of the 226 air-conditioned rooms featuring minibars and LCD televisions. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with showers feature rainfall showerheads and complimentary toiletries. Conveniences include safes and electric kettles, and housekeeping is provided daily.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "KM 14 - Hurghada - Safaga Road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "desk@desertrose080.co",
+    "mobile_num": "+20 12 0289 3952",
+    "city_id": 3,
+    "number_of_rooms": 215,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Airport shuttle",
+      "Balcony",
+      "Kid-friendly",
+      "Crib",
+      "Fireplace",
+      "Heating",
+      "Hot tub",
+      "Ironing board",
+      "Kitchen",
+      "Microwave",
+      "Outdoor grill",
+      "Oven stove",
+      "Patio",
+      "Cable TV",
+      "Washer",
+      "Wheelchair accessible",
+      "Free parking",
+      "Free Wi-Fi"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wzGMe03GOk.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wzGMksQRPO.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1qHj2rQZvLG.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wzGMc3HLEY.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 210.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 210.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wDi4m7tacE.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wzGMl1LMOI.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 996.0,
+        "deluxe_price": null,
+        "price": 996.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wzGM0K1fJ6.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2244.0,
+        "price": 2244.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wzGMl1LMOI.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pickalbatros Aqua Park Resort - Hurghada",
+    "description": "With a stay at Pickalbatros Aqua Park Resort - Hurghada in Hurghada, you'll be 10.4 mi (16.8 km) from Marina Hurghada and 11.2 mi (18 km) from Makadi Water World. This all-inclusive property is within the region of Mahmya. Relax at the full-service spa, where you can enjoy massages, body treatments, and facials. After dipping into one of the 4 outdoor swimming pools, you can spend some time at the private beach. Additional amenities at this property include complimentary wireless internet access, concierge services, and gift shops/newsstands. Getting to the surf and sand is a breeze with the complimentary beach shuttle. This property is all inclusive. Rates include meals and beverages at onsite dining establishments. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Enjoy Mediterranean cuisine at Mediterranean, one of the property's 5 restaurants, or stay in and take advantage of the 24-hour room service. Relax with a refreshing drink at the beach bar, the poolside bar, or one of 5 bars/lounges. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and multilingual staff. Guests may use a roundtrip airport shuttle for a surcharge, and free self parking is available onsite. Make yourself at home in one of the 296 air-conditioned rooms featuring minibars and LCD televisions. Rooms have private balconies. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with shower/tub combinations feature deep soaking bathtubs and complimentary toiletries.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Villages Road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "stay@highlandresort081.hotel",
+    "mobile_num": "+20 12 0290 1718",
+    "city_id": 3,
+    "number_of_rooms": 1130,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Air conditioning",
+      "Bar",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1xZhcheiIDK.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1kCHNmTIt20.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Dhr83KvpaE.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DCq4kqMlt6.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 182.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 182.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1nh20FVSVuo.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1k5ry2cvO2Q.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1004.0,
+        "deluxe_price": null,
+        "price": 1004.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ChBEU4PVsI.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2256.0,
+        "price": 2256.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1k5ry2cvO2Q.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Club Paradisio El Gouna Red Sea",
+    "description": "Club Paradisio is located in El Gouna just minutes away from the 18 hole golf course Club House and set on the nicest bay of the beach resort The hotel has a large sandy beach and is set in lush green landscape. It offers an impressive selection of sport activities topped up with well being and relaxation areas for each to enjoy- as well as animation program. Club Paradisio offers All inclusive meal plans El Gouna just 25 km from Hurghada international airport is surrounded by the Red Sea beautiful lagoons and the desert in complete harmony- Easy access to El Gouna down town and marina areas provide a range of activities from shopping centers",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El Gouna,El Gouna,Red Sea Governorate,Egypt",
+    "email": "desk@royalpalms082.com",
+    "mobile_num": "+20 12 0292 6583",
+    "city_id": 3,
+    "number_of_rooms": 239,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Kitchen in some rooms",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1yVJXOcOG4M.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hYRgpcnu0w.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hYRfJSEqEE.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krOz9rLdVC.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 326.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 326.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xlhRuzHMmk.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xlhQPNZvSE.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1008.0,
+        "deluxe_price": null,
+        "price": 1008.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xlhQBqYXLi.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2262.0,
+        "price": 2262.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xlhQPNZvSE.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Titanic Aqua Park Resort - Families and Couples Only",
+    "description": "Boasting a waterpark with wave pool, rafting river and waterslides, Titanic Aqua Park Resort - Families and Couples only is located in Hurghada. It also offers a restaurant and a spa. Watersports are available at a surcharge. Featuring a balcony, the bright accommodation here will provide you with a flat-screen TV, air-conditioning and minibar. A safety deposit box and a wardrobe are also available. The bathroom comes with a hairdryer and a shower. Titanic Aqua Park Resort - Families and Couples only has a buffet restaurant and 6 bars. Guests can also enjoy the a la carte restaurant . The wellness centre offers a range of signature treatments including Massage. Titanic Aqua Park Resort - Families and Couples only is located at 16 minutes’ drive from Hurghada centre, and 10 minutes’ drive from the airport. Free parking is offered on site. IN Case Of accompanied Children , Copy Of Birth Certificate is Required upon Check in the Children policy the 1st Child free Till 11.99 and the 2nd Child From 06 till 11.99 With 50% Discount From Adult Rates",
+    "appearance": "Outstanding",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El Geesh - Hurghada Rd,Hurghada,Red Sea Governorate,Egypt",
+    "email": "rooms@royalpalms083.com",
+    "mobile_num": "+20 12 0297 3201",
+    "city_id": 3,
+    "number_of_rooms": 215,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Airport shuttle",
+      "Balcony",
+      "Kid-friendly",
+      "Crib",
+      "Fireplace",
+      "Heating",
+      "Hot tub",
+      "Ironing board",
+      "Kitchen",
+      "Microwave",
+      "Outdoor grill",
+      "Oven stove",
+      "Patio",
+      "Cable TV",
+      "Washer",
+      "Wheelchair accessible",
+      "Free parking",
+      "Free Wi-Fi"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CDBMKK16lW.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1CDBMKgM8Ug.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DFJxdN267m.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DFJxgHQhRm.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 327.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 327.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CwyyvDbokg.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CBxk6WUmcw.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1012.0,
+        "deluxe_price": null,
+        "price": 1012.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CBxk6yuYtq.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2268.0,
+        "price": 2268.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CBxk6WUmcw.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Corners Sunny Beach Resort",
+    "description": "Located in Hurghada, Three Corners Sunny Beach Resort is by the sea, a 1-minute drive from Red Sea and 10 minutes from El Gouna Stadium. This upscale hotel is 10.7 mi (17.2 km) from Hurghada City Center and 12.2 mi (19.6 km) from Marina Hurghada. Spend the day on the private beach or dip into one of the 4 outdoor swimming pools. Additional features at this hotel include complimentary wireless internet access, gift shops/newsstands, and tour/ticket assistance. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Grab a bite at Soleil Buffet Restaurant, one of the hotel's 3 restaurants, or stay in and take advantage of the room service (during limited hours). Relax with a refreshing drink at the beach bar, the poolside bar, or one of 3 bars/lounges. A complimentary full breakfast is served daily from 7:00 AM to 10:00 AM. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and multilingual staff. Free self parking is available onsite. Make yourself at home in one of the 303 air-conditioned rooms featuring refrigerators and minibars. Rooms have private balconies. Satellite television is provided for your entertainment. Bathrooms have showers and hair dryers.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Red Sea Pharoan,Hurghada,Red Sea Governorate,Egypt",
+    "email": "contact@desertrose084.hotel",
+    "mobile_num": "+20 12 0300 9437",
+    "city_id": 3,
+    "number_of_rooms": 262,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Airport shuttle",
+      "Balcony",
+      "Kid-friendly",
+      "Crib",
+      "Heating",
+      "Hot tub",
+      "Ironing board",
+      "Kitchen",
+      "Patio",
+      "Smoke-free",
+      "Cable TV",
+      "Washer",
+      "Wheelchair accessible",
+      "Free parking",
+      "Free Wi-Fi"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DMoUNoQVqg.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1pgjWcwIxqg.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1pgjVG3UROw.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1pgjVZBp94Y.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 400.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 400.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1pgjWMvwmMo.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1pgjWswvcGs.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1016.0,
+        "deluxe_price": null,
+        "price": 1016.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vhVi6mFJJe.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2274.0,
+        "price": 2274.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1pgjWswvcGs.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Corners Ocean View El Gouna - Adults Only",
+    "description": "With a stay at Three Corners Ocean View Hotel Prestige - Adults Only in El Gouna, you'll be on the waterfront, just a 1-minute walk from Marina El Gouna and 9 minutes by foot from Red Sea. This upscale hotel is 19.8 mi (31.8 km) from Hurghada City Center and 21.1 mi (33.9 km) from Marina Hurghada. Enjoy a range of recreational amenities, including an outdoor pool, a sauna, and a fitness center. Additional amenities at this hotel include complimentary wireless internet access, shopping on site, and barbecue grills. The complimentary beach shuttle makes getting to the surf and sand a breeze. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Enjoy a satisfying meal at Oceana serving guests of Three Corners Ocean View Hotel Prestige - Adults Only. Relax with a refreshing drink at the beach bar, the poolside bar, or one of 3 bars/lounges. A complimentary buffet breakfast is served daily. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and multilingual staff. Make yourself at home in one of the 157 air-conditioned rooms featuring minibars. Complimentary wireless internet access is available to keep you connected. Private bathrooms with showers feature complimentary toiletries and hair dryers. Conveniences include phones, as well as safes and desks.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Abu Tig,El Gouna,Red Sea Governorate,Egypt",
+    "email": "reservations@sunsetinn085.net",
+    "mobile_num": "+20 12 0302 6893",
+    "city_id": 3,
+    "number_of_rooms": 155,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Parking ($)",
+      "Pools",
+      "Air conditioning",
+      "Spa",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DBCLtFwg8w.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DBCLrCUS0E.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DhHbOpYj4c.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1D69x0z4KuQ.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 200.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 200.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xP7y4oSoOQ.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1u2R80ExIm4.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1020.0,
+        "deluxe_price": null,
+        "price": 1020.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1u9uGYi1COQ.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2280.0,
+        "price": 2280.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1u2R80ExIm4.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sultan BEY Resort",
+    "description": "Sultan Bey is a labyrinth of alleyways courtyards and domes spreading from the shores of the turquoise lagoons to the heart of Downtown Kafr El Gouna. This 4 star hotel prides itself on providing its guests with services of the highest standard in intimate surroundings. Beautifully decorated rooms enjoy balconies or terraces with views of the lagoon or central courtyard. El Gouna is an integrated town along the Red Sea coast with sandy beaches- man made lagoons and islands. Boasting a superb infrastructure and excellent services. It is Egypt most environmental friendly location and Sultan Bey Resort has received the Green Star certificate for its environment policy. El Gouna offers all activities for your holiday . windsurfing-kitesurfing- diving- snorkeling- USPGA Golf Course- international spa. But you can also relax at the beach where the sun shides all year round.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El Gouna,El Gouna,Red Sea Governorate,Egypt",
+    "email": "stay@horizonhills086.co",
+    "mobile_num": "+20 12 0304 6369",
+    "city_id": 3,
+    "number_of_rooms": 145,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1tW2KgPufVS.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tW2K6dNGCs.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hZ6zzSb3aw.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xASZ9bPbUc.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 263.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 263.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xASZ7i24uY.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xASZ7i24uY.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1024.0,
+        "deluxe_price": null,
+        "price": 1024.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xASZmYe5xu.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2286.0,
+        "price": 2286.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xASZ7i24uY.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ali Pasha",
+    "description": "This hotel overlooks the Abu Tig Marina and is build in the traditional Eyptian style of El Gouna. With a relaxed upmarket atmosphere it offers easy access to the best shopping- dining and nightlife opportunities in El Gouna.The Ali Pasha Hotel is conveniently located by the coast and has a private pool for cooling off in the afternoons. For your immediate convenience; Ali Pasha has a Tandoor Indian Restaurant serving breakfast and a la carte dinner. The marina itself has a pleasant setting with a variety of culinary restaurants by the harbour. Free access to the marina Moods Beach Club.El Gouna is known for its outdoor activities and water sports. With unique coral reefs diverse marine life and clear waters it is especially popular for scuba diving. The night life is also good with a variety of choices. El Gouna is about 25 km from Hurghada and is easily accessible from the international airport. It is set along kilometres of beachfront with seawater lagoons islets and unique architecture.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El Gouna,El Gouna,Red Sea Governorate,Egypt",
+    "email": "support@coastview087.net",
+    "mobile_num": "+20 12 0304 8079",
+    "city_id": 3,
+    "number_of_rooms": 41,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1yRG4KPfwiI.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yqlljrh1qE.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yqllLn3sXe.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yRG4PGZ2eY.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 456.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 456.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xvcjAdJb4Q.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1z2MCK3vlQs.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1028.0,
+        "deluxe_price": null,
+        "price": 1028.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yqllafzPoc.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2292.0,
+        "price": 2292.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1z2MCK3vlQs.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fanadir Hotel - El Gouna",
+    "description": "The four-star Fanadir Hotel is located in the heart of Abu Tig Marina North Basin in El Gouna the little Venice of the Red Sea. An Arabic inspired architecture and decor with warm and comforting tones gives a relaxing atmosphere for its guests. All the rooms are surrounding the pool area and offer Pool view. The rooms are spacious and all have a private terrace/balcony some with direct pool-access. Fanadir hotel is conveniently situated in the north part of El Gouna who offers a vide variety of dining and shopping venues. El Gouna also offers a large selection of water sports and land sports. The Fanadir hotel provides direct access to the northern beaches ideal for sun and adventure seekers.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El Gouna,El Gouna,Red Sea Governorate,Egypt",
+    "email": "checkin@crystalbay088.hotel",
+    "mobile_num": "+20 12 0305 5000",
+    "city_id": 3,
+    "number_of_rooms": 215,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Airport shuttle",
+      "Balcony",
+      "Kid-friendly",
+      "Crib",
+      "Fireplace",
+      "Heating",
+      "Hot tub",
+      "Ironing board",
+      "Kitchen",
+      "Microwave",
+      "Outdoor grill",
+      "Oven stove",
+      "Patio",
+      "Cable TV",
+      "Washer",
+      "Wheelchair accessible",
+      "Free parking",
+      "Free Wi-Fi"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1yVK0yiNyBG.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yVK0BcbGr6.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hZ3AnSXj2g.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DMozwDUO7m.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 391.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 391.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wRs03g4MMw.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DMoztNV960.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1032.0,
+        "deluxe_price": null,
+        "price": 1032.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wRrDWCwo12.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2298.0,
+        "price": 2298.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DMoztNV960.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "MinaMark Beach Resort",
+    "description": "A stay at Minamark Resort & Spa, for families & couples only places you in the heart of Hurghada, a 2-minute drive from Marina Hurghada and 6 minutes from Hurghada City Center. This all-inclusive hotel is 3.7 mi (6 km) from Abdulmoneim Riadh Mosque. Relax at the full-service spa, where you can enjoy massages, body treatments, and facials. After dipping into one of the 2 outdoor swimming pools, you can spend some time at the private beach. Additional amenities at this hotel include complimentary wireless internet access, concierge services, and gift shops/newsstands. This hotel is all inclusive. Rates include meals and beverages at onsite dining establishments. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Enjoy seafood at Sea Bride Restaurant, one of the hotel's 3 restaurants, or stay in and take advantage of the 24-hour room service. Mingle with other guests at the complimentary reception, held daily. Relax with a refreshing drink at the beach bar, the poolside bar, or one of 3 bars/lounges. A complimentary buffet breakfast is served daily from 7:00 AM to 10:00 AM. Featured amenities include a business center, express check-in, and express check-out. Make yourself at home in one of the 297 air-conditioned rooms featuring minibars and LCD televisions. Wireless internet access (surcharge) keeps you connected, and satellite programming is available for your entertainment. Private bathrooms have complimentary toiletries and bidets. Conveniences include phones, as well as safes and electric kettles.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Sheraton Rd,Hurghada,Red Sea Governorate,Egypt",
+    "email": "rooms@greenvalley089.org",
+    "mobile_num": "+20 12 0306 8158",
+    "city_id": 3,
+    "number_of_rooms": 300,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Restaurant",
+      "Room service",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xYB96U3qxO.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wOpfT0ppNC.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rwxKsRAd4A.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rwxKiBKJI4.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 83.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 83.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rwxKDWvBja.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rwxKwsGC88.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1036.0,
+        "deluxe_price": null,
+        "price": 1036.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rwxKiG0DkI.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2304.0,
+        "price": 2304.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rwxKwsGC88.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Smartline Colour Beach",
+    "description": "Enjoy colorful and enchanting Red Sea holidays at the brand new smartline Color Beach. This resort in the heart of Hurghada is characterized by a charming ambiance. The extensive beach with a length of 700 meter is unique in this area. The two beautiful lagoons invite you to take a swim and furthermore are the perfect place for a walk in the sunset at the Red Sea. The brand new, trendy and colorful 162 rooms offer you a refreshing atmosphere to enjoy. The accommodations provide bathroom with shower or bathtub, Sat TV, telephone, mini-fridge, air condition, and each room has a balcony or terrace and free WiFi. Dining options include a buffet and à la carte restaurant. You can enjoy a refreshing drink by the poolside bar or relax by the terrace. Hurghada International Airport is 15 minutes’ drive from this hotel. Free public parking is possible at a location nearby.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El Bahr, Corniche Road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "info@riverview090.hotel",
+    "mobile_num": "+20 12 0306 8642",
+    "city_id": 3,
+    "number_of_rooms": 248,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Air conditioning",
+      "Airport shuttle",
+      "Full-service laundry"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AaNQdpXT2g.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DrqlpZKlpu.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vY8V2oal68.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vY8V2bogMM.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 175.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 175.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/qM96fdJT/bed-453.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/d0Vjr68S/bed-455.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1040.0,
+        "deluxe_price": null,
+        "price": 1040.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/jCBw2jf/bed-454.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2310.0,
+        "price": 2310.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/d0Vjr68S/bed-455.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Golden 5 Topaz Suites Hotel",
+    "description": "Located in front of Golden 5 City main entrance, Topaz Club Suites is surrounded by a large swimming pool. It features an aqua park, a gym, daily dancing fountain show and a tennis court. Topaz Club has spacious suites with wooden furniture and tiled floors. Each of the air-conditioned suites has a satellite TV, an electric kettle and a minibar. The hotel’s main restaurant serves International dishes for breakfast, lunch and diner. The Tea Garden offers light snacks and beverages, while the pool bar provides refreshing drinks by the pool. Guests can choose from a variety of spa facilities, including a sauna, a Turkish bath, a hot tub and massage treatments. They can also relax in the sandy beach with the free sun loungers and umbrellas. Hurghada International Airport is 10 km away, and the resort has free private parking on site. It offers a train every 45 minutes to escort guests between Golden 5 Hotels.",
+    "appearance": "Outstanding",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "K 21, Sahl Hashesh Road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "desk@seabreeze091.hotel",
+    "mobile_num": "+20 12 0307 5310",
+    "city_id": 3,
+    "number_of_rooms": 255,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/mobile220_220/nw_1tbZd2TkG4g.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1A4aelP4V4Q.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1A4ael0PNAY.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vUOOgefaRq.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 136.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 136.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/3mRzNQcK/bed-456.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/LDt0gvSs/bed-458.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1044.0,
+        "deluxe_price": null,
+        "price": 1044.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/qLHGtYdq/bed-457.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2317.0,
+        "price": 2317.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/LDt0gvSs/bed-458.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "La Rosa Waves Beach - Couple & Families Only",
+    "description": "A stay at La Rosa Waves Beach - Couple & Families Only places you in the heart of Hurghada, a 3-minute drive from Marina Hurghada and 7 minutes from Hurghada City Center. This beach hotel is 4 mi (6.5 km) from Abdulmoneim Riadh Mosque and 19.8 mi (31.9 km) from El Gouna Stadium. Head down to the water and enjoy a day at the private beach, or take advantage of other recreational amenities including a complimentary water park and an outdoor pool. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Enjoy a meal at the restaurant or snacks in the hotel's coffee shop/cafe. Mingle with other guests at the complimentary reception, held daily. Relax with a refreshing drink at the beach bar, the poolside bar, or one of 3 bars/lounges. Featured amenities include express check-in, express check-out, and a 24-hour front desk. Make yourself at home in one of the 169 air-conditioned rooms featuring minibars. Bathrooms feature showers, complimentary toiletries, and hair dryers. Conveniences include phones, as well as safes and electric kettles.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "6R8R+3QR 84517, Sheraton Rd,Hurghada,Red Sea Governorate,Egypt",
+    "email": "stay@coastview092.hotel",
+    "mobile_num": "+20 12 0312 3678",
+    "city_id": 3,
+    "number_of_rooms": 130,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Airport shuttle",
+      "Balcony",
+      "Kid-friendly",
+      "Crib",
+      "Fireplace",
+      "Heating",
+      "Hot tub",
+      "Ironing board",
+      "Kitchen",
+      "Microwave",
+      "Outdoor grill",
+      "Oven stove",
+      "Patio",
+      "Cable TV",
+      "Washer",
+      "Wheelchair accessible",
+      "Free parking",
+      "Free Wi-Fi"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1y20taR7RgQ.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hYW9VkpPri.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xG3RBiOMaA.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xARWpLIiCk.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 160.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 160.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krGCMc2OkM.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/ynyNCWqL/bed-468.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1048.0,
+        "deluxe_price": null,
+        "price": 1048.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/d0Rf8Dbr/bed-467.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2323.0,
+        "price": 2323.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/ynyNCWqL/bed-468.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hawaii Le Jardin Aqua Park",
+    "description": "Hawaii Le Jardin Aqua Resort is 20 km from the international airport, 15 km from the city center and 10 km from El Gouna. This luxurious newly refurbished resort offers beautiful landscaped gardens overlooking the Red Sea. There are 3 outdoor pools and a private beach area. This resort offers 2 à la carte restaurants.Hawaii Le Jardin Aqua Resort offers many water activities, including diving, snorkeling and windsurfing.Relaxation options include a well-equipped spa and wellness center with a sauna, massage facilities and a hot tub. The on-site fitness center offers cardio machines and free weights. For children, the resort has a playground and a children's pool with slides.The resort offers several dining options, including a buffet restaurant and two à la carte restaurants serving Italian and Asian specialties.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Ahiaa Road, North Hurghada, Red Sea,Hurghada,Red Sea Governorate,Egypt",
+    "email": "rooms@greenvalley093.net",
+    "mobile_num": "+20 12 0312 6594",
+    "city_id": 3,
+    "number_of_rooms": 140,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Airport shuttle",
+      "Balcony",
+      "Kid-friendly",
+      "Crib",
+      "Fireplace",
+      "Heating",
+      "Hot tub",
+      "Ironing board",
+      "Kitchen",
+      "Microwave",
+      "Outdoor grill",
+      "Oven stove",
+      "Patio",
+      "Cable TV",
+      "Washer",
+      "Wheelchair accessible",
+      "Free parking",
+      "Free Wi-Fi"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Cd1TOPO1Ta.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1mybdA7VMGI.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vUOP1FwGFW.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vY8VHk5Huo.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 177.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 177.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/8nnwjvnh/bed-459.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/x8mT01pv/bed-463.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1052.0,
+        "deluxe_price": null,
+        "price": 1052.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/sBHgB3J/bed-462.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2329.0,
+        "price": 2329.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/x8mT01pv/bed-463.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Golden 5 Sapphire Suites Hotel",
+    "description": "These spacious suites have a balcony with garden views, and are located at the main entrance of the neighbouring Golden 5 City Hotel in Hurghada. There is a spa and an aqua park. Including air conditioning and a minibar, all suites at Sapphire Hotel are decorated with luxurious fabrics and a seating area. Each has a spacious private bathroom. The Moon Light and Palm Groves restaurants serve a variety of international cuisine and snacks indoors or on the garden terrace. There are also 2 bars, and room service is available 24/7 at Sapphire Suites. Guests can visit the spa centre or relax in the garden by the artificial lakes and the outdoor pool. Free access to the nextdoor aquapark with its colourful slides and pools is included. The 24-hour reception staff offers a limousine service and babysitting. Souvenirs and small gifts are available at the on-site shopping arcade.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "K 21, Hurghada, Sahl Hashesh Road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "checkin@grandstay094.com",
+    "mobile_num": "+20 12 0316 9803",
+    "city_id": 3,
+    "number_of_rooms": 142,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Fireplace",
+      "Fitness center",
+      "Kitchen",
+      "Microwave",
+      "Oven stove",
+      "Pet-friendly",
+      "Free parking",
+      "Free Wi-Fi"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1A4aBaorTDa.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1A4aBaorTDa.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1A4aBarhBSM.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tbZxcEkve0.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 80.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 80.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/rKZgCZ46/bed-464.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/zHGDL2yP/bed-466.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1060.0,
+        "deluxe_price": null,
+        "price": 1060.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/1JtzdLzj/bed-465.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2341.0,
+        "price": 2341.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/zHGDL2yP/bed-466.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Zya Regina Resort and Aqua Park Hurghada",
+    "description": "A stay at ZYA Regina Resort and Aqua Park places you in the heart of Hurghada, within a 10-minute walk of Red Sea and Marina Hurghada. This beach resort is 3.3 mi (5.3 km) from Hurghada City Center and 21.8 mi (35.1 km) from El Gouna Golf Club. Pamper yourself with onsite massages, body treatments, and facials. After dipping into one of the 2 outdoor swimming pools, you can spend some time at the private beach. This resort also features concierge services, gift shops/newsstands, and a television in a common area. All-inclusive rates are available at this resort. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Enjoy international cuisine at EI-Zahra, one of the resort's many dining establishments, which include 3 restaurants and a coffee shop/cafe. Need to unwind? Take a break at the bar/lounge, the beach bar, or the poolside bar for a tasty beverage. Featured amenities include a business center, dry cleaning/laundry services, and a 24-hour front desk. Make yourself at home in one of the 417 guestrooms featuring minibars. Rooms have private furnished balconies or patios. Satellite television is provided for your entertainment. Private bathrooms with shower/tub combinations feature complimentary toiletries and hair dryers.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Sheraton Rd,Hurghada,Red Sea Governorate,Egypt",
+    "email": "checkin@royalpalms095.co",
+    "mobile_num": "+20 12 0320 5167",
+    "city_id": 3,
+    "number_of_rooms": 143,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Air conditioning",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rwwiITAvKg.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vUOMOspHLW.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1sfOoMKEWTC.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1sfOp1ph3IA.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 400.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 400.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1u4wjs3aGpG.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1sfOoh4GzM4.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1065.0,
+        "deluxe_price": null,
+        "price": 1065.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krKb6ESVKE.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2347.0,
+        "price": 2347.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1sfOoh4GzM4.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Golden Beach Resort Hotel",
+    "description": "Great care is taken to ensure guests experience comfort through top-notch services and amenities. Stay connected with your associates, as complimentary Wi-Fi is available during your entire visit.When arriving by car, take advantage of the resort's convenient on-site parking facilities. To ensure the well-being and convenience of all visitors, smoking is strictly prohibited throughout the entire resort. Start your day stress-free at Golden beach resort hotel as breakfast is made available for you on the premises. How about kicking off each day of your getaway with a delicious cup of coffee? At the resort, relish in the invigorating taste of a freshly brewed, excellent coffee.Throughout the day, engage in the entertaining activities available at Golden beach resort hotel. Make sure to discover the readily available beach at resort.Guests who enjoy maintaining their fitness regimen while on holiday can visit the fitness center provided by resort.",
+    "appearance": "Outstanding",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "12 Ahaya Road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "support@bluemoon096.co",
+    "mobile_num": "+20 12 0324 8895",
+    "city_id": 3,
+    "number_of_rooms": 30,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Wi-Fi ($)",
+      "Free parking",
+      "Pools",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ryVSWmwlaw.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1taEZrxyhEI.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uuc8Eq1Q6A.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1obVGM92Js4.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 172.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 172.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BW3YnTPWM0.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1obVGV2hgdy.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1077.0,
+        "deluxe_price": null,
+        "price": 1077.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ne4P2d3emY.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2365.0,
+        "price": 2365.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1obVGV2hgdy.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Albatros Blu Spa - Adults Only",
+    "description": "About 600 m from a beach lies the hotel Aqua Blue Resort HRG. The city centre is around 15 km away. There is a shuttle between the hotel and the airport (for a fee). The beach is patrolled by a lifeguard. Here, there are sun loungers, cushions and beach towels available. At the beach there is a bar serving refreshing drinks. The hotel is equipped with a 24h reception, a lobby bar, a supermarket, cash machine, a hairdresser, a jacuzzi, a first aid kit as well as parking spaces. In the outdoor area you will find a seasonally heated pool (open all year), where sun loungers and pool towels are available for free. For children there is also a children's pool. For the young hotel guests there is a playground. For very young guests, highchairs can also be provided. You can store your luggage in the hotel's storage room. To clean your clothes there is a laundry service (extra fee). If necessary, you can contact the medical centre at any time (for a fee). The energy supply is 220 Volts. Due to its barrier-free facilities , such as barrier-free entrances, the hotel is also suitable for wheelchair users. Catering As catering services the hotel offers all-inclusive. Breakfast is offered from the buffet. Lunch and dinner are also served from the buffet. When booking all-inclusive, breakfast, lunch and dinner are included. For the meals, there are a buffet restaurant (Italian and calorie-reduced dishes) and a 24h snackbar as well as the pool bar. The drinks menu of the hotel includes soft drinks and coffee and tea. For dinner, guests are asked to wear appropriate clothing in the restaurant. Distances Airport: approx. 7 km Pharmacy: approx. 300 m Hospital: approx. 2 km Sports & Leisure Inside, a gym awaits your visit. For an fee, you can take advantage of various water sports, such as water aerobics. If you don`t want to miss out on training with a ball during your holidays, you`ll find the chance to play football. During your holiday you can also take part in aerobics courses. At...",
+    "appearance": "Outstanding",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El Corniche st. Villages Road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "support@grandstay097.net",
+    "mobile_num": "+20 12 0326 3447",
+    "city_id": 3,
+    "number_of_rooms": 17,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Parking",
+      "Pool",
+      "Air conditioning",
+      "Beach access",
+      "Restaurant",
+      "Room service",
+      "Full-service laundry"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1tZlsW93PPy.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vY8V7zfdYI.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tZlsWBs0X6.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vY8V6rHv6U.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 170.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 170.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/qY19GVp8/bed-469.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/nsYK0HcF/bed-472.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1081.0,
+        "deluxe_price": null,
+        "price": 1081.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/Z1xmHTGW/bed-471.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2371.0,
+        "price": 2371.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/nsYK0HcF/bed-472.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pool View w/ Balcony Near El Gouna â˜… Kitchen â˜… AC",
+    "description": "Experience an abundance of unparalleled facilities and features at Pool View w/ Balcony Near El Gouna ★ Kitchen ★ AC. For visitors traveling by automobile, complimentary parking is available. During your stay at apartment, an array of engaging activities and amenities guarantees a delightful experience. Be sure to drop by the pool at apartment at least once during your stay.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Hurgada - Al Ismaileya,Tiba Resort, E4, Second Floor,Hurghada,Red Sea Governorate,Egypt",
+    "email": "support@mountainpeak098.net",
+    "mobile_num": "+20 12 0332 1316",
+    "city_id": 3,
+    "number_of_rooms": 11,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Airport shuttle",
+      "Balcony",
+      "Kid-friendly",
+      "Crib",
+      "Fireplace",
+      "Heating",
+      "Hot tub",
+      "Ironing board",
+      "Kitchen",
+      "Microwave",
+      "Outdoor grill",
+      "Oven stove",
+      "Patio",
+      "Cable TV",
+      "Washer",
+      "Wheelchair accessible",
+      "Free parking",
+      "Free Wi-Fi"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ChBKWfhbQk.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BM4AMQFp2E.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BM4AOapJYI.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BM4APzPZfO.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 172.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 172.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ChBKVrSH60.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ChBL6PxJni.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1089.0,
+        "deluxe_price": null,
+        "price": 1089.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ChBL4E8VO0.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2383.0,
+        "price": 2383.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1ChBL6PxJni.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sindbad Aqua hotel & SPA",
+    "description": "Located in Hurghada (Al Mamsha El Seyahi), Sindbad Club Hotel & Spa is within the vicinity of Hurghada Mosque and Hurghada Marine Museum & Aquarium.Make yourself at home in one of the 705 air-conditioned rooms featuring minibars and plasma televisions. Rooms have private balconies. Satellite programming provides entertainment, and wired and wireless Internet access is available for a surcharge. Private bathrooms with showers feature complimentary toiletries and bidetsTreat yourself with massages, body treatments, and facials. After dipping into one of the 2 outdoor swimming pools, you can spend some time at the private beach. Getting to nearby attractions is a breeze with the area shuttle (surcharge) that operates within 20 meters.Grab a bite to eat at one of the hotel's 5 restaurants and 2 coffee shops/cafés, or stay in and take advantage of 24-hour room service. Relax with your favorite drink at a bar/lounge or a poolside bar. A complimentary buffet breakfast is served daily from 7 AM to 10 AM.Business",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Hurghada, Red Sea Egypt, P.O. Box 42,Hurghada,Red Sea Governorate,Egypt",
+    "email": "rooms@urbanretreat099.hotel",
+    "mobile_num": "+20 12 0334 8602",
+    "city_id": 3,
+    "number_of_rooms": 91,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Parking ($)",
+      "Air conditioning",
+      "Pet-friendly",
+      "Bar",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1uuYmV65yww.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1taU5rHRMm4.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uuYmWdlC00.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uuYmWbmq5y.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 126.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 126.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/Jw5mqKBg/bed-473.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/RWd277v/bed-475.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1093.0,
+        "deluxe_price": null,
+        "price": 1093.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/LdLvtGYp/bed-474.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2389.0,
+        "price": 2389.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/RWd277v/bed-475.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DoubleTree by Hilton Mangroovy El Gouna Resor",
+    "description": "With Red Sea views and mild climates year-round, our guests have access to a private sandy beach, outdoor pool, playground, and fitness center. El Gouna Festival Plaza is a five-minute drive from the hotel. The Kite Center and Bestway Supermarket are three kilometers away. Hurghada International Airport HRG is within 45 minutes.",
+    "appearance": "Outstanding",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Amr Khalil street Off Kite center Road,El Gouna,Red Sea Governorate,Egypt",
+    "email": "info@copperleaf100.org",
+    "mobile_num": "+20 12 0337 0648",
+    "city_id": 3,
+    "number_of_rooms": 147,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Fitness centre",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Kitchen in some rooms",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1A2mCfSylnG.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vN1HSq5gQM.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1A2mCg14ycw.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vN1HT1yk1i.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 127.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 127.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vN1HT1yk1i.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CWMy0ESiPe.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1101.0,
+        "deluxe_price": null,
+        "price": 1101.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CWMxYrM0RW.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2401.0,
+        "price": 2401.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CWMy0ESiPe.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hurghada Coral Beach Hotel",
+    "description": "With a stay at Hurghada Coral Beach Hotel in Hurghada (Village Road), you'll be a 1-minute drive from Red Sea and 6 minutes from Desert Rose Aqua Park. This beach resort is 13.5 mi (21.8 km) from Marina Hurghada and 15.3 mi (24.6 km) from Hurghada City Center. Pamper yourself with onsite massages, body treatments, and facials. After dipping into one of the 2 outdoor swimming pools, you can spend some time at the private beach. Additional amenities at this resort include complimentary wireless internet access, concierge services, and babysitting (surcharge). All-inclusive rates are available at this resort. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. For lunch or dinner, stop by Andiamo, a restaurant that specializes in Italian cuisine. Dining is also available at the coffee shop/cafe, and 24-hour room service is provided. Wrap up your day with a drink at the bar/lounge, the beach bar, or the poolside bar. A complimentary local cuisine breakfast is served daily from 7 AM to 10 AM. Featured amenities include a business center, dry cleaning/laundry services, and a 24-hour front desk. A roundtrip airport shuttle is provided for a surcharge (available 24 hours). Make yourself at home in one of the 309 air-conditioned rooms featuring minibars. Rooms have private furnished balconies or patios. Wireless internet access (surcharge) keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with bathtubs or showers feature complimentary toiletries and hair dryers.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Sahl Hashish Rd,Hurghada,Red Sea Governorate,Egypt",
+    "email": "checkin@forestglade101.org",
+    "mobile_num": "+20 12 0341 2317",
+    "city_id": 3,
+    "number_of_rooms": 313,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Air conditioning",
+      "Restaurant",
+      "Airport shuttle",
+      "Full-service laundry"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1kC6nQROtY4.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1lhcrby0mSk.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wReAE3wK0o.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1paRdOAoWBy.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 70.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 70.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1lhcqR431ZK.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/p6TDFMPg/bed-476.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1105.0,
+        "deluxe_price": null,
+        "price": 1105.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1lhcqvEtd2o.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2407.0,
+        "price": 2407.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/p6TDFMPg/bed-476.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Royal Beach Serviced Apartments",
+    "description": "Located in Hurghada, Royal Beach Serviced Apartments is within a 15-minute drive of Red Sea and Hurghada City Center. This beach aparthotel is 9 mi (14.5 km) from Marina Hurghada and 10.5 mi (16.9 km) from El Gouna Golf Club. Relax on the private beach or enjoy other recreational amenities such as an outdoor pool. Additional features at this aparthotel include complimentary wireless internet access and concierge services. Grab a bite from the snack bar/deli, or stay in and take advantage of the aparthotel's room service (during limited hours). Continental breakfasts are available daily from 8:00 AM to 10:00 AM for a fee. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and laundry facilities. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and free self parking is available onsite. Make yourself at home in one of the 70 air-conditioned rooms featuring private pools and flat-screen televisions. Rooms have private balconies. Kitchens are outfitted with refrigerators and microwaves. Wireless internet access (surcharge) keeps you connected, and satellite programming is available for your entertainment.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "North El Ahyaa district, El Gouna-Cairo road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "desk@highlandresort102.net",
+    "mobile_num": "+20 12 0341 3013",
+    "city_id": 3,
+    "number_of_rooms": 215,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1CFU4rvT7JC.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1D1a6Ary6yc.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1D1a6wZNRuw.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1D1a6O5ZMQ0.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 71.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 71.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1D6PFTo5Dhe.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1D1a70EBB1m.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1109.0,
+        "deluxe_price": null,
+        "price": 1109.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1D1a6WGMJsA.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2413.0,
+        "price": 2413.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1D1a70EBB1m.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Calimera Blend Paradise",
+    "description": "Located in Hurghada, a 17-minute walk from Jaz Aquamarine Beach, Calimera Blend Paradise provides accommodations with an outdoor swimming pool, free private parking, a fitness center and a garden. Featuring a kids' club, this property also welcomes guests with a restaurant, a water park and a terrace. The property has room service, an ATM and currency exchange for guests. At the resort every room has air conditioning, a seating area, a flat-screen TV with satellite channels, a safety deposit box and a private bathroom with a bidet, free toiletries and slippers. Every room comes with an electric tea pot, while some rooms will provide you with a balcony and others also provide guests with pool views. All guest rooms include a desk. A buffet, vegetarian or vegan breakfast is served at the property. Calimera Blend Paradise has a playground. Languages spoken at the 24-hour front desk include Arabic, German, English and Russian. Popular points of interest near the accommodation include Titanic Beach, Sand City Hurghada and Jungle Aqua Park. Hurghada International Airport is 5 miles away.",
+    "appearance": "Outstanding",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "KM 21, Sahl Hashesh Road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "info@seabreeze103.co",
+    "mobile_num": "+20 12 0343 5194",
+    "city_id": 3,
+    "number_of_rooms": 217,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1strUit4Ztm.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rLMWDq853O.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rLMV8Y0zPq.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rLMXCd7Vew.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 73.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 73.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rLMXCGEj9C.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rLMXopSoRG.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1117.0,
+        "deluxe_price": null,
+        "price": 1117.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rLMTNKHsyI.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2425.0,
+        "price": 2425.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rLMXopSoRG.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Le Pacha Resort",
+    "description": "With a stay at Le Pacha Resort in Hurghada (Sheraton Road -Sakkala), you'll be a 1-minute drive from Marina Hurghada and 6 minutes from Hurghada City Center. This beach hotel is 0.4 mi (0.6 km) from Red Sea and 0.8 mi (1.3 km) from Sackalla Square. Spend the day on the private beach or dip into one of the 2 outdoor swimming pools. Additional amenities at this hotel include wireless internet access (surcharge) and babysitting. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Satisfy your appetite at one of the hotel's 4 restaurants. Relax with a refreshing drink at the beach bar, the poolside bar, or one of 2 bars/lounges. A complimentary buffet breakfast is served daily from 7 AM to 10 AM. Featured amenities include a 24-hour front desk, multilingual staff, and a safe deposit box at the front desk. Free valet parking is available onsite. Make yourself at home in one of the 258 air-conditioned rooms featuring minibars. Wireless internet access (surcharge) keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with bathtubs or showers feature complimentary toiletries and hair dryers. Conveniences include phones and safes, and housekeeping is provided daily.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Sheraton Road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "rooms@greenvalley104.hotel",
+    "mobile_num": "+20 12 0345 0326",
+    "city_id": 3,
+    "number_of_rooms": 218,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Free parking",
+      "Air conditioning",
+      "Kitchen in some rooms",
+      "Airport shuttle",
+      "Full-service laundry"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hYRlyPQtHi.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hYRlQlRI9W.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BW44SQO7Je.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1z2MdowwEWk.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 172.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 172.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CgmpI5ensY.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hvVXJzgvde.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1121.0,
+        "deluxe_price": null,
+        "price": 1121.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Bx7WFFSsMM.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2431.0,
+        "price": 2431.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hvVXJzgvde.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Arabella Azur Resort",
+    "description": "With a stay at Arabella Azur Resort - All Inclusive in Hurghada (Corniche Road-Dahar), you'll be within a 5-minute drive of Hurghada City Center and Marina Hurghada. This all-inclusive property is 0.4 mi (0.6 km) from Red Sea and 1.3 mi (2 km) from Al Mina Mosque. Relax at the full-service spa, where you can enjoy massages, body treatments, and facials. After dipping into one of the 2 outdoor swimming pools, you can spend some time at the private beach. This property also features complimentary wireless internet access, concierge services, and an arcade/game room. This property is all inclusive. Rates include meals and beverages at onsite dining establishments. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Satisfy your appetite with international cuisine at Grill Restaurant, one of the property's 2 restaurants. When you are in need of a refreshing drink, visit the poolside bar or one of 7 bars/lounges, or 2 beach bars. A complimentary buffet breakfast is served daily from 7:00 AM to 10:00 AM. Featured amenities include limo/town car service, a 24-hour front desk, and luggage storage. Planning an event in Hurghada? This property has 538 square feet (50 square meters) of space consisting of conference space and a meeting room. Free self parking is available onsite. Make yourself at home in one of the 296 air-conditioned rooms featuring minibars and LCD televisions. Satellite television is provided for your entertainment. Bathrooms have bathtubs or showers and hair dryers. Conveniences include phones, as well as safes and coffee/tea makers.",
+    "appearance": "Outstanding",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El Corniche Road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "contact@greenvalley105.org",
+    "mobile_num": "+20 12 0347 8264",
+    "city_id": 3,
+    "number_of_rooms": 296,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Kitchen in rooms",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly",
+      "Smoke-free property"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rLMWDq853O.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rLMV8Y0zPq.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rLMTod5sha.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rLMU2Sgkp2.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 173.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 173.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rLMTUB3zeo.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rLMXopSoRG.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1125.0,
+        "deluxe_price": null,
+        "price": 1125.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rLMW76pQFa.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2438.0,
+        "price": 2438.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1rLMXopSoRG.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Eagles Downtown Zahabia Resort & Aqua Park",
+    "description": "Located in Hurghada, a 18-minute walk from Paradise Beach, Eagles Downtown Zahabia Resort & Aqua Park provides accommodations with an outdoor swimming pool, private parking, a garden and a private beach area. Featuring a shared lounge, this property also welcomes guests with a restaurant, a water park and a terrace. The property has room service, a 24-hour front desk and currency exchange for guests. Complete with a private bathroom equipped with a shower and free toiletries, all guest rooms at the resort have a flat-screen TV and air conditioning, and some rooms will provide you with a balcony. The rooms will provide guests with a closet and an electric tea pot. Guests at Eagles Downtown Zahabia Resort & Aqua Park can enjoy a buffet or a continental breakfast. The accommodation has a playground. You can play darts at Eagles Downtown Zahabia Resort & Aqua Park. El Sawaki Beach is 1.7 miles from the resort, while New Marina is 2.4 miles away. Hurghada International Airport is 4.3 miles from the property.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Cornish Street,Hurghada,Red Sea Governorate,Egypt",
+    "email": "hello@greenvalley106.com",
+    "mobile_num": "+20 12 0349 7134",
+    "city_id": 3,
+    "number_of_rooms": 296,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Parking ($)",
+      "Pools",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Golf",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly",
+      "Smoke-free property"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zeK3xXTm4o.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zpxCBq1xPG.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zpxAkWza5q.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zpxBq5PKBq.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 174.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 174.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zeK3soJ6PS.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zpxAWQApGg.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1129.0,
+        "deluxe_price": null,
+        "price": 1129.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zpxzUZYn1S.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2444.0,
+        "price": 2444.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zpxAWQApGg.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Arabia Azur Resort",
+    "description": "With a stay at Arabia Azur Resort - All Inclusive, you'll be centrally located in Hurghada, a 3-minute drive from Hurghada City Center and 5 minutes from Marina Hurghada. This all-inclusive property is 0.5 mi (0.8 km) from Red Sea and 2.2 mi (3.6 km) from Al Mina Mosque. Pamper yourself with a visit to the spa, which offers massages, body treatments, and facials. After a day at the private beach, you can enjoy other recreational amenities including a nightclub and outdoor tennis courts. Additional features at this property include complimentary wireless internet access, concierge services, and gift shops/newsstands. This property is all inclusive. Rates include meals and beverages at onsite dining establishments. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Satisfy your appetite with international cuisine at East Bar, one of the property's 4 restaurants. When you are in need of a refreshing drink, visit the poolside bar or one of 6 bars/lounges, or 3 beach bars. A complimentary buffet breakfast is served daily from 7 AM to 11 AM. Featured amenities include a business center, limo/town car service, and dry cleaning/laundry services. Planning an event in Hurghada? This property has 431 square feet (40 square meters) of space consisting of conference space and a meeting room. Guests may use a roundtrip airport shuttle for a surcharge, and free self parking is available onsite. Make yourself at home in one of the 526 air-conditioned rooms featuring free minibar items and LCD televisions. Rooms have private furnished balconies. Wireless internet access (surcharge) keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with shower/tub combinations feature complimentary toiletries and hair dryers.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El Cornich Road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "checkin@greenvalley107.net",
+    "mobile_num": "+20 12 0350 5844",
+    "city_id": 3,
+    "number_of_rooms": 526,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Golf",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1BHtjzxK1Lq.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1w6XqukXPHy.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1w6XqgD6RsA.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1w6XqZKtulq.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 175.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 175.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wcFkum8oEg.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1w6XqZhwG7S.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1133.0,
+        "deluxe_price": null,
+        "price": 1133.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vrEbbxd0kw.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2450.0,
+        "price": 2450.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1w6XqZhwG7S.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Serenity Home Hurghada",
+    "description": "With a stay at Serenity home hurghada in Hurghada (Village Road), you'll be within a 15-minute drive of Marina Hurghada and Hurghada City Center. This aparthotel is 1.7 mi (2.8 km) from Red Sea and 2 mi (3.2 km) from Hurghada Museum. Take advantage of recreation opportunities such as an outdoor pool or take in the view from a terrace and a garden. This aparthotel also features complimentary wireless internet access and concierge services. Continental breakfasts are available daily from 8:00 AM to 11:00 AM for a fee. Featured amenities include a 24-hour front desk and luggage storage. Free self parking is available onsite. Make yourself at home in one of the 10 air-conditioned rooms featuring kitchens with full-sized refrigerators/freezers and ovens. Your Select Comfort bed comes with premium bedding. Rooms have private furnished balconies. Wired and wireless internet access is complimentary, while 40-inch flat-screen televisions with satellite programming provide entertainment.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "213 Mubarak 6 district, Hurghada 1,Hurghada,Red Sea Governorate,Egypt",
+    "email": "stay@desertrose108.net",
+    "mobile_num": "+20 12 0351 5548",
+    "city_id": 3,
+    "number_of_rooms": 111,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Crib",
+      "Heating",
+      "Kitchen",
+      "Microwave",
+      "Outdoor grill",
+      "Oven stove",
+      "Patio",
+      "Pet-friendly",
+      "Smoke-free",
+      "Cable TV",
+      "Wheelchair accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1vY8W4YeAFO.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1mJNZYsKbOE.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Duj5o7B184.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wGQcwxQYeY.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 70.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 70.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wGQd5ogfcY.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wGQcGzMk5a.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1137.0,
+        "deluxe_price": null,
+        "price": 1137.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wGQczRVNS0.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2456.0,
+        "price": 2456.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wGQcGzMk5a.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sunset Boutique Resort Sahl Hasheesh",
+    "description": "In Sahl HasheehThis hotel is all inclusive. Rates include meals and beverages at onsite dining establishments. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Satisfy your appetite at one of the hotel's 2 restaurants. Mingle with other guests at the complimentary reception, held daily. Relax with a refreshing drink from the beach bar or one of the 3 bars/lounges. A complimentary buffet breakfast is served daily from 7:00 AM to 10:00 AM. Take time to pamper yourself with a visit to the full-service spa. After dipping into one of the 2 outdoor swimming pools, you can spend some time at the private beach. Additional amenities at this hotel include complimentary wireless internet access and concierge services. Getting to the surf and sand is a breeze with the complimentary beach shuttle.Featured amenities include a 24-hour business center, a 24-hour front desk, and luggage storage. This hotel has 4 meeting rooms available for events. Free self parking is available onsite.With a stay at Sunset Boutique Resort Sahl Hasheesh in Sahl Hasheeh, you'll be within a 15-minute drive of Red Sea and Desert Rose Aqua Park. This all-inclusive hotel is 16.9 mi (27.2 km) from Marina Hurghada and 18.6 mi (30 km) from Hurghada City Center.Make yourself at home in one of the 37 guestrooms. Rooms have private balconies. Bathrooms have hair dryers and toothbrushes and toothpast",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Sunset Pearl,Sahl Hasheeh,84521,Red Sea Governorate,Egypt",
+    "email": "support@urbanretreat109.co",
+    "mobile_num": "+20 12 0353 8517",
+    "city_id": 3,
+    "number_of_rooms": 255,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Crib",
+      "Kitchen",
+      "Microwave",
+      "Outdoor grill",
+      "Oven stove",
+      "Pet-friendly",
+      "Cable TV",
+      "Washer"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1uyDIjSaYZq.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uyDIhiW6ly.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uyDId6miOc.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1xARVc1WjpC.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 71.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 71.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uyDHXjm12w.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uyDI9XVgqI.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1141.0,
+        "deluxe_price": null,
+        "price": 1141.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uyDIu4jSrS.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2462.0,
+        "price": 2462.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1uyDI9XVgqI.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "New Eagles Aqua Park Resort",
+    "description": "Experience an abundance of unparalleled facilities and features at New Eagles Aqua Park Resort. Maintain seamless communication using the complimentary Wi-Fi at hotel.For visitors traveling by automobile, complimentary parking is available. During chilly days and evenings, the hotel provides an in-house fireplace to ensure your warmth.For visitors wishing to smoke, designated smoking zones can be found. Begin your day with a scrumptious on-site breakfast available each morning at New Eagles Aqua Park Resort. Begin your day feeling refreshed and invigorated as you enjoy a delightful cup of quality coffee available at the cafe situated within the hotel.At the hotel, an assortment of easily accessible and delicious meal choices are available to satisfy your appetite whenever it strikes.During your stay at hotel, an array of engaging activities and amenities guarantees a delightful experience. During your stay, don't forget to allocate some moments to experience the readily available shoreline.Be sure to drop by the pool at hotel at least once during your stay. At New Eagles Aqua Park Resort, utmost care is taken to ensure guests' comfort. Relish your preferred beverage in your swimwear by the hotel's poolside bar.Discover the fitness amenities at hotel to maintain your health and strength during your getaway.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "17 KM Hurghada - safaga Road , Red sea . Egypt 17 KM Hurghada - safaga Road , Red sea,Hurghada,Red Sea Governorate,Egypt",
+    "email": "rooms@sunsetinn110.org",
+    "mobile_num": "+20 12 0354 1002",
+    "city_id": 3,
+    "number_of_rooms": 256,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Parking",
+      "Pool",
+      "Air conditioning",
+      "Pet-friendly",
+      "Restaurant",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vY8WmmAtY4.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DuPwehNar6.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CUc7UN0uUE.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yyTXO7f7J6.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 72.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 72.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1BsamKght1m.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/N2q8Tx6B/bed-478.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1145.0,
+        "deluxe_price": null,
+        "price": 1145.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/RkXxk7ty/bed-477.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2468.0,
+        "price": 2468.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/N2q8Tx6B/bed-478.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Golden Beach Resort",
+    "description": "Located in Hurghada, Golden Beach Resort - All inclusive is a 4-minute drive from Red Sea and 10 minutes from El Gouna Stadium. This all-inclusive property is 9.9 mi (15.9 km) from Hurghada City Center and 11.3 mi (18.2 km) from Marina Hurghada. Treat yourself with massages, body treatments, and facials. After dipping into one of the 5 outdoor swimming pools, you can spend some time at the private beach. Additional features at this property include wireless internet access (surcharge), concierge services, and babysitting (surcharge). This property is all inclusive. Rates include meals and beverages at onsite dining establishments. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Grab a bite to eat at one of the property's 7 restaurants, or stay in and take advantage of the room service. Snacks are also available at the coffee shop/cafe. Relax with a refreshing drink at the bar/lounge, the beach bar, or one of 2 poolside bars. Featured amenities include a business center, dry cleaning/laundry services, and a 24-hour front desk. Planning an event in Hurghada? This property has 1033 square feet (96 square meters) of space consisting of conference space and meeting rooms. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and free self parking is available onsite. Make yourself at home in one of the 456 air-conditioned rooms featuring minibars and LCD televisions. Rooms have private balconies. Cable television is provided for your entertainment. Bathrooms have bathtubs or showers and complimentary toiletries.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "KM 12 Ahyaa Road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "reservations@mountainpeak111.hotel",
+    "mobile_num": "+20 12 0354 7054",
+    "city_id": 3,
+    "number_of_rooms": 257,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Hot tub",
+      "Air conditioning",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1CUc7A6jN0Q.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DrqmhDBOU0.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CUc7Ap3nRm.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1A4aehDVqmY.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 177.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 177.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1iH7o5xR92o.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yVKlgZj4He.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1149.0,
+        "deluxe_price": null,
+        "price": 1149.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1iH7o5xR92o.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2474.0,
+        "price": 2474.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1yVKlgZj4He.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "El Karma Beach Resort & Aqua Park - Hurghada",
+    "description": "In HurghadaAll-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Enjoy international cuisine at Panorama, one of the hotel's 5 restaurants, or stay in and take advantage of the 24-hour room service. Snacks are also available at the 2 coffee shops/cafes. Wind down with a drink at one of the 7 bars/lounges or 3 poolside bars. A complimentary buffet breakfast is included. Relax at the full-service spa, where you can enjoy massages. Encounter the local wildlife with a safari, then enjoy a soak in one of the 5 outdoor swimming pools. This hotel also features wireless internet access (surcharge), concierge services, and babysitting.Featured amenities include complimentary newspapers in the lobby, dry cleaning/laundry services, and a 24-hour front desk.Located in Hurghada, El Karma Aqua Beach Resort is a 2-minute drive from Red Sea and 8 minutes from El Gouna Stadium. This beach hotel is 10.4 mi (16.7 km) from Hurghada City Center and 12 mi (19.3 km) from Marina Hurghada.Make yourself at home in one of the 333 air-conditioned rooms featuring fireplaces and LCD televisions. Rooms have private balconies or patios. 32-inch LED televisions with satellite programming provide entertainment, while wireless internet access (surcharge) keeps you connected. Conveniences include phones, as well as safes and desks.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "El Gouna Road, 13 North Al Ahiaa,Hurghada,Red Sea Governorate,Egypt",
+    "email": "desk@grandstay112.net",
+    "mobile_num": "+20 12 0355 7050",
+    "city_id": 3,
+    "number_of_rooms": 258,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Airport shuttle",
+      "Balcony",
+      "Kid-friendly",
+      "Crib",
+      "Fireplace",
+      "Heating",
+      "Hot tub",
+      "Ironing board",
+      "Kitchen",
+      "Microwave",
+      "Outdoor grill",
+      "Oven stove",
+      "Patio",
+      "Cable TV",
+      "Washer",
+      "Wheelchair accessible",
+      "Free parking",
+      "Free Wi-Fi"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1sfUXqpoZA4.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1sfUWh7fl1m.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1sfUVWqeyyc.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1sfUWP2Ssx2.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 178.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 178.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1sfUVHS9k76.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1quHK9murCg.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1153.0,
+        "deluxe_price": null,
+        "price": 1153.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1sfUWeUZYYM.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2480.0,
+        "price": 2480.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1quHK9murCg.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hawaii le Jardin Aqua Resort - Families and Couples Only",
+    "description": "With a stay at Hawaii Le Jardin Aqua Park Resort - Caters to Couples in Hurghada, you'll be on the beach, within a 15-minute drive of Hurghada City Center and Red Sea. This luxury hotel is 10.1 mi (16.3 km) from Marina Hurghada and 6.5 mi (10.5 km) from El Gouna Stadium. Treat yourself with body treatments and facials. You're sure to appreciate the recreational amenities, which include 3 outdoor swimming pools, a nightclub, and a health club. Additional amenities at this Art Deco hotel include complimentary wireless internet access, concierge services, and gift shops/newsstands. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Grab a bite at Mediterranean, one of the hotel's 4 restaurants, or stay in and take advantage of the room service (during limited hours). Snacks are also available at the coffee shop/cafe. Relax with a refreshing drink at the beach bar, the poolside bar, or one of 4 bars/lounges. A complimentary buffet breakfast is served daily from 7 AM to 10 AM. Featured amenities include limo/town car service, dry cleaning/laundry services, and a 24-hour front desk. Event facilities at this hotel consist of a conference center and a meeting room. Free self parking is available onsite. Make yourself at home in one of the 557 air-conditioned rooms featuring minibars and LCD televisions. Rooms have private balconies or patios. Satellite television is provided for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "KM 11 Al Ahyaa Road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "support@grandstay113.co",
+    "mobile_num": "+20 12 0356 3180",
+    "city_id": 3,
+    "number_of_rooms": 255,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Air conditioning",
+      "Restaurant",
+      "Room service",
+      "Full-service laundry",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DrqHog8Is8.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1vUONUX8rRe.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CUbop9KdGw.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1kBMD20kXhm.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 179.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 179.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hZ8qoA1xQI.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hZ8q4GY88M.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1157.0,
+        "deluxe_price": null,
+        "price": 1157.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hZ8q7ASBlC.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2486.0,
+        "price": 2486.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hZ8q4GY88M.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hostgool Chalets Mirage Bay Resort&Aqua",
+    "description": "In Hurghada (Village Road)All-inclusive rates are available at this aparthotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Wrap up your day with a drink at the beach bar. Spend the day on the private beach or dip into one of the 3 outdoor swimming pools.Free self parking is available onsite.With a stay at Hostgool Chalets Mirage Bay Resort&Aqua in Hurghada (Village Road), you'll be a 4-minute drive from Desert Rose Aqua Park and 6 minutes from Red Sea. This beach aparthotel is 11.7 mi (18.8 km) from Marina Hurghada and 13.4 mi (21.6 km) from Hurghada City Center.Make yourself at home in one of the 2 air-conditioned guestrooms. Conveniences include complimentary bottled water and all-in-one washer/dryers.",
+    "appearance": "Good",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Mirage Bay Resort Village Road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "info@forestglade114.hotel",
+    "mobile_num": "+20 12 0357 0548",
+    "city_id": 3,
+    "number_of_rooms": 103,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Full-service laundry",
+      "Accessible",
+      "Business centre",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tEGUPNeNJm.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tEGUC7W44o.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1zLUgkP1sJ2.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zKqgbVQPYs.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 180.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 180.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1zyLrbJzxg4.jpg"
+          },
+          {
+            "image_url": "https://i.ibb.co/RkLqxdK4/bed-480.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1161.0,
+        "deluxe_price": null,
+        "price": 1161.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/DgbrtSJ1/bed-479.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2492.0,
+        "price": 2492.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://i.ibb.co/RkLqxdK4/bed-480.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Blend Club Aqua Resort",
+    "description": "Located along the Red Sea and a 15-minute drive from Hurghada, Blend Club Aqua Resort offers a free aqua park and pools. All units are air-conditioned and offer a minbar and a flat-screen TV. Each room has a private bathroom with a bathtub and shower. Breakfast is served daily in Blend Club Aqua's Fenti Restaurant or at the beach restaurant. Guests can enjoy snorkeling on the beach or a game of billiards. The resort also offers shows and games set up by the entertainment staff. Various oriental souvenir shops and outlets are located in the hotel’s surroundings. Hurghada International Airport is 11 mi away.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "KM 21, Sahl Hashesh Road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "hello@royalpalms115.org",
+    "mobile_num": "+20 12 0358 4264",
+    "city_id": 3,
+    "number_of_rooms": 255,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness centre",
+      "Spa",
+      "Restaurant",
+      "Kitchen in rooms",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1vlYQ5p6foQ.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1DrqHzf6GxW.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DrqHBmfmDK.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1DrqHxo8TWU.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 65.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 65.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1z2MKFK9Slq.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAR3OJtU0U.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1165.0,
+        "deluxe_price": null,
+        "price": 1165.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1wGO6bq8nO8.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2498.0,
+        "price": 2498.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAR3OJtU0U.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "SUNRISE Alora Aqua Park Resort",
+    "description": "In HurghadaAll-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Grab a bite to eat at one of the hotel's many dining establishments, which include 3 restaurants and 2 coffee shops/cafes. Relax with a refreshing drink at one of the 3 bars/lounges. A complimentary buffet breakfast is served daily from 7:00 AM to 10:00 AM. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and laundry facilities. Free self parking is available onsite.With a stay at SUNRISE Alora Aqua Park Resort in Hurghada, you'll be within a 15-minute drive of Hurghada City Center and Red Sea. This hotel is 10.3 mi (16.6 km) from Marina Hurghada and 4.1 mi (6.6 km) from Hurghada Marine Museum & Aquarium.Make yourself at home in one of the 459 air-conditioned guestrooms. Complimentary wireless internet access is available to keep you connected. Bathrooms with showers are provided.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "KM 11 Ahia Road, North Hurghada, Red Sea,Hurghada,84511,Red Sea Governorate,Egypt",
+    "email": "rooms@riverview116.org",
+    "mobile_num": "+20 12 0363 0491",
+    "city_id": 3,
+    "number_of_rooms": 250,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Air conditioning",
+      "All-inclusive available",
+      "Spa",
+      "Beach access",
+      "Bar",
+      "Restaurant",
+      "Room service",
+      "Airport shuttle",
+      "Full-service laundry",
+      "Accessible",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1Db8BPmo79S.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Db8BM7qD28.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Db8Bscnrby.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Db8B4puba8.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 89.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 89.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Db8Bu9iOA0.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Db8BcODHYA.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1173.0,
+        "deluxe_price": null,
+        "price": 1173.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Db8BKESztu.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2510.0,
+        "price": 2510.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1Db8BcODHYA.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bellagio Beach Resort",
+    "description": "On the beachAll-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Grab a bite to eat at one of the hotel's 3 restaurants, or stay in and take advantage of the room service. Snacks are also available at the coffee shop/cafe. Relax with a refreshing drink at the beach bar, the poolside bar, or one of 4 bars/lounges. A complimentary buffet breakfast is included. Be sure to enjoy recreational amenities, including a nightclub, a health club, and an outdoor pool. Additional features at this hotel include complimentary wireless internet access, concierge services, and an arcade/game room.Featured amenities include a business center, express check-in, and express check-out. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and free self parking is available onsite.A stay at Bellagio Beach Resort places you in the heart of Hurghada, a 3-minute drive from Red Sea and 10 minutes from El Gouna Stadium. This beach hotel is 10.1 mi (16.3 km) from Hurghada City Center and 11.6 mi (18.6 km) from Marina Hurghada.Make yourself at home in one of the 450 air-conditioned rooms featuring minibars. Complimentary wireless internet access is available to keep you connected. Private bathrooms have hair dryers and bathrobes. Conveniences include phones, as well as safes and complimentary bottled water.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Km 12, Elahyah Road Of Hurghada And El,Hurghada,84599,Red Sea Governorate,Egypt",
+    "email": "support@riverview117.hotel",
+    "mobile_num": "+20 12 0378 8720",
+    "city_id": 3,
+    "number_of_rooms": 60,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Parking",
+      "Pool",
+      "Air conditioning",
+      "Pet-friendly",
+      "Restaurant",
+      "Full-service laundry",
+      "Accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AmPy7Y52dq.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AmPxUQQ2HK.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AmPyi0QwXm.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AmPyHrWihq.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 156.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 156.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1AmPy76ZZHa.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1qElGpLChO0.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1206.0,
+        "deluxe_price": null,
+        "price": 1206.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1qElHDk2usM.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2558.0,
+        "price": 2558.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1qElGpLChO0.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hawaii Riviera Club Aqua Park - Families and Couples Only",
+    "description": "With a stay at Hawaii Riviera Club Aqua Park Resort - Families and Couples only in Hurghada, you'll be within a 15-minute drive of Hurghada City Center and Red Sea. This beach hotel is 9.7 mi (15.7 km) from Marina Hurghada and 3.7 mi (5.9 km) from Hurghada Marine Museum & Aquarium. Relax at the full-service spa, where you can enjoy massages. After dipping into one of the 3 outdoor swimming pools, you can spend some time at the private beach. Additional amenities at this hotel include complimentary wireless internet access, concierge services, and a picnic area. All-inclusive rates are available at this hotel. Meals and beverages at onsite dining establishments are included in all-inclusive rates. Charges may be applied for dining at some restaurants, special dinners and dishes, some beverages, and other amenities. Enjoy a meal at the restaurant, or stay in and take advantage of the hotel's 24-hour room service. Unwind at the end of the day with a drink at the bar/lounge or the beach bar. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and multilingual staff. Guests may use a roundtrip airport shuttle for a surcharge, and free self parking is available onsite. Make yourself at home in one of the 180 air-conditioned rooms featuring minibars and LCD televisions. Bathrooms feature showers, complimentary toiletries, and hair dryers. Conveniences include safes and electric kettles, and housekeeping is provided daily.",
+    "appearance": "Great",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "Al Ahyaa Road,Hurghada,Red Sea Governorate,Egypt",
+    "email": "hello@royalpalms118.hotel",
+    "mobile_num": "+20 12 0380 4231",
+    "city_id": 3,
+    "number_of_rooms": 329,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Pool",
+      "Spa",
+      "Restaurant",
+      "Full-service laundry",
+      "Child-friendly"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAp5AB5tle.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAp5QGgjhS.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAp5D6VdCw.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tEEqapXxPG.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 66.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 66.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAp5TfvqQE.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAp5OSI0mI.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1214.0,
+        "deluxe_price": null,
+        "price": 1214.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAp5Jz9D1u.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2571.0,
+        "price": 2571.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1tAp5OSI0mI.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Bosque Hotel",
+    "description": "With a stay at The Bosque - Hotel Hurghada in Hurghada (Al Mamsha El Seyahi), you'll be within a 15-minute drive of Marina Hurghada and Hurghada City Center. This hotel is 0.6 mi (1 km) from Hurghada Museum and 0.8 mi (1.3 km) from Red Sea. Make use of convenient amenities, which include complimentary wireless internet access and concierge services. Enjoy a meal at the restaurant or snacks in the coffee shop/cafe. The hotel also offers 24-hour room service. Need to unwind? Take a break with a tasty beverage at one of the 2 bars/lounges. Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. Free self parking is available onsite. Make yourself at home in one of the 139 air-conditioned rooms featuring LCD televisions. Bathrooms have showers and hair dryers. Housekeeping is provided daily, and both cribs/infant beds (complimentary) and rollaway/extra beds (surcharge) are available on request.",
+    "appearance": "Outstanding",
+    "reviews": [
+      "Excellent",
+      "Very clean",
+      "Great staff"
+    ],
+    "address": "10A Intercontinental Zone, End of Hurghada Promenade,Hurghada,Red Sea Governorate,Egypt",
+    "email": "reservations@seabreeze119.co",
+    "mobile_num": "+20 12 0380 4548",
+    "city_id": 3,
+    "number_of_rooms": 255,
+    "hotel_ranking": 4,
+    "amenities": [
+      "Air conditioning",
+      "Crib",
+      "Heating",
+      "Kitchen",
+      "Microwave",
+      "Outdoor grill",
+      "Oven stove",
+      "Patio",
+      "Pet-friendly",
+      "Smoke-free",
+      "Cable TV",
+      "Wheelchair accessible"
+    ],
+    "images": [
+      {
+        "image_url": "https://pavo.elongstatic.com/i/Mobile720_720/nw_1CUc7QWCixa.jpg",
+        "is_primary": true
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CUc7Svp8rK.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1CUc7OHf0KA.jpg",
+        "is_primary": false
+      },
+      {
+        "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1hYR1kf5TS8.jpg",
+        "is_primary": false
+      }
+    ],
+    "rooms": [
+      {
+        "room_type_name": "Single Room",
+        "single_price": 67.0,
+        "double_price": null,
+        "deluxe_price": null,
+        "price": 67.0,
+        "quantity": 10,
+        "description": "single room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krKUyp9MC4.jpg"
+          },
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krL1sUGBwY.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Double Room",
+        "single_price": null,
+        "double_price": 1218.0,
+        "deluxe_price": null,
+        "price": 1218.0,
+        "quantity": 10,
+        "description": "double room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krL2XyXQSQ.jpg"
+          }
+        ]
+      },
+      {
+        "room_type_name": "Deluxe Room",
+        "single_price": null,
+        "double_price": null,
+        "deluxe_price": 2577.0,
+        "price": 2577.0,
+        "quantity": 5,
+        "description": "deluxe room",
+        "is_available": true,
+        "images": [
+          {
+            "image_url": "https://pavo.elongstatic.com/i/h5hotel350_350/1krL1sUGBwY.jpg"
+          }
+        ]
+      }
+    ]
+  }
+]
