@@ -412,12 +412,20 @@ function Home() {
                     {destination.title}
                   </h3>
                   <p className="text-white/80 mb-4">{destination.description}</p>
-                  <button
-                    onClick={() => handleBookNowNavigation(destination.tripId)}
-                    className="bg-[#10b981] text-white px-4 py-2 rounded-md hover:bg-[#059669] transition-colors"
-                  >
-                    Book Now
-                  </button>
+                  <div className="flex gap-2">
+                    <button
+                      onClick={() => handleBookNowNavigation(destination.tripId)}
+                      className="bg-[#10b981] text-white px-3 py-1.5 rounded-md hover:bg-[#059669] transition-colors text-sm"
+                    >
+                      Book Now
+                    </button>
+                    <button
+                      onClick={() => navigate(`/trip-details/${destination.tripId}`)}
+                      className="bg-white text-[#10b981] px-3 py-1.5 rounded-md hover:bg-gray-100 transition-colors border border-[#10b981] text-sm"
+                    >
+                      View Details
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

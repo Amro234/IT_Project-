@@ -243,7 +243,7 @@ const HotelUserPage = () => {
                   <div className="flex items-center">
                     {[1, 2, 3, 4, 5].map((rating) => (
                       <button
-                        key={rating}
+                        key={`rating-${rating}`}
                         onClick={() => handleFilterChange('rating', rating)}
                         className={`p-1 ${filters.rating >= rating ? 'text-yellow-400' : 'text-gray-300'}`}
                       >

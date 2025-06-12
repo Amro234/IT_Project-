@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
 import { MapPin, Calendar, Users, Star, ChevronDown, ChevronUp, Heart, Share2, Bookmark } from 'lucide-react';
-import { fetchTrip, clearCurrentTrip } from '../redux/features/tripsSlice';
 import { FaSpinner } from 'react-icons/fa';
 import { BiError } from 'react-icons/bi';
 import { FaMapMarkerAlt, FaCalendarAlt, FaUsers, FaStar } from 'react-icons/fa';
@@ -10,8 +8,9 @@ import { FaMapMarkerAlt, FaCalendarAlt, FaUsers, FaStar } from 'react-icons/fa';
 const Trips = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const dispatch = useDispatch();
-  const { currentTrip, status, error, allTrips } = useSelector((state) => state.trips);
+  const [trips, setTrips] = useState([]);
+  const [status, setStatus] = useState('loading');
+  const [error, setError] = useState(null);
   const [selectedDate, setSelectedDate] = useState('');
   const [travelers, setTravelers] = useState(2);
   const [expandedDay, setExpandedDay] = useState(1);
@@ -24,13 +23,22 @@ const Trips = () => {
       return;
     }
 
-    dispatch(fetchTrip(numericId));
-
-    // Cleanup function
-    return () => {
-      dispatch(clearCurrentTrip());
+    // TODO: Replace with actual API call
+    const fetchTripsData = async () => {
+      try {
+        // Simulate API call
+        const response = await fetch(`/api/trips?destinationId=${numericId}`);
+        const data = await response.json();
+        setTrips(data);
+        setStatus('succeeded');
+      } catch (err) {
+        setError(err.message);
+        setStatus('failed');
+      }
     };
-  }, [dispatch, id, navigate]);
+
+    fetchTripsData();
+  }, [id, navigate]);
 
   const toggleDay = (day) => {
     setExpandedDay(expandedDay === day ? null : day);
@@ -43,16 +51,38 @@ const Trips = () => {
     }
     // Add booking logic here
     console.log('Booking trip:', {
-      tripId: currentTrip.id,
       date: selectedDate,
       travelers,
     });
   };
 
-  // Filter trips based on destination ID
-  const destinationTrips = allTrips.filter(trip => trip.destinationId === parseInt(id));
+  if (status === 'loading') {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <FaSpinner className="animate-spin text-4xl text-[#10b981]" />
+      </div>
+    );
+  }
 
-  if (!destinationTrips.length) {
+  if (status === 'failed') {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <BiError className="text-4xl text-red-500 mx-auto mb-4" />
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">Error Loading Trips</h2>
+          <p className="text-gray-600 mb-4">{error}</p>
+          <button
+            onClick={() => navigate('/')}
+            className="bg-[#10b981] text-white px-6 py-2 rounded-md hover:bg-[#059669] transition-colors"
+          >
+            Return to Home
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  if (!trips.length) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
@@ -75,7 +105,7 @@ const Trips = () => {
           Available Trips
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {destinationTrips.map((trip) => (
+          {trips.map((trip) => (
             <div
               key={trip.id}
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"

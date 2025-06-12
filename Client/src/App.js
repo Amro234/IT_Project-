@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
-import { Provider } from 'react-redux';
-import store from './redux/store';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -55,56 +55,65 @@ const Layout = ({ children }) => {
 
 const App = () => {
   return (
-    <Provider store={store}>
-      <div className="min-vh-100 position-relative overflow-hidden">
-        <Router>
-          <Layout>
-            <Routes>
-              {/* Auth Routes */}
-              <Route path="/login" element={<Login/>} />
-              <Route path="/register" element={<UserRegistration />} />
-              <Route path="/forgot-password" element={<ForgotPassword />} />
-              
-              {/* Protected Routes */}
-              <Route path="/" element={<><Home /><Footer /></>} />
-              <Route path="/home" element={<><Home /><Footer /></>} />
-              <Route path="/hotels" element={<><HotelUserPage /><Footer /></>} />
-              <Route path="/hotel/:id" element={<><HotelDetailsPage /><Footer /></>} />
-              <Route path="/booking/:hotelId" element={<><PaymentPage /><Footer /></>} />
-              <Route path="/about" element={<><AboutUs /><Footer /></>} />
-              <Route path="/for-u" element={<><ForU /><Footer /></>} />
-              <Route path="/contact" element={<><ContactUs /><Footer /></>} />
-              <Route path="/special-offers" element={<><SpecialOffers /><Footer /></>} />
-              <Route path="/offer/:id" element={<><OfferDetails /><Footer /></>} />
-              <Route path="/settings" element={<Settings />} />
-              <Route path="/user/edit-profile" element={<EditProfile />} />
-              <Route path="/report" element={<Report />} />
-              <Route path="/search" element={<Search />} />
-              <Route path="/notifications" element={<Notifications />} />
-              <Route path="/favorites" element={<><Favorites /><Footer /></>} />
-              <Route path="/tripform" element={<><TripForm /><Footer /></>} />
-              <Route path="/trips/:id" element={<TripDetails />} />
-              <Route path="/user-profile" element={<><UserProfile /><Footer /></>} />
-              <Route path="/admin/dashboard" element={<AdminDashboard />} />
-              <Route path="/admin/hotels" element={<HotelsPage />} />
-              <Route path="/admin/add-hotel" element={<AddHotelPage />} />
-              <Route path="/admin/settings" element={<SettingsPage />} />
-              <Route path="/admin/bookings" element={<BookingsPage />} />
-              
-              {/* 404 Route */}
-              <Route 
-                path="*" 
-                element={
-                  <h1 className="text-dark text-center pt-5">
-                    404 - Page Not Found
-                  </h1>
-                }
-              />
-            </Routes>
-          </Layout>
-        </Router>
-      </div>
-    </Provider>
+    <div className="min-vh-100 position-relative overflow-hidden">
+      <Router>
+        <Layout>
+          <Routes>
+            {/* Auth Routes */}
+            <Route path="/login" element={<Login/>} />
+            <Route path="/register" element={<UserRegistration />} />
+            <Route path="/forgot-password" element={<ForgotPassword />} />
+            
+            {/* Protected Routes */}
+            <Route path="/" element={<><Home /><Footer /></>} />
+            <Route path="/home" element={<><Home /><Footer /></>} />
+            <Route path="/hotels" element={<><HotelUserPage /><Footer /></>} />
+            <Route path="/hotel/:id" element={<><HotelDetailsPage /><Footer /></>} />
+            <Route path="/booking/:hotelId" element={<><PaymentPage /><Footer /></>} />
+            <Route path="/about" element={<><AboutUs /><Footer /></>} />
+            <Route path="/for-u" element={<><ForU /><Footer /></>} />
+            <Route path="/contact" element={<><ContactUs /><Footer /></>} />
+            <Route path="/special-offers" element={<><SpecialOffers /><Footer /></>} />
+            <Route path="/offer/:id" element={<><OfferDetails /><Footer /></>} />
+            <Route path="/settings" element={<Settings />} />
+            <Route path="/user/edit-profile" element={<EditProfile />} />
+            <Route path="/report" element={<Report />} />
+            <Route path="/search" element={<Search />} />
+            <Route path="/notifications" element={<Notifications />} />
+            <Route path="/favorites" element={<><Favorites /><Footer /></>} />
+            <Route path="/tripform" element={<><TripForm /><Footer /></>} />
+            <Route path="/trips/:id" element={<TripDetails />} />
+            <Route path="/user-profile" element={<><UserProfile /><Footer /></>} />
+            <Route path="/admin/dashboard" element={<AdminDashboard />} />
+            <Route path="/admin/hotels" element={<HotelsPage />} />
+            <Route path="/admin/add-hotel" element={<AddHotelPage />} />
+            <Route path="/admin/settings" element={<SettingsPage />} />
+            <Route path="/admin/bookings" element={<BookingsPage />} />
+            
+            {/* 404 Route */}
+            <Route 
+              path="*" 
+              element={
+                <h1 className="text-dark text-center pt-5">
+                  404 - Page Not Found
+                </h1>
+              }
+            />
+          </Routes>
+        </Layout>
+        <ToastContainer
+          position="top-right"
+          autoClose={2000}
+          hideProgressBar={false}
+          newestOnTop
+          closeOnClick
+          rtl
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+        />
+      </Router>
+    </div>
   );
 };
 

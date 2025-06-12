@@ -1,21 +1,31 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchOffer, clearCurrentOffer } from '../redux/features/offersSlice';
 import { StarIcon, ClockIcon, PersonIcon } from '@radix-ui/react-icons';
 
 const OfferDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const dispatch = useDispatch();
-  const { currentOffer, status, error } = useSelector((state) => state.offers);
+  const [currentOffer, setCurrentOffer] = useState(null);
+  const [status, setStatus] = useState('loading');
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    dispatch(fetchOffer(id));
-    return () => {
-      dispatch(clearCurrentOffer());
+    // TODO: Replace with actual API call
+    const fetchOfferData = async () => {
+      try {
+        // Simulate API call
+        const response = await fetch(`/api/offers/${id}`);
+        const data = await response.json();
+        setCurrentOffer(data);
+        setStatus('succeeded');
+      } catch (err) {
+        setError(err.message);
+        setStatus('failed');
+      }
     };
-  }, [dispatch, id]);
+
+    fetchOfferData();
+  }, [id]);
 
   if (status === 'loading') {
     return (

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { useSelector } from 'react-redux';
 import { MdHotelClass } from 'react-icons/md';
 import { 
   HomeIcon, 
@@ -17,7 +16,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
-  const { isAuthenticated, user } = useSelector((state) => state.user);
+  const isAuthenticated = false;
+  const user = null;
   
   // Handle scroll effect
   useEffect(() => {

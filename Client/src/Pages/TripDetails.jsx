@@ -1,7 +1,5 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchTrip, clearCurrentTrip } from '../redux/features/tripsSlice';
 import { FaSpinner } from 'react-icons/fa';
 import { BiError } from 'react-icons/bi';
 import { FaMapMarkerAlt, FaCalendarAlt, FaUsers, FaStar } from 'react-icons/fa';
@@ -9,8 +7,9 @@ import { FaMapMarkerAlt, FaCalendarAlt, FaUsers, FaStar } from 'react-icons/fa';
 const TripDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const dispatch = useDispatch();
-  const { currentTrip, status, error } = useSelector((state) => state.trips);
+  const [currentTrip, setCurrentTrip] = useState(null);
+  const [status, setStatus] = useState('loading');
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     // Validate ID is a number
@@ -20,13 +19,22 @@ const TripDetails = () => {
       return;
     }
 
-    dispatch(fetchTrip(numericId));
-
-    // Cleanup function
-    return () => {
-      dispatch(clearCurrentTrip());
+    // TODO: Replace with actual API call
+    const fetchTripData = async () => {
+      try {
+        // Simulate API call
+        const response = await fetch(`/api/trips/${numericId}`);
+        const data = await response.json();
+        setCurrentTrip(data);
+        setStatus('succeeded');
+      } catch (err) {
+        setError(err.message);
+        setStatus('failed');
+      }
     };
-  }, [dispatch, id, navigate]);
+
+    fetchTripData();
+  }, [id, navigate]);
 
   if (status === 'loading') {
     return (
