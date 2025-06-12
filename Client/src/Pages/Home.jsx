@@ -4,6 +4,7 @@ import { FaPlane } from 'react-icons/fa';
 import { BsRobot } from 'react-icons/bs';
 import TripForm from '../Components/TripForm';
 import { useNavigate } from 'react-router-dom';
+import Favorites from './Favorites';
 
 function AITripForm({ onClose }) {
   const [destination, setDestination] = useState('');
@@ -189,20 +190,23 @@ function AITripForm({ onClose }) {
 function Home() {
   const [showTripForm, setShowTripForm] = useState(false);
   const [showAITripForm, setShowAITripForm] = useState(false);
+  const [showComingSoon, setShowComingSoon] = useState(false);
   const navigate = useNavigate();
 
   const handleTripButtonClick = () => {
     setShowTripForm(!showTripForm);
-    setShowAITripForm(false); 
+    setShowAITripForm(false);
+    setShowComingSoon(false);
   };
 
   const handleAIButtonClick = () => {
-    setShowAITripForm(!showAITripForm);
-    setShowTripForm(false); 
+    setShowComingSoon(true);
+    setShowTripForm(false);
+    setShowAITripForm(false);
   };
 
-  const handleBookNow = (destination) => {
-    navigate('/trip-details', { state: { destination } });
+  const handleBookNowNavigation = (id) => {
+    navigate(`/booking/${id}`);
   };
 
   return (
@@ -274,10 +278,20 @@ function Home() {
                     }`}
                 >
                   <BsRobot className="h-5 w-5" />
-                  Create Trip Using AI
+                  Chat Bot
                 </button>
               )}
             </div>
+
+            {/* Coming Soon Message */}
+            {showComingSoon && (
+              <div className="mt-8 bg-white/90 p-6 rounded-lg shadow-lg backdrop-blur-sm max-w-md mx-auto">
+                <h2 className="text-2xl font-bold text-[#2563eb] mb-2 text-center">Coming Soon!</h2>
+                <p className="text-[#4b5563] text-center">
+                  Our AI Chat Bot feature is under development. Stay tuned for updates!
+                </p>
+              </div>
+            )}
 
             {/* Conditionally render the heading and description for TripForm */}
             {showTripForm && (
@@ -399,7 +413,7 @@ function Home() {
                   </h3>
                   <p className="text-white/80 mb-4">{destination.description}</p>
                   <button
-                    onClick={() => navigate(`/trips/${destination.tripId}`)}
+                    onClick={() => handleBookNowNavigation(destination.tripId)}
                     className="bg-[#10b981] text-white px-4 py-2 rounded-md hover:bg-[#059669] transition-colors"
                   >
                     Book Now

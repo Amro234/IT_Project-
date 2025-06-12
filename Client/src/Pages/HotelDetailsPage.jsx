@@ -116,8 +116,7 @@ const HotelDetailsPage = () => {
   }
 
   const handleBookNow = () => {
-    alert(`Booking process for ${hotel.name} will start here!`);
-    // In a real application, you would navigate to a booking form or initiate a payment process.
+    navigate(`/booking/${hotel.id}`);
   };
 
   console.log("Hotel Image URL:", hotel.image);

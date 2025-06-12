@@ -1,7 +1,9 @@
 import React from 'react';
 import { Star, MapPin, Calendar, ArrowRight, Heart } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 function App() {
+  const navigate = useNavigate();
   const recommendedPlaces = [
     {
       id: 1,
@@ -93,7 +95,7 @@ function App() {
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-[#2563eb] font-semibold">{place.price}</span>
-                  <button className="bg-[#10b981] text-white px-4 py-2 rounded-lg hover:bg-[#059669] transition duration-300">
+                  <button onClick={() => navigate(`/booking/${place.id}`)} className="bg-[#10b981] text-white px-4 py-2 rounded-lg hover:bg-[#059669] transition duration-300">
                     Book Now
                   </button>
                 </div>

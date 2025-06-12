@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useSelector } from 'react-redux';
+import { MdHotelClass } from 'react-icons/md';
 import { 
   HomeIcon, 
   TargetIcon, 
@@ -9,7 +10,7 @@ import {
   StarIcon,
   PersonIcon,
   HamburgerMenuIcon,
-  Cross2Icon
+  Cross2Icon,
 } from '@radix-ui/react-icons';
 
 const Navbar = () => {
@@ -30,7 +31,7 @@ const Navbar = () => {
   const navLinks = [
     { path: '/', name: 'Home', icon: <HomeIcon /> },
     { path: '/for-u', name: 'For U', icon: <TargetIcon /> },
-    { path: '/hotels', name: 'Hotels', icon: <HomeIcon /> },
+    { path: '/hotels', name: 'Hotels', icon: <MdHotelClass  /> },
     { path: '/contact', name: 'Contact Us', icon: <EnvelopeClosedIcon /> },
     { path: '/special-offers', name: 'Special Offers', icon: <StarIcon /> },
     { path: '/about', name: 'About Us', icon: <PersonIcon /> },

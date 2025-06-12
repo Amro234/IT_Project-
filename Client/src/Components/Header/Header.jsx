@@ -4,6 +4,7 @@ import {
   FiSettings, 
   FiSearch,
   FiBell,
+  FiHeart,
 } from 'react-icons/fi';
 import { useNavigate } from 'react-router-dom';
 
@@ -26,6 +27,14 @@ const Header = () => {
 
           {/* Right side - Action Buttons */}
           <div className="flex items-center space-x-2">
+            <button 
+              className="p-2 rounded-full bg-gray-100 hover:bg-blue-100 hover:text-blue-600 transition-colors"
+              title="Favorites"
+              onClick={() => navigate('/favorites')}
+            >
+              <FiHeart className="w-5 h-5 text-gray-600" />
+            </button>
+
             <button 
               className="p-2 rounded-full bg-gray-100 hover:bg-blue-100 hover:text-blue-600 transition-colors"
               title="Report"

@@ -147,7 +147,7 @@ const TripDetails = () => {
                   <div className="flex justify-between items-center mb-6">
                     <span className="text-3xl font-bold text-gray-900">${currentTrip.price}</span>
                     <button
-                      onClick={() => {/* Add booking logic here */}}
+                      onClick={() => navigate(`/booking/${currentTrip.id}`)}
                       className="bg-[#10b981] text-white px-6 py-3 rounded-md hover:bg-[#059669] transition-colors"
                     >
                       Book Now

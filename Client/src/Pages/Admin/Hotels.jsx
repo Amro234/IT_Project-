@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Plus, Edit, Trash2, Star, Info, MapPin, Phone, Mail, Building2, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Search, Plus, Edit, Trash2, Star, Info, MapPin, Phone, Mail, Building2, ChevronLeft, ChevronRight, Settings, Users, Calendar, BarChart2, XCircle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const HotelsPage = () => {
@@ -11,6 +11,8 @@ const HotelsPage = () => {
   const [hotelsPerPage] = useState(9); // Display 9 hotels per page
   const [maxPageNumbersToShow] = useState(5); // Show 5 page numbers at a time
   const [displayedPageBlockStart, setDisplayedPageBlockStart] = useState(1); // New state to control the start of the visible page numbers block
+  const [selectedHotel, setSelectedHotel] = useState(null);
+  const [showStats, setShowStats] = useState(false);
 
   useEffect(() => {
     const loadAllHotelData = async () => {
@@ -121,6 +123,28 @@ const HotelsPage = () => {
     setDisplayedPageBlockStart(prev => Math.min(totalPages - (maxPageNumbersToShow -1), prev + maxPageNumbersToShow));
   };
 
+  const handleDeleteHotel = async (hotelId) => {
+    if (window.confirm('Are you sure you want to delete this hotel?')) {
+      try {
+        // Add API call to delete hotel
+        console.log('Deleting hotel:', hotelId);
+        // After successful deletion, update the hotels list
+        setHotels(hotels.filter(hotel => hotel.id !== hotelId));
+      } catch (error) {
+        console.error('Error deleting hotel:', error);
+      }
+    }
+  };
+
+  const handleEditHotel = (hotelId) => {
+    navigate(`/admin/edit-hotel/${hotelId}`);
+  };
+
+  const handleViewStats = (hotel) => {
+    setSelectedHotel(hotel);
+    setShowStats(true);
+  };
+
   if (isLoading) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -130,16 +154,25 @@ const HotelsPage = () => {
   }
 
   return (
-    <div className="p-6">
+    <div className="p-6 bg-gray-50">
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-2xl font-bold text-gray-800">Hotels</h1>
-        <button
-          onClick={() => navigate('/admin/add-hotel')}
-          className="bg-blue-600 text-white px-4 py-2 rounded-lg flex items-center hover:bg-blue-700"
-        >
-          <Plus className="w-5 h-5 mr-2" />
-          Add Hotel
-        </button>
+        <h1 className="text-2xl font-bold text-gray-800">Hotel Management</h1>
+        <div className="flex gap-4">
+          <button
+            onClick={() => navigate('/admin/add-hotel')}
+            className="bg-blue-600 text-white px-4 py-2 rounded-lg flex items-center hover:bg-blue-700"
+          >
+            <Plus className="w-5 h-5 mr-2" />
+            Add Hotel
+          </button>
+          <button
+            onClick={() => navigate('/admin/hotel-stats')}
+            className="bg-green-600 text-white px-4 py-2 rounded-lg flex items-center hover:bg-green-700"
+          >
+            <BarChart2 className="w-5 h-5 mr-2" />
+            View Analytics
+          </button>
+        </div>
       </div>
 
       <div className="mb-6">
@@ -157,8 +190,8 @@ const HotelsPage = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {currentHotels.map((hotel) => (
-          <div key={hotel.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="p-6">
+          <div key={hotel.id} className="bg-white rounded-lg shadow-lg overflow-hidden min-h-[450px] flex flex-col">
+            <div className="p-6 flex flex-col flex-grow">
               <div className="flex justify-between items-start mb-4">
                 <div>
                   <h2 className="text-xl font-bold text-gray-800 mb-2">{hotel.name}</h2>
@@ -223,17 +256,34 @@ const HotelsPage = () => {
                 </div>
               </div>
 
-              <div className="mb-4">
-                <h3 className="font-semibold text-gray-700 mb-2">Description</h3>
-                <p className="text-gray-600 text-sm">{hotel.description}</p>
-              </div>
-
-              <div className="flex justify-end space-x-2">
-                <button className="text-blue-600 hover:text-blue-900">
-                  <Edit className="w-5 h-5" />
+              <div className="flex flex-wrap gap-2 mt-auto pt-4">
+                <button
+                  onClick={() => handleEditHotel(hotel.id)}
+                  className="flex-1 bg-blue-100 text-blue-600 px-3 py-2 rounded-md hover:bg-blue-200 flex items-center justify-center text-sm font-medium"
+                >
+                  <Edit className="w-4 h-4 mr-1" />
+                  Edit
                 </button>
-                <button className="text-red-600 hover:text-red-900">
-                  <Trash2 className="w-5 h-5" />
+                <button
+                  onClick={() => handleDeleteHotel(hotel.id)}
+                  className="flex-1 bg-red-100 text-red-600 px-3 py-2 rounded-md hover:bg-red-200 flex items-center justify-center text-sm font-medium"
+                >
+                  <Trash2 className="w-4 h-4 mr-1" />
+                  Delete
+                </button>
+                <button
+                  onClick={() => handleViewStats(hotel)}
+                  className="flex-1 bg-green-100 text-green-600 px-3 py-2 rounded-md hover:bg-green-200 flex items-center justify-center text-sm font-medium"
+                >
+                  <BarChart2 className="w-4 h-4 mr-1" />
+                  Stats
+                </button>
+                <button
+                  onClick={() => navigate(`/admin/hotel-bookings/${hotel.id}`)}
+                  className="flex-1 bg-purple-100 text-purple-600 px-3 py-2 rounded-md hover:bg-purple-200 flex items-center justify-center text-sm font-medium"
+                >
+                  <Calendar className="w-4 h-4 mr-1" />
+                  Bookings
                 </button>
               </div>
             </div>
@@ -241,38 +291,81 @@ const HotelsPage = () => {
         ))}
       </div>
 
-      {/* Pagination Controls */}
+      {/* Pagination */}
       <div className="flex justify-center mt-8">
         <nav className="relative z-0 inline-flex rounded-md shadow-sm -space-x-px" aria-label="Pagination">
           <button
             onClick={goToPrevBlock}
             disabled={displayedPageBlockStart === 1}
-            className="relative inline-flex items-center p-2 rounded-full border border-gray-300 bg-white text-sm font-medium text-blue-600 hover:bg-blue-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
+            className="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 disabled:opacity-50"
           >
-            <span className="sr-only">Previous</span>
-            <ChevronLeft className="h-5 w-5" aria-hidden="true" />
+            <ChevronLeft className="h-5 w-5" />
           </button>
-          {pageNumbers.map(number => (
+          {pageNumbers.map((number) => (
             <button
               key={number}
               onClick={() => paginate(number)}
-              className={`relative inline-flex items-center justify-center h-10 w-10 mx-1 rounded-full border ${
-                number === currentPage ? 'bg-blue-600 border-blue-600 text-white' : 'border-gray-300 bg-white text-blue-600'
-              } text-sm font-medium hover:bg-blue-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500`}
+              className={`relative inline-flex items-center px-4 py-2 border text-sm font-medium ${
+                number === currentPage
+                  ? 'z-10 bg-blue-50 border-blue-500 text-blue-600'
+                  : 'bg-white border-gray-300 text-gray-500 hover:bg-gray-50'
+              }`}
             >
               {number}
             </button>
           ))}
           <button
             onClick={goToNextBlock}
-            disabled={endPage === totalPages}
-            className="relative inline-flex items-center p-2 rounded-full border border-gray-300 bg-white text-sm font-medium text-blue-600 hover:bg-blue-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
+            disabled={displayedPageBlockStart + maxPageNumbersToShow > totalPages}
+            className="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 disabled:opacity-50"
           >
-            <span className="sr-only">Next</span>
-            <ChevronRight className="h-5 w-5" aria-hidden="true" />
+            <ChevronRight className="h-5 w-5" />
           </button>
         </nav>
       </div>
+
+      {/* Hotel Stats Modal */}
+      {showStats && selectedHotel && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-lg p-6 max-w-2xl w-full">
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="text-xl font-bold text-gray-800">Hotel Statistics - {selectedHotel.name}</h2>
+              <button
+                onClick={() => setShowStats(false)}
+                className="text-gray-500 hover:text-gray-700"
+              >
+                <XCircle className="w-6 h-6" />
+              </button>
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="bg-blue-50 p-4 rounded-lg">
+                <h3 className="font-semibold text-blue-800 mb-2">Booking Statistics</h3>
+                <p>Total Bookings: 150</p>
+                <p>Active Bookings: 45</p>
+                <p>Average Rating: 4.5</p>
+              </div>
+              <div className="bg-green-50 p-4 rounded-lg">
+                <h3 className="font-semibold text-green-800 mb-2">Revenue</h3>
+                <p>This Month: $25,000</p>
+                <p>Last Month: $22,500</p>
+                <p>Growth: +11.1%</p>
+              </div>
+              <div className="bg-purple-50 p-4 rounded-lg">
+                <h3 className="font-semibold text-purple-800 mb-2">Room Occupancy</h3>
+                <p>Current: 75%</p>
+                <p>Average: 68%</p>
+                <p>Peak Season: 92%</p>
+              </div>
+              <div className="bg-yellow-50 p-4 rounded-lg">
+                <h3 className="font-semibold text-yellow-800 mb-2">Customer Satisfaction</h3>
+                <p>Positive Reviews: 85%</p>
+                <p>Response Rate: 98%</p>
+                <p>Repeat Guests: 45%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

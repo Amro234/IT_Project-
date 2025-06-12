@@ -27,11 +27,14 @@ import Trips from './Pages/Trips';
 import AdminDashboard from './Pages/Admin/AdminDashboard';
 import TripDetails from './Pages/TripDetails';
 import OfferDetails from './Pages/OfferDetails';
-import HotelsPage from './Pages/Hotels';
+import HotelUserPage from './Pages/HotelUser';
+import HotelsPage from './Pages/Admin/Hotels';
 import SettingsPage from './Pages/Admin/Settings';
 import BookingsPage from './Pages/Admin/Bookings';
 import AddHotelPage from './Pages/Admin/AddHotel';
 import HotelDetailsPage from './Pages/HotelDetailsPage';
+import PaymentPage from './Pages/Payment';
+import Favorites from './Pages/Favorites';
 // User Components
 import UserProfile from './Components/User/UserProfile';
 import UserRegistration from './Components/User/UserRegistration';
@@ -65,8 +68,9 @@ const App = () => {
               {/* Protected Routes */}
               <Route path="/" element={<><Home /><Footer /></>} />
               <Route path="/home" element={<><Home /><Footer /></>} />
-              <Route path="/hotels" element={<><HotelsPage /><Footer /></>} />
+              <Route path="/hotels" element={<><HotelUserPage /><Footer /></>} />
               <Route path="/hotel/:id" element={<><HotelDetailsPage /><Footer /></>} />
+              <Route path="/booking/:hotelId" element={<><PaymentPage /><Footer /></>} />
               <Route path="/about" element={<><AboutUs /><Footer /></>} />
               <Route path="/for-u" element={<><ForU /><Footer /></>} />
               <Route path="/contact" element={<><ContactUs /><Footer /></>} />
@@ -77,6 +81,7 @@ const App = () => {
               <Route path="/report" element={<Report />} />
               <Route path="/search" element={<Search />} />
               <Route path="/notifications" element={<Notifications />} />
+              <Route path="/favorites" element={<><Favorites /><Footer /></>} />
               <Route path="/tripform" element={<><TripForm /><Footer /></>} />
               <Route path="/trips/:id" element={<TripDetails />} />
               <Route path="/user-profile" element={<><UserProfile /><Footer /></>} />
