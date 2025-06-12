@@ -12,15 +12,15 @@ const UserRegistration = () => {
     password: "",
     confirmPassword: "",
     phoneNumber: "",
-    language: "",
     gender: "",
+    dateOfBirth: "",
   });
 
   const [error, setError] = useState("");
+  const [calculatedAge, setCalculatedAge] = useState(null);
 
   const languages = [
     "Arabic",
-    "English",
     "French",
     "Spanish",
     "German",
@@ -36,10 +36,50 @@ const UserRegistration = () => {
     "Swedish"
   ];
 
+  const calculateAge = (birthDate) => {
+    const today = new Date();
+    const birth = new Date(birthDate);
+    let age = today.getFullYear() - birth.getFullYear();
+    const monthDiff = today.getMonth() - birth.getMonth();
+    
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birth.getDate())) {
+      age--;
+    }
+    return age;
+  };
+
+  const getMaxDate = () => {
+    const today = new Date();
+    const maxDate = new Date();
+    maxDate.setFullYear(today.getFullYear() - 12);
+    return maxDate.toISOString().split('T')[0];
+  };
+
+  const getMinDate = () => {
+    const today = new Date();
+    const minDate = new Date();
+    minDate.setFullYear(today.getFullYear() - 120);
+    return minDate.toISOString().split('T')[0];
+  };
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
-    if (error) setError("");
+    
+    if (name === 'dateOfBirth') {
+      const age = calculateAge(value);
+      setCalculatedAge(age);
+      
+      if (age < 12) {
+        setError("You must be at least 12 years old to register.");
+      } else if (age > 120) {
+        setError("Please enter a valid date of birth.");
+      } else {
+        setError("");
+      }
+    } else if (error) {
+      setError("");
+    }
   };
 
   const handleSubmit = (e) => {
@@ -52,6 +92,10 @@ const UserRegistration = () => {
       setError("Please select your gender.");
       return;
     }
+    if (calculatedAge < 12) {
+      setError("You must be at least 12 years old to register.");
+      return;
+    }
 
     // In a real application, you would make an API call here to register the user
     const userData = {
@@ -59,8 +103,9 @@ const UserRegistration = () => {
       lastName: formData.lastName,
       email: formData.email,
       phoneNumber: formData.phoneNumber,
-      language: formData.language,
       gender: formData.gender,
+      dateOfBirth: formData.dateOfBirth,
+      age: calculatedAge,
     };
 
     // TODO: Add API call here
@@ -360,21 +405,25 @@ const UserRegistration = () => {
                     required
                   />
                 </div>
-                <div style={styles.formGroup}>
-                  <label style={styles.label}>Language</label>
-                  <select
-                    name="language"
-                    style={styles.select}
-                    value={formData.language}
-                    onChange={handleChange}
-                    required
-                  >
-                    <option value="">Select language</option>
-                    {languages.map((language, index) => (
-                      <option key={index} value={language}>{language}</option>
-                    ))}
-                  </select>
-                </div>
+              </div>
+
+              <div style={styles.formGroup}>
+                <label style={styles.label}>Date of Birth</label>
+                <input
+                  type="date"
+                  name="dateOfBirth"
+                  style={styles.input}
+                  value={formData.dateOfBirth}
+                  onChange={handleChange}
+                  max={getMaxDate()}
+                  min={getMinDate()}
+                  required
+                />
+                {calculatedAge !== null && (
+                  <div style={{ color: '#FFFFFF', fontSize: '14px', marginTop: '8px' }}>
+                    Age: {calculatedAge} years
+                  </div>
+                )}
               </div>
 
               <div style={styles.formGroup}>

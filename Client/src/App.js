@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components
@@ -43,11 +42,11 @@ import ForgotPassword from './Components/User/ForgotPassword';
 const Layout = ({ children }) => {
   const location = useLocation();
   const isAdmin = location.pathname.toLowerCase().includes('admin');
-  const isLogin = location.pathname === '/login';
+  const isAuthPage = ['/login', '/register', '/forgot-password'].includes(location.pathname);
   return (
     <>
-      {!isAdmin && !isLogin && <Navbar />}
-      {!isAdmin && !isLogin && <Header />}
+      {!isAdmin && !isAuthPage && <Navbar />}
+      {!isAdmin && !isAuthPage && <Header />}
       {children}
     </>
   );
