@@ -8,7 +8,6 @@ const TripForm = () => {
   // State variables to manage form inputs
   const [tripType, setTripType] = useState("Medical Trips"); // Trip type (default: Medical Trips)
   const [people, setPeople] = useState(1); // Number of people (default: 1)
-  const [from, setFrom] = useState("Cairo"); // Starting location (default: Cairo)
   const [to, setTo] = useState("Alexandria"); // Destination (default: Alexandria)
   const [budget, setBudget] = useState(); // Budget (optional)
   const [withWhom, setWithWhom] = useState("Solo"); // Traveling with (default: Solo)
@@ -17,7 +16,7 @@ const TripForm = () => {
   const [kids, setKids] = useState(false); // Kids option (default: false)
   const navigate = useNavigate(); // Hook to navigate to different routes
 
-  // List of Egyptian cities for the "From" and "To" dropdowns
+  // List of Egyptian cities for the "To" dropdown
   const egyptianCities = [
     "Cairo", "Alexandria", "Giza", "Shubra El Kheima", "Port Said", "Suez",
     "Luxor", "Mansoura", "El Mahalla El Kubra", "Tanta", "Asyut", "Ismailia",
@@ -44,8 +43,7 @@ const TripForm = () => {
 
   // Function to swap the "From" and "To" locations
   const swapLocations = () => {
-    setFrom(to); // Set "From" to the current "To" value
-    setTo(from); // Set "To" to the current "From" value
+    setTo(to); // Set "To" to the current "To" value
   };
 
   return (
@@ -55,31 +53,8 @@ const TripForm = () => {
         <div className="bg-white rounded-xl shadow-lg p-6">
           <form>
             {/* From and To Locations */}
-            <div className="grid md:grid-cols-3 gap-4 mb-4">
-              <div className="col-span-1">
-                <label className="block text-sm font-medium text-gray-700 mb-2">From</label>
-                <select 
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#10b981] focus:border-[#10b981]"
-                  value={from} 
-                  onChange={(e) => setFrom(e.target.value)}
-                >
-                  {egyptianCities.map((city, index) => (
-                    <option key={index} value={city}>{city}</option>
-                  ))}
-                </select>
-              </div>
-
-              <div className="col-span-1 flex items-end justify-center">
-                <button 
-                  type="button" 
-                  onClick={swapLocations}
-                  className="p-3 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
-                >
-                  <BiTransferAlt className="h-6 w-6 text-gray-600" />
-                </button>
-              </div>
-
-              <div className="col-span-1">
+            <div className="grid md:grid-cols-2 gap-4 mb-4">
+              <div className="col-span-2">
                 <label className="block text-sm font-medium text-gray-700 mb-2">To</label>
                 <select 
                   className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#10b981] focus:border-[#10b981]"

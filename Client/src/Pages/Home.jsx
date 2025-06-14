@@ -43,31 +43,18 @@ function AITripForm({ onClose }) {
     <div className="mt-4 bg-white/90 p-6 rounded-lg shadow-lg backdrop-blur-sm max-w-2xl mx-auto">
       <h2 className="text-2xl font-bold text-[#1f2937] mb-4">Create Your AI-Powered Trip</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
-        {/* From */}
-          <div>
-            <label className="block text-sm font-medium text-[#1f2937] mb-1">From</label>
-            <input
-              type="text"
-              value={destination}
-              onChange={(e) => setDestination(e.target.value)}
-              placeholder="Enter your starting location"
-              className="w-full p-2 border rounded-md outline-none focus:ring-2 focus:ring-[#10b981]"
-              required
-            />
-          </div>
-
-          {/* To */}
-          <div>
-            <label className="block text-sm font-medium text-[#1f2937] mb-1">To</label>
-            <input
-              type="text"
-              value={destination}
-              onChange={(e) => setDestination(e.target.value)}
-              placeholder="Enter your destination"
-              className="w-full p-2 border rounded-md outline-none focus:ring-2 focus:ring-[#10b981]"
-              required
-            />
-          </div>
+        {/* To */}
+        <div>
+          <label className="block text-sm font-medium text-[#1f2937] mb-1">To</label>
+          <input
+            type="text"
+            value={destination}
+            onChange={(e) => setDestination(e.target.value)}
+            placeholder="Enter your destination"
+            className="w-full p-2 border rounded-md outline-none focus:ring-2 focus:ring-[#10b981]"
+            required
+          />
+        </div>
         <div className="flex gap-4">
           <div className="flex-1">
             <label className="block text-sm font-medium text-[#1f2937] mb-1">Start Date</label>
