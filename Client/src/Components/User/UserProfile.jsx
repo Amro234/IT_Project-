@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { Form, Button, Container, Alert } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -8,22 +8,12 @@ const UserProfile = () => {
     email: "AbdoMohamed@example.com",
     password: "",
     newPassword: "",
-    ProfilePicture: "",
   });
   const [success, setSuccess] = useState("");
-  const fileInputRef = useRef(null);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
-  };
-
-  const handleImageChange = (e) => {
-    const file = e.target.files[0];
-    if (file) {
-      const imageUrl = URL.createObjectURL(file);
-      setFormData({ ...formData, ProfilePicture: imageUrl });
-    }
   };
 
   const handleSubmit = (e) => {
@@ -45,33 +35,20 @@ const UserProfile = () => {
         </Alert>
       )}
 
-      {/* صورة الملف الشخصي مع أيقونة القلم */}
-      <div className="position-relative d-flex justify-content-center mb-4">
-        <img
-          src={formData.ProfilePicture || "https://via.placeholder.com/150"}
-          alt="Profile"
-          className="d-block mx-auto rounded-circle"
-          style={{ width: "150px", height: "150px", objectFit: "cover" }}
-        />
-        <button
-          type="button"
-          className="position-absolute bottom-0 end-0 bg-primary text-white rounded-circle border-0 d-flex align-items-center justify-content-center"
+      {/* Default Avatar */}
+      <div className="d-flex justify-content-center mb-4">
+        <div
+          className="rounded-circle d-flex align-items-center justify-content-center"
           style={{
-            width: "40px",
-            height: "40px",
-            cursor: "pointer",
+            width: "150px",
+            height: "150px",
+            backgroundColor: "#e9ecef",
+            fontSize: "60px",
+            color: "#6c757d"
           }}
-          onClick={() => fileInputRef.current.click()}
         >
-          <span style={{ fontSize: "20px" }}>✎</span>
-        </button>
-        <input
-          type="file"
-          ref={fileInputRef}
-          accept="image/*"
-          onChange={handleImageChange}
-          style={{ display: "none" }}
-        />
+          {formData.name.charAt(0)}
+        </div>
       </div>
 
       <Form onSubmit={handleSubmit}>
