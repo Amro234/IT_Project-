@@ -46,6 +46,9 @@ const TripForm = () => {
     setTo(to); // Set "To" to the current "To" value
   };
 
+  // Check if user is authenticated
+  const isAuthenticated = localStorage.getItem('token') !== null;
+
   return (
     <div className="bg-[#f4f6f8]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -181,13 +184,15 @@ const TripForm = () => {
                 Submit
               </button>
 
-              <button 
-                onClick={handleClick}
-                className="bg-[#f59e0b] text-white px-6 py-3 rounded-lg hover:bg-[#d97706] transition-colors font-semibold flex items-center justify-center gap-2"
-              >
-                <GiPresent className="h-5 w-5" />
-                Special Offer
-              </button>
+              {isAuthenticated && (
+                <button 
+                  onClick={handleClick}
+                  className="bg-[#f59e0b] text-white px-6 py-3 rounded-lg hover:bg-[#d97706] transition-colors font-semibold flex items-center justify-center gap-2"
+                >
+                  <GiPresent className="h-5 w-5" />
+                  Special Offer
+                </button>
+              )}
             </div>
           </form>
         </div>

@@ -52,6 +52,17 @@ const Layout = ({ children }) => {
   );
 };
 
+// Protected Route Component
+const ProtectedRoute = ({ children }) => {
+  const isAuthenticated = localStorage.getItem('token') !== null;
+  
+  if (!isAuthenticated) {
+    return <Navigate to="/login" replace />;
+  }
+
+  return children;
+};
+
 const App = () => {
   return (
     <div className="min-vh-100 position-relative overflow-hidden">
@@ -70,10 +81,22 @@ const App = () => {
             <Route path="/hotel/:id" element={<><HotelDetailsPage /><Footer /></>} />
             <Route path="/booking/:hotelId" element={<><PaymentPage /><Footer /></>} />
             <Route path="/about" element={<><AboutUs /><Footer /></>} />
-            <Route path="/for-u" element={<><ForU /><Footer /></>} />
+            <Route path="/for-u" element={
+              <ProtectedRoute>
+                <><ForU /><Footer /></>
+              </ProtectedRoute>
+            } />
             <Route path="/contact" element={<><ContactUs /><Footer /></>} />
-            <Route path="/special-offers" element={<><SpecialOffers /><Footer /></>} />
-            <Route path="/offer/:id" element={<><OfferDetails /><Footer /></>} />
+            <Route path="/special-offers" element={
+              <ProtectedRoute>
+                <><SpecialOffers /><Footer /></>
+              </ProtectedRoute>
+            } />
+            <Route path="/offer/:id" element={
+              <ProtectedRoute>
+                <><OfferDetails /><Footer /></>
+              </ProtectedRoute>
+            } />
             <Route path="/settings" element={<Settings />} />
             <Route path="/user/edit-profile" element={<EditProfile />} />
             <Route path="/report" element={<Report />} />

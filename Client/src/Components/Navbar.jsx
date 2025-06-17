@@ -44,10 +44,12 @@ const Navbar = () => {
 
   const navLinks = [
     { path: '/', name: 'Home', icon: <HomeIcon /> },
-    { path: '/for-u', name: 'For U', icon: <TargetIcon /> },
+    ...(isAuthenticated ? [
+      { path: '/for-u', name: 'For U', icon: <TargetIcon /> },
+      { path: '/special-offers', name: 'Special Offers', icon: <StarIcon /> },
+    ] : []),
     { path: '/hotels', name: 'Hotels', icon: <MdHotelClass  /> },
     { path: '/contact', name: 'Contact Us', icon: <EnvelopeClosedIcon /> },
-    { path: '/special-offers', name: 'Special Offers', icon: <StarIcon /> },
     { path: '/about', name: 'About Us', icon: <PersonIcon /> },
   ];
 
