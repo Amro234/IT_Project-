@@ -35,8 +35,12 @@ const Login = () => {
         localStorage.setItem('token', data.token);
         // Store user data if needed
         localStorage.setItem('user', JSON.stringify(data.user));
-        // Redirect to home page
-        navigate('/home');
+        // Redirect based on user role
+        if (data.user.role === 'admin') {
+          navigate('/admin/dashboard');
+        } else {
+          navigate('/home');
+        }
       } else {
         setError(data.message || 'Invalid credentials');
       }

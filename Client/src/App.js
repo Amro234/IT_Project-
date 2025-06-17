@@ -74,6 +74,9 @@ const App = () => {
             <Route path="/register" element={<UserRegistration />} />
             <Route path="/forgot-password" element={<ForgotPassword />} />
             
+            {/* Admin Routes */}
+            <Route path="/admin/dashboard" element={<AdminDashboard />} />
+            
             {/* Protected Routes */}
             <Route path="/" element={<><Home /><Footer /></>} />
             <Route path="/home" element={<><Home /><Footer /></>} />
@@ -110,7 +113,6 @@ const App = () => {
             <Route path="/tripform" element={<><TripForm /><Footer /></>} />
             <Route path="/trips/:id" element={<TripDetails />} />
             <Route path="/user-profile" element={<><UserProfile /><Footer /></>} />
-            <Route path="/admin/dashboard" element={<AdminDashboard />} />
             <Route path="/admin/hotels" element={<HotelsPage />} />
             <Route path="/admin/add-hotel" element={<AddHotelPage />} />
             <Route path="/admin/settings" element={<SettingsPage />} />
