@@ -127,6 +127,10 @@ Route::get('/email/verify/{id}/{hash}', [AuthController::class, 'verifyEmail'])-
 Route::post('/forgot-password', [AuthController::class, 'forgotPassword']);
 Route::post('/reset-password', [AuthController::class, 'resetPassword']);
 
+// Public routes
+Route::get('/hotels', [HotelController::class, 'index']);
+Route::get('/hotels/{id}', [HotelController::class, 'show']);
+
 // Routes requiring authentication
 Route::middleware('auth:sanctum')->group(function () {
     // Routes requiring email verification
@@ -139,7 +143,7 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::middleware('admin')->group(function () {
             Route::apiResource('cities', CityController::class);
             Route::apiResource('users', UserController::class);
-            Route::apiResource('hotels', HotelController::class);
+            Route::apiResource('hotels', HotelController::class)->except(['index', 'show']);
             Route::apiResource('room_types', RoomTypeController::class);
             Route::apiResource('rooms', RoomController::class);
             Route::apiResource('room_images', RoomImageController::class);
@@ -152,7 +156,6 @@ Route::middleware('auth:sanctum')->group(function () {
         });
 
         // Routes accessible to authenticated and verified users
-        Route::apiResource('hotels', HotelController::class)->only(['index', 'show']);
         Route::apiResource('room_types', RoomTypeController::class)->only(['index', 'show']);
         Route::apiResource('rooms', RoomController::class)->only(['index', 'show']);
         Route::apiResource('room_images', RoomImageController::class)->only(['index', 'show']);

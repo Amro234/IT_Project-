@@ -40,13 +40,8 @@ class Kernel extends HttpKernel
 
         'api' => [
             \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
-            'throttle:150,1', // Limits to 150 requests per minute مش عارف مش شغالة لية محتاج اراحع عليها
             \Illuminate\Routing\Middleware\ThrottleRequests::class.':api',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
-            \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
-            
-        'throttle:api',
-        \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
     ];
 

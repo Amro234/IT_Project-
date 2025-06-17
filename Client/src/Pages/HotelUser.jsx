@@ -25,58 +25,46 @@ const HotelUserPage = () => {
     const loadAllHotelData = async () => {
       setIsLoading(true);
       try {
-        const filePaths = [
-          '/final json/Cairo-1/transformed_hotels1_1.json',
-          '/final json/Cairo-1/transformed_hotels1_2.json',
-          '/final json/Cairo-1/transformed_hotels1_3.json',
-          '/final json/Hurghada-3/transformed_hotels3_1.json',
-          '/final json/Hurghada-3/transformed_hotels3_2.json',
-          '/final json/Hurghada-3/transformed_hotels3_3.json',
-          '/final json/Hurghada-3/transformed_hotels3_4.json',
-          '/final json/Hurghada-3/transformed_hotels3_5.json',
-          '/final json/Sharm,2/transformed_hotels2_1 (1).json',
-          '/final json/Sharm,2/transformed_hotels2_2.json',
-          '/final json/Sharm,2/transformed_hotels2_3.json',
-          '/final json/Sharm,2/transformed_hotels2_4.json',
-          '/final json/Sharm,2/transformed_hotels2_5.json',
-        ];
+        // Fetch hotels from API
+        const hotelsResponse = await fetch('http://localhost:8000/api/hotels');
 
-        const allResponses = await Promise.all(filePaths.map(path => fetch(path)));
-        let allHotelData = [];
-
-        for (const response of allResponses) {
-          if (response.ok) {
-            const data = await response.json();
-            allHotelData = [...allHotelData, ...data];
-          } else {
-            console.error(`Error loading data from ${response.url}:`, response.statusText);
-          }
+        if (!hotelsResponse.ok) {
+          throw new Error('Failed to fetch hotels');
         }
 
-        const mapCityIdToLocation = (cityId) => {
-          switch (cityId) {
-            case 1: return 'Cairo';
-            case 2: return 'Sharm El Sheikh';
-            case 3: return 'Hurghada';
-            default: return 'Unknown Location';
-          }
-        };
+        const { data: allHotelData } = await hotelsResponse.json();
 
-        const processedHotels = allHotelData.map((hotel, index) => {
+        const processedHotels = allHotelData.map((hotel) => {
+          // Parse amenities from JSON string if it exists
+          let amenities = [];
+          try {
+            if (hotel.amenities) {
+              // First parse the outer JSON string
+              const parsedAmenities = JSON.parse(hotel.amenities);
+              // Then parse the inner JSON string if it exists
+              amenities = typeof parsedAmenities === 'string' ? JSON.parse(parsedAmenities) : parsedAmenities;
+              // Ensure it's an array
+              amenities = Array.isArray(amenities) ? amenities : [];
+            }
+          } catch (e) {
+            console.error('Error parsing amenities:', e);
+            amenities = [];
+          }
+
           // Prioritize top-level hotel image, then first room image, then default
           const mainHotelImage = hotel.images?.[0]?.image_url || hotel.rooms?.[0]?.images?.[0]?.image_url || defaultHotelImage;
           
           return {
-            id: `${hotel.city_id}-${index}`,
+            id: hotel.id,
             name: hotel.name,
-            location: mapCityIdToLocation(hotel.city_id),
+            location: hotel.city?.name || 'Unknown Location',
             rating: hotel.hotel_ranking || 0,
             price: hotel.rooms?.[0]?.price || 0,
             rooms: hotel.number_of_rooms || 0,
             contact: hotel.mobile_num || 'N/A',
             email: hotel.email || 'N/A',
             address: hotel.address || 'N/A',
-            amenities: hotel.amenities || [],
+            amenities: amenities,
             description: hotel.description || 'No description available.',
             image: mainHotelImage,
             roomTypes: hotel.rooms?.map(room => ({

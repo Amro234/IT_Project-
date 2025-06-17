@@ -16,8 +16,9 @@ class HotelController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth:sanctum');
-        $this->middleware('admin')->only(['store', 'update', 'destroy']);    }
+        $this->middleware('auth:sanctum')->only(['store', 'update', 'destroy']);
+        $this->middleware('admin')->only(['store', 'update', 'destroy']);
+    }
 
     public function index()
     {
@@ -233,167 +234,167 @@ class HotelController extends Controller
     }
 
     public function store(Request $request)
-{
-    Log::info('Raw request payload:', ['data' => $request->all()]);
+    {
+        Log::info('Raw request payload:', ['data' => $request->all()]);
 
-    $requestData = $request->all();
-    foreach ($requestData as &$hotelData) {
-        if (isset($hotelData['rooms'])) {
-            foreach ($hotelData['rooms'] as &$roomData) {
-                $roomData['single_price'] = isset($roomData['single_price'])
-                    ? floatval(preg_replace('/[^0-9.]/', '', $roomData['single_price']))
-                    : null;
-                $roomData['double_price'] = isset($roomData['double_price'])
-                    ? floatval(preg_replace('/[^0-9.]/', '', $roomData['double_price']))
-                    : null;
-                $roomData['deluxe_price'] = isset($roomData['deluxe_price'])
-                    ? floatval(preg_replace('/[^0-9.]/', '', $roomData['deluxe_price']))
-                    : null;
-                $roomData['price'] = floatval(preg_replace('/[^0-9.]/', '', $roomData['price']));
-            }
-        }
-    }
-    unset($hotelData, $roomData);
-
-    $validator = Validator::make($requestData, [
-        '*.name' => 'required|string|max:255',
-        '*.description' => 'nullable|string',
-        '*.appearance' => 'nullable|string',
-        '*.reviews' => 'nullable|array',
-        '*.address' => 'required|string',
-        // '*.email' => 'nullable|email|max:255|unique:hotels,email',
-        // '*.mobile_num' => 'nullable|string|max:35|unique:hotels,mobile_num',
-        '*.city_id' => 'required|exists:cities,id',
-        '*.hotel_ranking' => 'required|integer|between:1,8',
-        '*.number_of_rooms' => 'required|integer|min:1',
-        '*.amenities' => 'nullable|array',
-        '*.images' => 'nullable|array',
-        '*.images.*.image_url' => 'required|string|max:255',
-        '*.images.*.is_primary' => 'nullable|boolean',
-        '*.rooms' => 'nullable|array',
-        '*.rooms.*.room_type_name' => 'required|string|max:255',
-        '*.rooms.*.single_price' => 'nullable|numeric|min:0',
-        '*.rooms.*.double_price' => 'nullable|numeric|min:0',
-        '*.rooms.*.deluxe_price' => 'nullable|numeric|min:0',
-        '*.rooms.*.price' => 'required|numeric|min:0',
-        '*.rooms.*.quantity' => 'required|integer|min:1',
-        '*.rooms.*.description' => 'nullable|string',
-        '*.rooms.*.is_available' => 'nullable|boolean',
-        '*.rooms.*.images' => 'nullable|array',
-        '*.rooms.*.images.*.image_url' => 'required|string|max:255',
-    ]);
-
-    if ($validator->fails()) {
-        Log::warning('Validation failed for hotel creation:', ['errors' => $validator->errors()]);
-        return response()->json([
-            'status' => 'error',
-            'message' => 'Validation failed',
-            'errors' => $validator->errors()
-        ], 422);
-    }
-
-    if (!auth()->check()) {
-        Log::warning('Authentication failed for store request');
-        return response()->json(['message' => 'Authentication required. Please log in.'], 401);
-    }
-
-    try {
-        $hotels = [];
-        foreach ($requestData as $hotelData) {
-            Log::info('Processing hotel data:', ['hotelData' => $hotelData]);
-
-            // Validate city_id existence manually
-            if (!\App\Models\City::find($hotelData['city_id'])) {
-                throw new \Exception("City with ID {$hotelData['city_id']} does not exist.");
-            }
-
-            $hotel = Hotel::create([
-                'name' => $hotelData['name'],
-                'description' => $hotelData['description'] ?? null,
-                'appearance' => $hotelData['appearance'] ?? null,
-                'reviews' => isset($hotelData['reviews']) ? json_encode($hotelData['reviews']) : null,
-                'address' => $hotelData['address'],
-                'email' => $hotelData['email'] ?? null,
-                'mobile_num' => $hotelData['mobile_num'] ?? null,
-                'city_id' => $hotelData['city_id'],
-                'hotel_ranking' => $hotelData['hotel_ranking'],
-                'number_of_rooms' => $hotelData['number_of_rooms'],
-                'amenities' => isset($hotelData['amenities']) ? json_encode($hotelData['amenities']) : null,
-                'owner_id' => auth()->id(),
-            ]);
-
-            if (!$hotel) {
-                throw new \Exception("Failed to create hotel.");
-            }
-
-            Log::info('Hotel created:', ['id' => $hotel->id]);
-
-            if (isset($hotelData['images'])) {
-                foreach ($hotelData['images'] as $imageData) {
-                    $hotel->images()->create([
-                        'image_url' => $imageData['image_url'],
-                        'is_primary' => $imageData['is_primary'] ?? false,
-                    ]);
+        $requestData = $request->all();
+        foreach ($requestData as &$hotelData) {
+            if (isset($hotelData['rooms'])) {
+                foreach ($hotelData['rooms'] as &$roomData) {
+                    $roomData['single_price'] = isset($roomData['single_price'])
+                        ? floatval(preg_replace('/[^0-9.]/', '', $roomData['single_price']))
+                        : null;
+                    $roomData['double_price'] = isset($roomData['double_price'])
+                        ? floatval(preg_replace('/[^0-9.]/', '', $roomData['double_price']))
+                        : null;
+                    $roomData['deluxe_price'] = isset($roomData['deluxe_price'])
+                        ? floatval(preg_replace('/[^0-9.]/', '', $roomData['deluxe_price']))
+                        : null;
+                    $roomData['price'] = floatval(preg_replace('/[^0-9.]/', '', $roomData['price']));
                 }
             }
+        }
+        unset($hotelData, $roomData);
 
-            if (isset($hotelData['rooms'])) {
-                foreach ($hotelData['rooms'] as $roomData) {
-                    $roomType = RoomType::firstOrCreate(
-                        ['name' => $roomData['room_type_name']],
-                        ['name' => $roomData['room_type_name']]
-                    );
+        $validator = Validator::make($requestData, [
+            '*.name' => 'required|string|max:255',
+            '*.description' => 'nullable|string',
+            '*.appearance' => 'nullable|string',
+            '*.reviews' => 'nullable|array',
+            '*.address' => 'required|string',
+            // '*.email' => 'nullable|email|max:255|unique:hotels,email',
+            // '*.mobile_num' => 'nullable|string|max:35|unique:hotels,mobile_num',
+            '*.city_id' => 'required|exists:cities,id',
+            '*.hotel_ranking' => 'required|integer|between:1,8',
+            '*.number_of_rooms' => 'required|integer|min:1',
+            '*.amenities' => 'nullable|array',
+            '*.images' => 'nullable|array',
+            '*.images.*.image_url' => 'required|string|max:255',
+            '*.images.*.is_primary' => 'nullable|boolean',
+            '*.rooms' => 'nullable|array',
+            '*.rooms.*.room_type_name' => 'required|string|max:255',
+            '*.rooms.*.single_price' => 'nullable|numeric|min:0',
+            '*.rooms.*.double_price' => 'nullable|numeric|min:0',
+            '*.rooms.*.deluxe_price' => 'nullable|numeric|min:0',
+            '*.rooms.*.price' => 'required|numeric|min:0',
+            '*.rooms.*.quantity' => 'required|integer|min:1',
+            '*.rooms.*.description' => 'nullable|string',
+            '*.rooms.*.is_available' => 'nullable|boolean',
+            '*.rooms.*.images' => 'nullable|array',
+            '*.rooms.*.images.*.image_url' => 'required|string|max:255',
+        ]);
 
-                    $room = Room::create([
-                        'hotel_id' => $hotel->id,
-                        'room_type_id' => $roomType->id,
-                        'name' => $roomData['room_type_name'],
-                        'single_price' => $roomData['single_price'] ?? null,
-                        'double_price' => $roomData['double_price'] ?? null,
-                        'deluxe_price' => $roomData['deluxe_price'] ?? null,
-                        'description' => $roomData['description'] ?? null,
-                        'price' => $roomData['price'],
-                        'quantity' => $roomData['quantity'],
-                        'is_available' => $roomData['is_available'] ?? true,
-                    ]);
+        if ($validator->fails()) {
+            Log::warning('Validation failed for hotel creation:', ['errors' => $validator->errors()]);
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Validation failed',
+                'errors' => $validator->errors()
+            ], 422);
+        }
 
-                    if (isset($roomData['images'])) {
-                        foreach ($roomData['images'] as $imageData) {
-                            $room->roomImages()->create([
-                                'image_url' => $imageData['image_url'],
-                            ]);
+        if (!auth()->check()) {
+            Log::warning('Authentication failed for store request');
+            return response()->json(['message' => 'Authentication required. Please log in.'], 401);
+        }
+
+        try {
+            $hotels = [];
+            foreach ($requestData as $hotelData) {
+                Log::info('Processing hotel data:', ['hotelData' => $hotelData]);
+
+                // Validate city_id existence manually
+                if (!\App\Models\City::find($hotelData['city_id'])) {
+                    throw new \Exception("City with ID {$hotelData['city_id']} does not exist.");
+                }
+
+                $hotel = Hotel::create([
+                    'name' => $hotelData['name'],
+                    'description' => $hotelData['description'] ?? null,
+                    'appearance' => $hotelData['appearance'] ?? null,
+                    'reviews' => isset($hotelData['reviews']) ? json_encode($hotelData['reviews']) : null,
+                    'address' => $hotelData['address'],
+                    'email' => $hotelData['email'] ?? null,
+                    'mobile_num' => $hotelData['mobile_num'] ?? null,
+                    'city_id' => $hotelData['city_id'],
+                    'hotel_ranking' => $hotelData['hotel_ranking'],
+                    'number_of_rooms' => $hotelData['number_of_rooms'],
+                    'amenities' => isset($hotelData['amenities']) ? json_encode($hotelData['amenities']) : null,
+                    'owner_id' => auth()->id(),
+                ]);
+
+                if (!$hotel) {
+                    throw new \Exception("Failed to create hotel.");
+                }
+
+                Log::info('Hotel created:', ['id' => $hotel->id]);
+
+                if (isset($hotelData['images'])) {
+                    foreach ($hotelData['images'] as $imageData) {
+                        $hotel->images()->create([
+                            'image_url' => $imageData['image_url'],
+                            'is_primary' => $imageData['is_primary'] ?? false,
+                        ]);
+                    }
+                }
+
+                if (isset($hotelData['rooms'])) {
+                    foreach ($hotelData['rooms'] as $roomData) {
+                        $roomType = RoomType::firstOrCreate(
+                            ['name' => $roomData['room_type_name']],
+                            ['name' => $roomData['room_type_name']]
+                        );
+
+                        $room = Room::create([
+                            'hotel_id' => $hotel->id,
+                            'room_type_id' => $roomType->id,
+                            'name' => $roomData['room_type_name'],
+                            'single_price' => $roomData['single_price'] ?? null,
+                            'double_price' => $roomData['double_price'] ?? null,
+                            'deluxe_price' => $roomData['deluxe_price'] ?? null,
+                            'description' => $roomData['description'] ?? null,
+                            'price' => $roomData['price'],
+                            'quantity' => $roomData['quantity'],
+                            'is_available' => $roomData['is_available'] ?? true,
+                        ]);
+
+                        if (isset($roomData['images'])) {
+                            foreach ($roomData['images'] as $imageData) {
+                                $room->roomImages()->create([
+                                    'image_url' => $imageData['image_url'],
+                                ]);
+                            }
                         }
                     }
                 }
+
+                $hotel->load(['city', 'owner', 'images', 'rooms' => function ($query) {
+                    $query->with(['roomType', 'roomImages']);
+                }]);
+                $hotels[] = $hotel;
             }
 
-            $hotel->load(['city', 'owner', 'images', 'rooms' => function ($query) {
-                $query->with(['roomType', 'roomImages']);
-            }]);
-            $hotels[] = $hotel;
+            Log::info('Hotels created successfully:', ['count' => count($hotels)]);
+
+            return response()->json([
+                'status' => 'success',
+                'message' => 'Hotels created successfully',
+                'data' => $hotels
+            ], 201);
+        } catch (\Illuminate\Database\QueryException $qe) {
+            Log::error('Database error creating hotel: ' . $qe->getMessage(), ['sql' => $qe->getSql(), 'bindings' => $qe->getBindings()]);
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Database error occurred while creating hotel.',
+                'details' => $qe->getMessage()
+            ], 500);
+        } catch (\Throwable $e) {
+            Log::error('Unexpected error creating hotel: ' . $e->getMessage(), ['trace' => $e->getTraceAsString()]);
+            return response()->json([
+                'status' => 'error',
+                'message' => 'An unexpected error occurred.',
+                'details' => $e->getMessage()
+            ], 500);
         }
-
-        Log::info('Hotels created successfully:', ['count' => count($hotels)]);
-
-        return response()->json([
-            'status' => 'success',
-            'message' => 'Hotels created successfully',
-            'data' => $hotels
-        ], 201);
-    } catch (\Illuminate\Database\QueryException $qe) {
-        Log::error('Database error creating hotel: ' . $qe->getMessage(), ['sql' => $qe->getSql(), 'bindings' => $qe->getBindings()]);
-        return response()->json([
-            'status' => 'error',
-            'message' => 'Database error occurred while creating hotel.',
-            'details' => $qe->getMessage()
-        ], 500);
-    } catch (\Throwable $e) {
-        Log::error('Unexpected error creating hotel: ' . $e->getMessage(), ['trace' => $e->getTraceAsString()]);
-        return response()->json([
-            'status' => 'error',
-            'message' => 'An unexpected error occurred.',
-            'details' => $e->getMessage()
-        ], 500);
     }
-}
 }
