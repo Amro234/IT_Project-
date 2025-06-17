@@ -1,11 +1,16 @@
-import React, { useState, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useRef, useEffect } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { StarIcon, HeartIcon, MagnifyingGlassIcon, ClockIcon, PersonIcon } from '@radix-ui/react-icons';
+import { Star, MapPin, Calendar, ArrowRight, Heart, Search, Filter } from 'lucide-react';
+import { addToFavorites, removeFromFavorites, isInFavorites } from '../utils/favorites';
+import { toast } from 'react-toastify';
 
 const SpecialOffers = () => {
+  const navigate = useNavigate();
   const [activeFilter, setActiveFilter] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const offersRef = useRef(null);
+  const [favorites, setFavorites] = useState([]);
 
   const filters = [
     { id: 'all', label: 'All Offers' },
@@ -98,6 +103,45 @@ const SpecialOffers = () => {
       remainingSpots: 15
     }
   ];
+
+  useEffect(() => {
+    loadFavorites();
+  }, []);
+
+  const loadFavorites = () => {
+    const savedFavorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+    setFavorites(savedFavorites.map(fav => fav.id));
+  };
+
+  const toggleFavorite = (offer) => {
+    if (favorites.includes(offer.id)) {
+      removeFromFavorites(offer.id);
+      setFavorites(prev => prev.filter(id => id !== offer.id));
+      toast.success('Offer removed from favorites', {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+    } else {
+      const added = addToFavorites(offer);
+      if (added) {
+        setFavorites(prev => [...prev, offer.id]);
+        toast.success('Offer added to favorites', {
+          position: "top-right",
+          autoClose: 2000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
+      }
+    }
+  };
 
   const handleSearch = () => {
     setActiveFilter('all');
@@ -202,8 +246,11 @@ const SpecialOffers = () => {
                   className="w-full h-64 object-cover"
                 />
                 <div className="absolute top-4 right-4">
-                  <button className="p-2 bg-white rounded-full shadow-md hover:bg-gray-100 transition-colors">
-                    <HeartIcon className="w-5 h-5 text-[#ef4444]" />
+                  <button 
+                    onClick={() => toggleFavorite(offer)}
+                    className="p-2 bg-white rounded-full shadow-md hover:bg-gray-100 transition-colors"
+                  >
+                    <Heart className={`w-5 h-5 ${favorites.includes(offer.id) ? 'text-red-500 fill-current' : 'text-gray-400'}`} />
                   </button>
                 </div>
                 <div className="absolute bottom-4 left-4">

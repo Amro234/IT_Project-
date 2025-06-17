@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Star, MapPin, Phone, Mail, Home, Filter, Calendar, Users, Heart, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import { addToFavorites, removeFromFavorites, isInFavorites } from '../utils/favorites';
+import { toast } from 'react-toastify';
 
 const HotelUserPage = () => {
   const navigate = useNavigate();
@@ -89,6 +91,15 @@ const HotelUserPage = () => {
     loadAllHotelData();
   }, []);
 
+  useEffect(() => {
+    loadFavorites();
+  }, []);
+
+  const loadFavorites = () => {
+    const savedFavorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+    setFavorites(savedFavorites.map(fav => fav.id));
+  };
+
   const handleFilterChange = (filterType, value) => {
     setFilters(prev => ({
       ...prev,
@@ -97,12 +108,36 @@ const HotelUserPage = () => {
   };
 
   const toggleFavorite = (hotelId) => {
-    setFavorites(prev => {
-      if (prev.includes(hotelId)) {
-        return prev.filter(id => id !== hotelId);
+    if (favorites.includes(hotelId)) {
+      removeFromFavorites(hotelId);
+      setFavorites(prev => prev.filter(id => id !== hotelId));
+      toast.success('Hotel removed from favorites', {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+    } else {
+      const hotel = hotels.find(h => h.id === hotelId);
+      if (hotel) {
+        const added = addToFavorites(hotel);
+        if (added) {
+          setFavorites(prev => [...prev, hotelId]);
+          toast.success('Hotel added to favorites', {
+            position: "top-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
+        }
       }
-      return [...prev, hotelId];
-    });
+    }
   };
 
   const filteredHotels = hotels.filter(hotel => {

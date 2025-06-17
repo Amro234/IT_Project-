@@ -1,9 +1,52 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Star, MapPin, Calendar, ArrowRight, Heart } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import { addToFavorites, removeFromFavorites, isInFavorites } from '../utils/favorites';
+import { toast } from 'react-toastify';
 
 function App() {
   const navigate = useNavigate();
+  const [favorites, setFavorites] = useState([]);
+
+  useEffect(() => {
+    loadFavorites();
+  }, []);
+
+  const loadFavorites = () => {
+    const savedFavorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+    setFavorites(savedFavorites.map(fav => fav.id));
+  };
+
+  const toggleFavorite = (place) => {
+    if (favorites.includes(place.id)) {
+      removeFromFavorites(place.id);
+      setFavorites(prev => prev.filter(id => id !== place.id));
+      toast.success('Place removed from favorites', {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+    } else {
+      const added = addToFavorites(place);
+      if (added) {
+        setFavorites(prev => [...prev, place.id]);
+        toast.success('Place added to favorites', {
+          position: "top-right",
+          autoClose: 2000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
+      }
+    }
+  };
+
   const recommendedPlaces = [
     {
       id: 1,
@@ -76,8 +119,11 @@ function App() {
             <div key={place.id} className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
               <div className="relative h-48">
                 <img src={place.image} alt={place.name} className="w-full h-full object-cover" />
-                <button className="absolute top-4 right-4 p-2 bg-white rounded-full shadow-md hover:bg-gray-100">
-                  <Heart className="w-5 h-5 text-[#ef4444]" />
+                <button 
+                  onClick={() => toggleFavorite(place)}
+                  className="absolute top-4 right-4 p-2 bg-white rounded-full shadow-md hover:bg-gray-100"
+                >
+                  <Heart className={`w-5 h-5 ${favorites.includes(place.id) ? 'text-red-500 fill-current' : 'text-gray-400'}`} />
                 </button>
               </div>
               <div className="p-6">

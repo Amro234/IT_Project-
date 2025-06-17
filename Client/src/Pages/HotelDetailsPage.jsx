@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Star, MapPin, Phone, Mail, Home, Wifi, Utensils, Award, BookOpen } from 'lucide-react';
+import { Star, MapPin, Phone, Mail, Home, Wifi, Utensils, Award, BookOpen, Heart } from 'lucide-react';
+import { addToFavorites, removeFromFavorites, isInFavorites } from '../utils/favorites';
+import { toast } from 'react-toastify';
 
 const HotelDetailsPage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [hotel, setHotel] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [isFavorite, setIsFavorite] = useState(false);
   const defaultHotelImage = "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB4aG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80";
 
   useEffect(() => {
@@ -64,6 +67,7 @@ const HotelDetailsPage = () => {
         };
 
         setHotel(processedHotel);
+        setIsFavorite(isInFavorites(processedHotel.id));
       } catch (error) {
         console.error('Error fetching hotel data:', error);
       } finally {
@@ -75,6 +79,37 @@ const HotelDetailsPage = () => {
       loadHotelData();
     }
   }, [id]);
+
+  const handleToggleFavorite = (e) => {
+    e.preventDefault();
+    if (isFavorite) {
+      removeFromFavorites(hotel.id);
+      setIsFavorite(false);
+      toast.success('Hotel removed from favorites', {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+    } else {
+      const added = addToFavorites(hotel);
+      if (added) {
+        setIsFavorite(true);
+        toast.success('Hotel added to favorites', {
+          position: "top-right",
+          autoClose: 2000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
+      }
+    }
+  };
 
   if (isLoading) {
     return (
@@ -107,7 +142,20 @@ const HotelDetailsPage = () => {
             }}
           />
           <div className="absolute inset-0 bg-black bg-opacity-40 flex items-end p-6">
-            <h1 className="text-4xl font-bold text-white">{hotel.name}</h1>
+            <div className="flex justify-between items-end w-full">
+              <h1 className="text-4xl font-bold text-white">{hotel.name}</h1>
+              <button
+                onClick={handleToggleFavorite}
+                className={`p-3 rounded-full transition-colors ${
+                  isFavorite 
+                    ? 'bg-red-100 text-red-600 hover:bg-red-200' 
+                    : 'bg-white text-gray-600 hover:bg-gray-100'
+                }`}
+                title={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
+              >
+                <Heart className={`w-6 h-6 ${isFavorite ? 'fill-current' : ''}`} />
+              </button>
+            </div>
           </div>
         </div>
 
