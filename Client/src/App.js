@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'r
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Toaster } from 'react-hot-toast';
 
 // Components
 import Navbar from './Components/Navbar';
@@ -161,16 +162,15 @@ const App = () => {
             />
           </Routes>
         </Layout>
-        <ToastContainer
+        <Toaster
           position="top-right"
-          autoClose={2000}
-          hideProgressBar={false}
-          newestOnTop
-          closeOnClick
-          rtl
-          pauseOnFocusLoss
-          draggable
-          pauseOnHover
+          toastOptions={{
+            duration: 3000,
+            style: {
+              background: '#333',
+              color: '#fff',
+            },
+          }}
         />
       </Router>
     </div>

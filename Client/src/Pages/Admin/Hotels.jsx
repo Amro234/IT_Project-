@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Plus, Edit, Trash2, Star, Info, MapPin, Phone, Mail, Building2, ChevronLeft, ChevronRight, Settings, Users, Calendar, BarChart2, XCircle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import toast from 'react-hot-toast';
 
 const HotelsPage = () => {
   const navigate = useNavigate();
@@ -18,63 +19,64 @@ const HotelsPage = () => {
     const loadAllHotelData = async () => {
       setIsLoading(true);
       try {
-        const filePaths = [
-          '/final json/Cairo-1/transformed_hotels1_1.json',
-          '/final json/Cairo-1/transformed_hotels1_2.json',
-          '/final json/Cairo-1/transformed_hotels1_3.json',
-          '/final json/Hurghada-3/transformed_hotels3_1.json',
-          '/final json/Hurghada-3/transformed_hotels3_2.json',
-          '/final json/Hurghada-3/transformed_hotels3_3.json',
-          '/final json/Hurghada-3/transformed_hotels3_4.json',
-          '/final json/Hurghada-3/transformed_hotels3_5.json',
-          '/final json/Sharm,2/transformed_hotels2_1 (1).json',
-          '/final json/Sharm,2/transformed_hotels2_2.json',
-          '/final json/Sharm,2/transformed_hotels2_3.json',
-          '/final json/Sharm,2/transformed_hotels2_4.json',
-          '/final json/Sharm,2/transformed_hotels2_5.json',
-        ];
-
-        const allResponses = await Promise.all(filePaths.map(path => fetch(path)));
-        let allHotelData = [];
-
-        for (const response of allResponses) {
-          if (response.ok) {
-            const data = await response.json();
-            allHotelData = [...allHotelData, ...data];
-          } else {
-            console.error(`Error loading data from ${response.url}:`, response.statusText);
+        const token = localStorage.getItem('token');
+        const response = await fetch('http://localhost:8000/api/hotels', {
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
           }
+        });
+
+        if (!response.ok) {
+          throw new Error('Failed to fetch hotels');
         }
 
-        const mapCityIdToLocation = (cityId) => {
-          switch (cityId) {
-            case 1: return 'Cairo';
-            case 2: return 'Sharm El Sheikh';
-            case 3: return 'Hurghada';
-            default: return 'Unknown Location';
-          }
-        };
+        const { data: allHotelData } = await response.json();
 
-        const processedHotels = allHotelData.map((hotel, index) => ({
-          id: `${hotel.city_id}-${index}-${Math.random().toString(36).substr(2, 5)}`, // Unique ID
-          name: hotel.name,
-          location: mapCityIdToLocation(hotel.city_id),
-          rating: hotel.hotel_ranking || 0,
-          price: hotel.rooms[0]?.price || 0,
-          rooms: hotel.number_of_rooms || 0,
-          contact: hotel.mobile_num || 'N/A',
-          email: hotel.email || 'N/A',
-          address: hotel.address || 'N/A',
-          amenities: hotel.amenities || [],
-          description: hotel.description || 'No description available.',
-          roomTypes: hotel.rooms?.map(room => ({
-            name: room.room_type_name,
-            price: room.price,
-            quantity: room.quantity,
-            description: room.description,
-          })) || [],
-          reviews: hotel.reviews || [],
-        }));
+        const processedHotels = allHotelData.map((hotel) => {
+          // Parse amenities from JSON string if it exists
+          let amenities = [];
+          try {
+            if (hotel.amenities) {
+              // First parse the outer JSON string
+              const parsedAmenities = JSON.parse(hotel.amenities);
+              // Then parse the inner JSON string if it exists
+              amenities = typeof parsedAmenities === 'string' ? JSON.parse(parsedAmenities) : parsedAmenities;
+              // Ensure it's an array
+              amenities = Array.isArray(amenities) ? amenities : [];
+            }
+          } catch (e) {
+            console.error('Error parsing amenities:', e);
+            amenities = [];
+          }
+
+          // Get the main hotel image
+          const mainHotelImage = hotel.images?.[0]?.image_url || 'https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80';
+
+          return {
+            id: hotel.id,
+            name: hotel.name,
+            location: hotel.city?.name || 'Unknown Location',
+            rating: hotel.hotel_ranking || 0,
+            price: hotel.rooms?.[0]?.price || 0,
+            rooms: hotel.number_of_rooms || 0,
+            contact: hotel.mobile_num || 'N/A',
+            email: hotel.email || 'N/A',
+            address: hotel.address || 'N/A',
+            amenities: amenities,
+            description: hotel.description || 'No description available.',
+            image: mainHotelImage,
+            roomTypes: hotel.rooms?.map(room => ({
+              name: room.room_type_name || 'Standard Room',
+              price: room.price || 0,
+              quantity: room.quantity || 0,
+              description: room.description || 'No description available',
+              images: room.room_images || []
+            })) || [],
+            reviews: hotel.reviews || [],
+          };
+        });
 
         setHotels(processedHotels);
       } catch (error) {
@@ -126,12 +128,26 @@ const HotelsPage = () => {
   const handleDeleteHotel = async (hotelId) => {
     if (window.confirm('Are you sure you want to delete this hotel?')) {
       try {
-        // Add API call to delete hotel
-        console.log('Deleting hotel:', hotelId);
+        const token = localStorage.getItem('token');
+        const response = await fetch(`http://localhost:8000/api/hotels/${hotelId}`, {
+          method: 'DELETE',
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+          }
+        });
+
+        if (!response.ok) {
+          throw new Error('Failed to delete hotel');
+        }
+
         // After successful deletion, update the hotels list
         setHotels(hotels.filter(hotel => hotel.id !== hotelId));
+        toast.success('Hotel deleted successfully');
       } catch (error) {
         console.error('Error deleting hotel:', error);
+        toast.error('Failed to delete hotel');
       }
     }
   };
