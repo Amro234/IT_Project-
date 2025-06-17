@@ -20,29 +20,28 @@ const Login = () => {
     try {
       const response = await fetch('http://localhost:8000/api/login', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+          'X-Requested-With': 'XMLHttpRequest'
+        },
         body: JSON.stringify(formData),
       });
 
       const data = await response.json();
-      if (data.success) {
-        switch (data.role) {
-          case 'admin':
-            navigate('/admin/dashboard');
-            break;
-          case 'client':
-            navigate('/client/dashboard');
-            break;
-          case 'user':
-            navigate('/user/dashboard');
-            break;
-          default:
-            setError('Unknown role');
-        }
+      
+      if (response.ok) {
+        // Store the token in localStorage
+        localStorage.setItem('token', data.token);
+        // Store user data if needed
+        localStorage.setItem('user', JSON.stringify(data.user));
+        // Redirect to home page
+        navigate('/home');
       } else {
-        setError(data.message);
+        setError(data.message || 'Invalid credentials');
       }
     } catch (err) {
+      console.error('Login error:', err);
       setError('An error occurred. Please try again.');
     }
   };

@@ -72,23 +72,23 @@ class AuthController extends Controller
 //         'token' => $token,
 //     ], 200);
 // }
-public function login(Request $request){
+public function login(Request $request)
+{
     $request->validate([
         'email' => 'required|email',
         'password' => 'required|string',
     ]);
 
-    $credentials = $request->only('email', 'password');
-
-    if (!Auth::attempt($credentials)) {
+    if (!Auth::attempt($request->only('email', 'password'))) {
         return response()->json([
             'message' => 'Invalid credentials',
         ], 401);
     }
 
-    $user = User::where('email', $credentials['email'])->first();
+    $user = Auth::user();
 
     if (!$user->hasVerifiedEmail()) {
+        Auth::logout();
         return response()->json([
             'message' => 'Email not verified. Please verify your email.',
         ], 403);
@@ -100,6 +100,8 @@ public function login(Request $request){
         'message' => 'Login successful',
         'user' => $user,
         'token' => $token,
+        'success' => true,
+        'role' => $user->role
     ], 200);
 }
 
