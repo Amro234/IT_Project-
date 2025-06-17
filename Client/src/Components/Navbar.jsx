@@ -114,7 +114,7 @@ const Navbar = () => {
               {isAuthenticated ? (
                 <div className="user-profile-container">
                   <Link to="/user-profile" className="user-profile-link" onClick={() => setIsOpen(false)}>
-                    <span className="user-name">{user?.firstName || 'User'}</span>
+                    <span className="user-name">{user?.name}</span>
                   </Link>
                   <button onClick={handleLogout} className="logout-button">
                     Logout

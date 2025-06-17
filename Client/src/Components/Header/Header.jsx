@@ -30,10 +30,10 @@ const Header = () => {
           {/* Left side - Avatar and Name */}
           <div className="flex items-center space-x-4 cursor-pointer" onClick={() => navigate('/user-profile')}>
             <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-              <span className="text-blue-600 text-lg font-semibold">{user.firstName?.[0] || 'U'}</span>
+              <span className="text-blue-600 text-lg font-semibold">{user.name?.[0] || 'U'}</span>
             </div>
             <div>
-              <h2 className="text-lg font-bold text-gray-900">{user.firstName || 'User'}</h2>
+              <h2 className="text-lg font-bold text-gray-900">{user.name}</h2>
               <p className="text-sm text-gray-500">Welcome back!</p>
             </div>
           </div>
