@@ -124,6 +124,11 @@ const HotelDetailsPage = () => {
   }
 
   const handleBookNow = () => {
+    const isAuthenticated = localStorage.getItem('token') !== null;
+    if (!isAuthenticated) {
+      navigate('/login');
+      return;
+    }
     navigate(`/booking/${hotel.id}`);
   };
 

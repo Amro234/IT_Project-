@@ -134,7 +134,14 @@ const OfferDetails = () => {
                 </div>
 
                 <button
-                  onClick={() => navigate(`/booking/${currentOffer.id}`)}
+                  onClick={() => {
+                    const isAuthenticated = localStorage.getItem('token') !== null;
+                    if (!isAuthenticated) {
+                      navigate('/login');
+                      return;
+                    }
+                    navigate(`/booking/${currentOffer.id}`);
+                  }}
                   className="w-full py-3 bg-[#10b981] text-white rounded-lg font-medium hover:bg-[#0d9c6e] transition-colors"
                 >
                   Book Now

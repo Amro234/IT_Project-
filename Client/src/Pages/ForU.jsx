@@ -141,7 +141,14 @@ function App() {
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-[#2563eb] font-semibold">{place.price}</span>
-                  <button onClick={() => navigate(`/booking/${place.id}`)} className="bg-[#10b981] text-white px-4 py-2 rounded-lg hover:bg-[#059669] transition duration-300">
+                  <button onClick={() => {
+                    const isAuthenticated = localStorage.getItem('token') !== null;
+                    if (!isAuthenticated) {
+                      navigate('/login');
+                      return;
+                    }
+                    navigate(`/booking/${place.id}`);
+                  }} className="bg-[#10b981] text-white px-4 py-2 rounded-lg hover:bg-[#059669] transition duration-300">
                     Book Now
                   </button>
                 </div>
