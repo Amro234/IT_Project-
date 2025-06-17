@@ -11,6 +11,7 @@ import {
   HamburgerMenuIcon,
   Cross2Icon,
 } from '@radix-ui/react-icons';
+import { Utensils } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,7 +49,8 @@ const Navbar = () => {
       { path: '/for-u', name: 'For U', icon: <TargetIcon /> },
       { path: '/special-offers', name: 'Special Offers', icon: <StarIcon /> },
     ] : []),
-    { path: '/hotels', name: 'Hotels', icon: <MdHotelClass  /> },
+    { path: '/hotels', name: 'Hotels', icon: <MdHotelClass /> },
+    { path: '/restaurants', name: 'Restaurants', icon: <Utensils /> },
     { path: '/contact', name: 'Contact Us', icon: <EnvelopeClosedIcon /> },
     { path: '/about', name: 'About Us', icon: <PersonIcon /> },
   ];

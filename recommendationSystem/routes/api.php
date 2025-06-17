@@ -130,6 +130,8 @@ Route::post('/reset-password', [AuthController::class, 'resetPassword']);
 // Public routes
 Route::get('/hotels', [HotelController::class, 'index']);
 Route::get('/hotels/{id}', [HotelController::class, 'show']);
+Route::get('/restaurants', [RestaurantController::class, 'index']);
+Route::get('/restaurants/{id}', [RestaurantController::class, 'show']);
 
 // Routes requiring authentication
 Route::middleware('auth:sanctum')->group(function () {
@@ -148,7 +150,7 @@ Route::middleware('auth:sanctum')->group(function () {
             Route::apiResource('rooms', RoomController::class);
             Route::apiResource('room_images', RoomImageController::class);
             Route::apiResource('transportation', TransportationController::class);
-            Route::apiResource('restaurants', RestaurantController::class);
+            Route::apiResource('restaurants', RestaurantController::class)->except(['index', 'show']);
             Route::apiResource('entertainment_places', EntertainmentPlaceController::class);
             Route::apiResource('ai_model_metadata', AiModelMetadataController::class);
             Route::apiResource('recommendations', RecommendationController::class)->except(['index', 'show']);
@@ -160,7 +162,6 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::apiResource('rooms', RoomController::class)->only(['index', 'show']);
         Route::apiResource('room_images', RoomImageController::class)->only(['index', 'show']);
         Route::apiResource('transportation', TransportationController::class)->only(['index', 'show']);
-        Route::apiResource('restaurants', RestaurantController::class)->only(['index', 'show']);
         Route::apiResource('entertainment_places', EntertainmentPlaceController::class)->only(['index', 'show']);
         Route::apiResource('bookings', BookingController::class);
         Route::apiResource('payments', PaymentController::class);

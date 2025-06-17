@@ -11,6 +11,7 @@ use App\Models\HotelImage;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\DB;
 
 class HotelController extends Controller
 {
@@ -207,9 +208,43 @@ class HotelController extends Controller
         try {
             $hotel = Hotel::findOrFail($id);
 
-            $hotel->images()->delete();
-            $hotel->rooms()->delete();
-            $hotel->delete();
+            // Check if user has permission to delete this hotel
+            if (auth()->user()->role !== 'admin' && auth()->id() !== $hotel->owner_id) {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'You do not have permission to delete this hotel.'
+                ], 403);
+            }
+
+            // Check for active bookings
+            $activeBookings = $hotel->hotelBookingRooms()
+                ->whereHas('booking', function ($query) {
+                    $query->where('status', '!=', 'cancelled');
+                })
+                ->exists();
+
+            if ($activeBookings) {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'Cannot delete hotel with active bookings.'
+                ], 400);
+            }
+
+            // Use database transaction to ensure all deletions succeed or none do
+            DB::transaction(function () use ($hotel) {
+                // Delete related records
+                $hotel->images()->delete();
+                $hotel->rooms()->each(function ($room) {
+                    $room->roomImages()->delete();
+                });
+                $hotel->rooms()->delete();
+                $hotel->reviews()->delete();
+                $hotel->recommendations()->delete();
+                $hotel->hotelBookingRooms()->delete();
+                
+                // Finally delete the hotel
+                $hotel->delete();
+            });
 
             Log::info('Hotel deleted successfully:', ['id' => $id]);
 
