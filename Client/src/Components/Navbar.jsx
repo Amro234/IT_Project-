@@ -15,9 +15,9 @@ import {
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [user, setUser] = useState(null);
   const location = useLocation();
-  const isAuthenticated = false;
-  const user = null;
   
   // Handle scroll effect
   useEffect(() => {
@@ -28,6 +28,20 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Check authentication status on mount and when location changes
+  useEffect(() => {
+    const token = localStorage.getItem('token');
+    const userData = localStorage.getItem('user');
+    
+    if (token && userData) {
+      setIsAuthenticated(true);
+      setUser(JSON.parse(userData));
+    } else {
+      setIsAuthenticated(false);
+      setUser(null);
+    }
+  }, [location]);
+
   const navLinks = [
     { path: '/', name: 'Home', icon: <HomeIcon /> },
     { path: '/for-u', name: 'For U', icon: <TargetIcon /> },
@@ -36,6 +50,14 @@ const Navbar = () => {
     { path: '/special-offers', name: 'Special Offers', icon: <StarIcon /> },
     { path: '/about', name: 'About Us', icon: <PersonIcon /> },
   ];
+
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    localStorage.removeItem('user');
+    setIsAuthenticated(false);
+    setUser(null);
+    window.location.href = '/login';
+  };
 
   return (
     <>
@@ -90,9 +112,14 @@ const Navbar = () => {
             {/* Login/User Profile area */}
             <div className="login-area">
               {isAuthenticated ? (
-                <Link to="/user-profile" className="user-profile-link" onClick={() => setIsOpen(false)}>
-                  <span className="user-name">{user?.firstName || 'User'}</span>
-                </Link>
+                <div className="user-profile-container">
+                  <Link to="/user-profile" className="user-profile-link" onClick={() => setIsOpen(false)}>
+                    <span className="user-name">{user?.firstName || 'User'}</span>
+                  </Link>
+                  <button onClick={handleLogout} className="logout-button">
+                    Logout
+                  </button>
+                </div>
               ) : (
                 <Link to="/login" className="login-button" onClick={() => setIsOpen(false)}>
                   Login
@@ -221,6 +248,12 @@ const Navbar = () => {
             transform: translateY(-2px);
           }
 
+          .user-profile-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+          }
+
           .user-profile-link {
             display: inline-block;
             padding: 0.3rem 1rem;
@@ -235,6 +268,23 @@ const Navbar = () => {
 
           .user-profile-link:hover {
             background-color: #e0e0e0;
+            transform: translateY(-2px);
+          }
+
+          .logout-button {
+            padding: 0.3rem 1rem;
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-weight: 500;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+          }
+
+          .logout-button:hover {
+            background-color: #c82333;
             transform: translateY(-2px);
           }
 
@@ -298,6 +348,17 @@ const Navbar = () => {
               display: flex;
               justify-content: center;
               margin-top: 2rem;
+            }
+
+            .user-profile-container {
+              flex-direction: column;
+              width: 100%;
+            }
+
+            .user-profile-link,
+            .logout-button {
+              width: 100%;
+              text-align: center;
             }
 
             .mobile-overlay {
