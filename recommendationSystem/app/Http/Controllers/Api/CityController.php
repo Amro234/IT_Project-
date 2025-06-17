@@ -11,7 +11,7 @@ class CityController extends Controller
     public function __construct()
     {
         $this->middleware('auth:sanctum');
-        $this->middleware('admin');
+        $this->middleware('admin')->only(['store', 'update', 'destroy']);    
     }
 
     public function index()

@@ -1,5 +1,4 @@
 <?php
-
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -9,13 +8,16 @@ class CreateEntertainmentPlacesTable extends Migration
     public function up()
     {
         Schema::create('entertainment_places', function (Blueprint $table) {
-            $table->id();
+            $table->id()->renameColumn('Landmark_id');
             $table->foreignId('city_id')->constrained('cities')->onDelete('cascade');
-            $table->enum('type', ['mall', 'beach', 'other']);
-            $table->string('name');
-            $table->text('description')->nullable();
-            $table->string('address');
-            $table->decimal('entry_fee', 8, 2)->nullable();
+            $table->string('Landmark_name');
+            $table->string('Land_photo_1')->nullable();
+            $table->string('Land_photo_2')->nullable();
+            $table->string('Land_photo_3')->nullable();
+            $table->string('Land_photo_4')->nullable();
+            $table->decimal('Rating', 3, 1)->nullable();
+            $table->decimal('Ticket-price', 8, 2)->nullable();
+            $table->string('Category');
             $table->timestamps();
         });
     }

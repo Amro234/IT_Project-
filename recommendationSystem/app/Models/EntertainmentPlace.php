@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -9,7 +8,13 @@ class EntertainmentPlace extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['city_id', 'type', 'name', 'description', 'address', 'entry_fee'];
+    protected $table = 'entertainment_places';
+    protected $primaryKey = 'Landmark_id';
+
+    protected $fillable = [
+        'city_id', 'Landmark_name', 'Land_photo_1', 'Land_photo_2',
+        'Land_photo_3', 'Land_photo_4', 'Rating', 'Ticket-price', 'Category'
+    ];
 
     public function city()
     {

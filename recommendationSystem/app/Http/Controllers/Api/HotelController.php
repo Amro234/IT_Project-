@@ -17,8 +17,7 @@ class HotelController extends Controller
     public function __construct()
     {
         $this->middleware('auth:sanctum');
-        $this->middleware('admin');
-    }
+        $this->middleware('admin')->only(['store', 'update', 'destroy']);    }
 
     public function index()
     {
@@ -262,7 +261,7 @@ class HotelController extends Controller
         '*.appearance' => 'nullable|string',
         '*.reviews' => 'nullable|array',
         '*.address' => 'required|string',
-        '*.email' => 'nullable|email|max:255|unique:hotels,email',
+        // '*.email' => 'nullable|email|max:255|unique:hotels,email',
         // '*.mobile_num' => 'nullable|string|max:35|unique:hotels,mobile_num',
         '*.city_id' => 'required|exists:cities,id',
         '*.hotel_ranking' => 'required|integer|between:1,8',
