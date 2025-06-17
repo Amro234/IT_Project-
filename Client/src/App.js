@@ -63,6 +63,18 @@ const ProtectedRoute = ({ children }) => {
   return children;
 };
 
+// Admin Route Component
+const AdminRoute = ({ children }) => {
+  const isAuthenticated = localStorage.getItem('token') !== null;
+  const user = JSON.parse(localStorage.getItem('user') || '{}');
+  
+  if (!isAuthenticated || user.role !== 'admin') {
+    return <Navigate to="/home" replace />;
+  }
+
+  return children;
+};
+
 const App = () => {
   return (
     <div className="min-vh-100 position-relative overflow-hidden">
@@ -75,7 +87,31 @@ const App = () => {
             <Route path="/forgot-password" element={<ForgotPassword />} />
             
             {/* Admin Routes */}
-            <Route path="/admin/dashboard" element={<AdminDashboard />} />
+            <Route path="/admin/dashboard" element={
+              <AdminRoute>
+                <AdminDashboard />
+              </AdminRoute>
+            } />
+            <Route path="/admin/hotels" element={
+              <AdminRoute>
+                <HotelsPage />
+              </AdminRoute>
+            } />
+            <Route path="/admin/add-hotel" element={
+              <AdminRoute>
+                <AddHotelPage />
+              </AdminRoute>
+            } />
+            <Route path="/admin/settings" element={
+              <AdminRoute>
+                <SettingsPage />
+              </AdminRoute>
+            } />
+            <Route path="/admin/bookings" element={
+              <AdminRoute>
+                <BookingsPage />
+              </AdminRoute>
+            } />
             
             {/* Protected Routes */}
             <Route path="/" element={<><Home /><Footer /></>} />
@@ -113,10 +149,6 @@ const App = () => {
             <Route path="/tripform" element={<><TripForm /><Footer /></>} />
             <Route path="/trips/:id" element={<TripDetails />} />
             <Route path="/user-profile" element={<><UserProfile /><Footer /></>} />
-            <Route path="/admin/hotels" element={<HotelsPage />} />
-            <Route path="/admin/add-hotel" element={<AddHotelPage />} />
-            <Route path="/admin/settings" element={<SettingsPage />} />
-            <Route path="/admin/bookings" element={<BookingsPage />} />
             
             {/* 404 Route */}
             <Route 
