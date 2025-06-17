@@ -43,76 +43,76 @@ const PaymentPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
-      <div className="max-w-4xl mx-auto px-4">
-        <div className="flex items-center justify-center mb-8">
-          <Lock className="w-8 h-8 text-blue-600 mr-2" />
-          <h1 className="text-3xl font-bold text-gray-900">Secure Payment</h1>
+    <div className="min-h-screen bg-gray-50 py-16">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-center mb-12">
+          <Lock className="w-10 h-10 text-blue-600 mr-3" />
+          <h1 className="text-4xl font-bold text-gray-900">Secure Payment</h1>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
           {/* Payment Form */}
-          <div className="md:col-span-2">
-            <div className="bg-white rounded-xl shadow-sm p-6">
-              <div className="flex items-center justify-between mb-6">
-                <h2 className="text-xl font-semibold text-gray-900">Payment Details</h2>
-                <div className="flex items-center text-green-600">
+          <div className="lg:col-span-2">
+            <div className="bg-white rounded-2xl shadow-sm p-8">
+              <div className="flex items-center justify-between mb-8">
+                <h2 className="text-2xl font-semibold text-gray-900">Payment Details</h2>
+                <div className="flex items-center text-green-600 bg-green-50 px-4 py-2 rounded-lg">
                   <Shield className="w-5 h-5 mr-2" />
                   <span className="text-sm font-medium">Secure Payment</span>
                 </div>
               </div>
 
               {/* Payment Method Selection */}
-              <div className="mb-6">
-                <label className="block text-sm font-medium text-gray-700 mb-2">Payment Method</label>
+              <div className="mb-8">
+                <label className="block text-base font-medium text-gray-700 mb-3">Payment Method</label>
                 <div className="grid grid-cols-2 gap-4">
                   <button
                     onClick={() => setPaymentMethod('credit')}
-                    className={`p-4 rounded-lg border-2 flex items-center justify-center ${
+                    className={`p-5 rounded-xl border-2 flex items-center justify-center transition-all duration-200 ${
                       paymentMethod === 'credit'
-                        ? 'border-blue-600 bg-blue-50'
-                        : 'border-gray-200 hover:border-blue-600'
+                        ? 'border-blue-600 bg-blue-50 shadow-sm'
+                        : 'border-gray-200 hover:border-blue-600 hover:bg-gray-50'
                     }`}
                   >
-                    <CreditCard className="w-6 h-6 mr-2 text-blue-600" />
-                    <span className="font-medium">Credit Card</span>
+                    <CreditCard className="w-7 h-7 mr-3 text-blue-600" />
+                    <span className="font-medium text-lg">Credit Card</span>
                   </button>
                   <button
                     onClick={() => setPaymentMethod('debit')}
-                    className={`p-4 rounded-lg border-2 flex items-center justify-center ${
+                    className={`p-5 rounded-xl border-2 flex items-center justify-center transition-all duration-200 ${
                       paymentMethod === 'debit'
-                        ? 'border-blue-600 bg-blue-50'
-                        : 'border-gray-200 hover:border-blue-600'
+                        ? 'border-blue-600 bg-blue-50 shadow-sm'
+                        : 'border-gray-200 hover:border-blue-600 hover:bg-gray-50'
                     }`}
                   >
-                    <CreditCard className="w-6 h-6 mr-2 text-blue-600" />
-                    <span className="font-medium">Debit Card</span>
+                    <CreditCard className="w-7 h-7 mr-3 text-blue-600" />
+                    <span className="font-medium text-lg">Debit Card</span>
                   </button>
                 </div>
               </div>
 
               {/* Payment Form */}
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-8">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-base font-medium text-gray-700 mb-3">
                     Card Number
                   </label>
                   <div className="relative">
-                    <CreditCard className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+                    <CreditCard className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-6 h-6" />
                     <input
                       type="text"
                       name="cardNumber"
                       value={formData.cardNumber}
                       onChange={handleInputChange}
                       placeholder="1234 5678 9012 3456"
-                      className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="w-full pl-12 pr-4 py-3 text-lg border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       maxLength="19"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-base font-medium text-gray-700 mb-3">
                     Cardholder Name
                   </label>
                   <input
@@ -121,30 +121,30 @@ const PaymentPage = () => {
                     value={formData.cardName}
                     onChange={handleInputChange}
                     placeholder="John Doe"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-4 py-3 text-lg border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                   />
                 </div>
 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-base font-medium text-gray-700 mb-3">
                       Expiry Date
                     </label>
                     <div className="relative">
-                      <Calendar className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+                      <Calendar className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-6 h-6" />
                       <input
                         type="text"
                         name="expiryDate"
                         value={formData.expiryDate}
                         onChange={handleInputChange}
                         placeholder="MM/YY"
-                        className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full pl-12 pr-4 py-3 text-lg border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                         maxLength="5"
                       />
                     </div>
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-base font-medium text-gray-700 mb-3">
                       CVV
                     </label>
                     <input
@@ -153,14 +153,14 @@ const PaymentPage = () => {
                       value={formData.cvv}
                       onChange={handleInputChange}
                       placeholder="123"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="w-full px-4 py-3 text-lg border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       maxLength="3"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-base font-medium text-gray-700 mb-3">
                     Email Address
                   </label>
                   <input
@@ -169,12 +169,12 @@ const PaymentPage = () => {
                     value={formData.email}
                     onChange={handleInputChange}
                     placeholder="john@example.com"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-4 py-3 text-lg border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-base font-medium text-gray-700 mb-3">
                     Phone Number
                   </label>
                   <input
@@ -183,27 +183,27 @@ const PaymentPage = () => {
                     value={formData.phone}
                     onChange={handleInputChange}
                     placeholder="+1 (555) 000-0000"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-4 py-3 text-lg border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                   />
                 </div>
 
                 <button
                   type="submit"
                   disabled={isProcessing}
-                  className={`w-full py-3 rounded-lg text-white font-medium flex items-center justify-center ${
+                  className={`w-full py-4 rounded-xl text-white font-medium text-lg flex items-center justify-center transition-all duration-200 ${
                     isProcessing
                       ? 'bg-blue-400 cursor-not-allowed'
-                      : 'bg-blue-600 hover:bg-blue-700'
+                      : 'bg-blue-600 hover:bg-blue-700 shadow-md hover:shadow-lg'
                   }`}
                 >
                   {isProcessing ? (
                     <>
-                      <div className="animate-spin rounded-full h-5 w-5 border-t-2 border-b-2 border-white mr-2"></div>
+                      <div className="animate-spin rounded-full h-6 w-6 border-t-2 border-b-2 border-white mr-3"></div>
                       Processing...
                     </>
                   ) : (
                     <>
-                      <Lock className="w-5 h-5 mr-2" />
+                      <Lock className="w-6 h-6 mr-3" />
                       Pay Now
                     </>
                   )}
@@ -213,70 +213,70 @@ const PaymentPage = () => {
           </div>
 
           {/* Order Summary */}
-          <div className="md:col-span-1">
-            <div className="bg-white rounded-xl shadow-sm p-6 sticky top-6">
-              <h2 className="text-xl font-semibold text-gray-900 mb-6">Order Summary</h2>
+          <div className="lg:col-span-1">
+            <div className="bg-white rounded-2xl shadow-sm p-8 sticky top-8">
+              <h2 className="text-2xl font-semibold text-gray-900 mb-8">Order Summary</h2>
               
-              <div className="space-y-4">
-                <div className="flex items-center justify-between">
+              <div className="space-y-6">
+                <div className="flex items-center justify-between p-4 bg-gray-50 rounded-xl">
                   <div className="flex items-center">
-                    <Building className="w-5 h-5 text-gray-400 mr-2" />
-                    <span className="text-gray-600">Hotel Name</span>
+                    <Building className="w-6 h-6 text-gray-400 mr-3" />
+                    <span className="text-gray-600 text-lg">Hotel Name</span>
                   </div>
-                  <span className="font-medium">Luxury Resort</span>
+                  <span className="font-medium text-lg">Luxury Resort</span>
                 </div>
 
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between p-4 bg-gray-50 rounded-xl">
                   <div className="flex items-center">
-                    <Calendar className="w-5 h-5 text-gray-400 mr-2" />
-                    <span className="text-gray-600">Check-in</span>
+                    <Calendar className="w-6 h-6 text-gray-400 mr-3" />
+                    <span className="text-gray-600 text-lg">Check-in</span>
                   </div>
-                  <span className="font-medium">May 15, 2024</span>
+                  <span className="font-medium text-lg">May 15, 2024</span>
                 </div>
 
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between p-4 bg-gray-50 rounded-xl">
                   <div className="flex items-center">
-                    <Calendar className="w-5 h-5 text-gray-400 mr-2" />
-                    <span className="text-gray-600">Check-out</span>
+                    <Calendar className="w-6 h-6 text-gray-400 mr-3" />
+                    <span className="text-gray-600 text-lg">Check-out</span>
                   </div>
-                  <span className="font-medium">May 20, 2024</span>
+                  <span className="font-medium text-lg">May 20, 2024</span>
                 </div>
 
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between p-4 bg-gray-50 rounded-xl">
                   <div className="flex items-center">
-                    <Users className="w-5 h-5 text-gray-400 mr-2" />
-                    <span className="text-gray-600">Guests</span>
+                    <Users className="w-6 h-6 text-gray-400 mr-3" />
+                    <span className="text-gray-600 text-lg">Guests</span>
                   </div>
-                  <span className="font-medium">2 Adults</span>
+                  <span className="font-medium text-lg">2 Adults</span>
                 </div>
 
-                <div className="border-t border-gray-200 pt-4 mt-4">
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="text-gray-600">Subtotal</span>
-                    <span className="font-medium">$1,200.00</span>
+                <div className="border-t border-gray-200 pt-6 mt-6">
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="text-gray-600 text-lg">Subtotal</span>
+                    <span className="font-medium text-lg">$1,200.00</span>
                   </div>
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="text-gray-600">Taxes & Fees</span>
-                    <span className="font-medium">$120.00</span>
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="text-gray-600 text-lg">Taxes & Fees</span>
+                    <span className="font-medium text-lg">$120.00</span>
                   </div>
-                  <div className="flex items-center justify-between text-lg font-semibold">
+                  <div className="flex items-center justify-between text-xl font-semibold pt-4 border-t border-gray-200">
                     <span className="text-gray-900">Total</span>
                     <span className="text-blue-600">$1,320.00</span>
                   </div>
                 </div>
 
-                <div className="mt-6 space-y-3">
-                  <div className="flex items-start">
-                    <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 mt-0.5" />
-                    <span className="text-sm text-gray-600">Free cancellation within 24 hours</span>
+                <div className="mt-8 space-y-4">
+                  <div className="flex items-start p-4 bg-green-50 rounded-xl">
+                    <CheckCircle2 className="w-6 h-6 text-green-500 mr-3 mt-0.5" />
+                    <span className="text-gray-700">Free cancellation within 24 hours</span>
                   </div>
-                  <div className="flex items-start">
-                    <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 mt-0.5" />
-                    <span className="text-sm text-gray-600">Instant confirmation</span>
+                  <div className="flex items-start p-4 bg-green-50 rounded-xl">
+                    <CheckCircle2 className="w-6 h-6 text-green-500 mr-3 mt-0.5" />
+                    <span className="text-gray-700">Instant confirmation</span>
                   </div>
-                  <div className="flex items-start">
-                    <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 mt-0.5" />
-                    <span className="text-sm text-gray-600">Secure payment</span>
+                  <div className="flex items-start p-4 bg-green-50 rounded-xl">
+                    <CheckCircle2 className="w-6 h-6 text-green-500 mr-3 mt-0.5" />
+                    <span className="text-gray-700">Secure payment</span>
                   </div>
                 </div>
               </div>
