@@ -1,15 +1,28 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Form, Button, Container, Alert } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const UserProfile = () => {
   const [formData, setFormData] = useState({
-    name: "Abdo Mohamed",
-    email: "AbdoMohamed@example.com",
+    name: "",
+    email: "",
     password: "",
     newPassword: "",
   });
   const [success, setSuccess] = useState("");
+
+  useEffect(() => {
+    // Get user data from localStorage
+    const userData = localStorage.getItem('user');
+    if (userData) {
+      const user = JSON.parse(userData);
+      setFormData(prevData => ({
+        ...prevData,
+        name: user.name || "",
+        email: user.email || "",
+      }));
+    }
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
