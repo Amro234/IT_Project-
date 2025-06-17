@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { FaSpinner } from 'react-icons/fa';
 import { BiError } from 'react-icons/bi';
 import { FaMapMarkerAlt, FaCalendarAlt, FaUsers, FaStar } from 'react-icons/fa';
+import { trips } from '../data/trips';
 
 const TripDetails = () => {
   const { id } = useParams();
@@ -19,21 +20,15 @@ const TripDetails = () => {
       return;
     }
 
-    // TODO: Replace with actual API call
-    const fetchTripData = async () => {
-      try {
-        // Simulate API call
-        const response = await fetch(`/api/trips/${numericId}`);
-        const data = await response.json();
-        setCurrentTrip(data);
-        setStatus('succeeded');
-      } catch (err) {
-        setError(err.message);
-        setStatus('failed');
-      }
-    };
-
-    fetchTripData();
+    // Find trip in local data
+    const trip = trips.find(t => t.id === numericId);
+    if (trip) {
+      setCurrentTrip(trip);
+      setStatus('succeeded');
+    } else {
+      setError('Trip not found');
+      setStatus('failed');
+    }
   }, [id, navigate]);
 
   if (status === 'loading') {

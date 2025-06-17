@@ -4,11 +4,12 @@ import { MapPin, Calendar, Users, Star, ChevronDown, ChevronUp, Heart, Share2, B
 import { FaSpinner } from 'react-icons/fa';
 import { BiError } from 'react-icons/bi';
 import { FaMapMarkerAlt, FaCalendarAlt, FaUsers, FaStar } from 'react-icons/fa';
+import { trips } from '../data/trips';
 
 const Trips = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const [trips, setTrips] = useState([]);
+  const [filteredTrips, setFilteredTrips] = useState([]);
   const [status, setStatus] = useState('loading');
   const [error, setError] = useState(null);
   const [selectedDate, setSelectedDate] = useState('');
@@ -23,21 +24,15 @@ const Trips = () => {
       return;
     }
 
-    // TODO: Replace with actual API call
-    const fetchTripsData = async () => {
-      try {
-        // Simulate API call
-        const response = await fetch(`/api/trips?destinationId=${numericId}`);
-        const data = await response.json();
-        setTrips(data);
-        setStatus('succeeded');
-      } catch (err) {
-        setError(err.message);
-        setStatus('failed');
-      }
-    };
-
-    fetchTripsData();
+    // Filter trips based on destination ID
+    const filtered = trips.filter(trip => trip.id === numericId);
+    if (filtered.length > 0) {
+      setFilteredTrips(filtered);
+      setStatus('succeeded');
+    } else {
+      setError('No trips found for this destination');
+      setStatus('failed');
+    }
   }, [id, navigate]);
 
   const toggleDay = (day) => {
@@ -82,7 +77,7 @@ const Trips = () => {
     );
   }
 
-  if (!trips.length) {
+  if (!filteredTrips.length) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
@@ -105,7 +100,7 @@ const Trips = () => {
           Available Trips
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {trips.map((trip) => (
+          {filteredTrips.map((trip) => (
             <div
               key={trip.id}
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"

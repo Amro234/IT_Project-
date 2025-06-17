@@ -148,7 +148,7 @@ const App = () => {
             <Route path="/notifications" element={<Notifications />} />
             <Route path="/favorites" element={<><Favorites /><Footer /></>} />
             <Route path="/tripform" element={<><TripForm /><Footer /></>} />
-            <Route path="/trips/:id" element={<TripDetails />} />
+            <Route path="/trip-details/:id" element={<><TripDetails /><Footer /></>} />
             <Route path="/user-profile" element={<><UserProfile /><Footer /></>} />
             
             {/* 404 Route */}
