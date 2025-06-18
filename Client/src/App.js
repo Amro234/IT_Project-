@@ -37,6 +37,7 @@ import HotelDetailsPage from './Pages/HotelDetailsPage';
 import PaymentPage from './Pages/Payment';
 import Favorites from './Pages/Favorites';
 import Restaurants from './Pages/Restaurants';
+import TripRecommendations from './Pages/TripRecommendations';
 // User Components
 import UserProfile from './Components/User/UserProfile';
 import UserRegistration from './Components/User/UserRegistration';
@@ -154,6 +155,7 @@ const App = () => {
             <Route path="/tripform" element={<><TripForm /><Footer /></>} />
             <Route path="/trip-details/:id" element={<><TripDetails /><Footer /></>} />
             <Route path="/user-profile" element={<><UserProfile /><Footer /></>} />
+            <Route path="/recommendations" element={<><TripRecommendations /><Footer /></>} />
             
             {/* 404 Route */}
             <Route 

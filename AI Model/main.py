@@ -1,4 +1,3 @@
-
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -52,11 +51,11 @@ def preprocess_data(hotels, restaurants_df, attractions_df):
     try:
         hotels.dropna(subset=["City", "Single", "Hotel_Rating", "Amenities"], inplace=True)
         restaurants_df.dropna(subset=["City", "M_meal", "Rest_rating", "Rest_Food"], inplace=True)
-        attractions_df.dropna(subset=["City", "Ticket_price", "Rating", "Category"], inplace=True)
+        attractions_df.dropna(subset=["City", "Ticket-price", "Rating", "Category"], inplace=True)
 
         hotels["Single"] = hotels["Single"].apply(clean_price)
         restaurants_df["M_meal"] = restaurants_df["M_meal"].apply(clean_price)
-        attractions_df["Ticket_price"] = attractions_df["Ticket_price"].apply(clean_price)
+        attractions_df["Ticket-price"] = attractions_df["Ticket-price"].apply(clean_price)
 
         return hotels, restaurants_df, attractions_df
     except Exception as e:
@@ -105,7 +104,7 @@ def generate_trips(city, budget, top_k=5):
             rest = restaurants.iloc[i]
             attr = attractions.iloc[i]
 
-            total_cost = hotel["Single"] + rest["M_meal"] + attr["Ticket_price"]
+            total_cost = hotel["Single"] + rest["M_meal"] + attr["Ticket-price"]
             if total_cost <= budget:
                 trips.append({
                     "Hotel": hotel["Hotel_name"],
@@ -113,7 +112,7 @@ def generate_trips(city, budget, top_k=5):
                     "Restaurant": rest["Rest_name"],
                     "Meal_price": rest["M_meal"],
                     "Attraction": attr["Landmark_name"],
-                    "Ticket_price": attr["Ticket_price"],
+                    "Ticket_price": attr["Ticket-price"],
                     "Total": total_cost
                 })
 
