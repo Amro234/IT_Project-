@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { MdHotelClass } from 'react-icons/md';
+import { MdRestaurant } from 'react-icons/md';
 import { 
   HomeIcon, 
   TargetIcon, 
@@ -11,7 +12,7 @@ import {
   HamburgerMenuIcon,
   Cross2Icon,
 } from '@radix-ui/react-icons';
-import { Utensils } from 'lucide-react';
+import { Menu, X, User, LogOut } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +20,7 @@ const Navbar = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [user, setUser] = useState(null);
   const location = useLocation();
+  const navigate = useNavigate();
   
   // Handle scroll effect
   useEffect(() => {
@@ -50,7 +52,7 @@ const Navbar = () => {
       { path: '/special-offers', name: 'Special Offers', icon: <StarIcon /> },
     ] : []),
     { path: '/hotels', name: 'Hotels', icon: <MdHotelClass /> },
-    { path: '/restaurants', name: 'Restaurants', icon: <Utensils /> },
+    { path: '/restaurants', name: 'Restaurants', icon: <MdRestaurant /> },
     { path: '/contact', name: 'Contact Us', icon: <EnvelopeClosedIcon /> },
     { path: '/about', name: 'About Us', icon: <PersonIcon /> },
   ];
@@ -60,7 +62,7 @@ const Navbar = () => {
     localStorage.removeItem('user');
     setIsAuthenticated(false);
     setUser(null);
-    window.location.href = '/login';
+    navigate('/login');
   };
 
   return (
@@ -378,6 +380,56 @@ const Navbar = () => {
           }
         `}</style>
       </motion.nav>
+
+      {/* Mobile menu */}
+      <div className={`${isOpen ? 'block' : 'hidden'} sm:hidden`}>
+        <div className="pt-2 pb-3 space-y-1">
+          {navLinks.map((link) => (
+            <Link
+              key={link.path}
+              to={link.path}
+              className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 hover:bg-gray-50 hover:border-blue-500 hover:text-blue-600"
+              onClick={() => setIsOpen(false)}
+            >
+              <span className="link-icon">{link.icon}</span>
+              <span className="link-text">{link.name}</span>
+            </Link>
+          ))}
+        </div>
+        <div className="pt-4 pb-3 border-t border-gray-200">
+          {isAuthenticated ? (
+            <div className="space-y-1">
+              <Link
+                to="/user-profile"
+                className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 hover:bg-gray-50 hover:border-blue-500 hover:text-blue-600"
+              >
+                Profile
+              </Link>
+              <button
+                onClick={handleLogout}
+                className="block w-full text-left pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 hover:bg-gray-50 hover:border-blue-500 hover:text-blue-600"
+              >
+                Logout
+              </button>
+            </div>
+          ) : (
+            <div className="space-y-1">
+              <Link
+                to="/login"
+                className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 hover:bg-gray-50 hover:border-blue-500 hover:text-blue-600"
+              >
+                Login
+              </Link>
+              <Link
+                to="/register"
+                className="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 hover:bg-gray-50 hover:border-blue-500 hover:text-blue-600"
+              >
+                Register
+              </Link>
+            </div>
+          )}
+        </div>
+      </div>
     </>
   );
 };

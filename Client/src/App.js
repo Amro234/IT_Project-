@@ -28,6 +28,7 @@ import AdminDashboard from './Pages/Admin/AdminDashboard';
 import TripDetails from './Pages/TripDetails';
 import OfferDetails from './Pages/OfferDetails';
 import HotelUserPage from './Pages/HotelUser';
+import RestaurantDetailsPage from './Pages/RestaurantDetailsPage';
 import HotelsPage from './Pages/Admin/Hotels';
 import SettingsPage from './Pages/Admin/Settings';
 import BookingsPage from './Pages/Admin/Bookings';
@@ -35,8 +36,7 @@ import AddHotelPage from './Pages/Admin/AddHotel';
 import HotelDetailsPage from './Pages/HotelDetailsPage';
 import PaymentPage from './Pages/Payment';
 import Favorites from './Pages/Favorites';
-import RestaurantUserPage from './Pages/RestaurantUser';
-import RestaurantDetailsPage from './Pages/RestaurantDetailsPage';
+import Restaurants from './Pages/Restaurants';
 // User Components
 import UserProfile from './Components/User/UserProfile';
 import UserRegistration from './Components/User/UserRegistration';
@@ -120,9 +120,9 @@ const App = () => {
             <Route path="/" element={<><Home /><Footer /></>} />
             <Route path="/home" element={<><Home /><Footer /></>} />
             <Route path="/hotels" element={<><HotelUserPage /><Footer /></>} />
+            <Route path="/restaurants" element={<Restaurants />} />
+            <Route path="/restaurants/:id" element={<RestaurantDetailsPage />} />
             <Route path="/hotel/:id" element={<><HotelDetailsPage /><Footer /></>} />
-            <Route path="/restaurants" element={<><RestaurantUserPage /><Footer /></>} />
-            <Route path="/restaurant/:id" element={<><RestaurantDetailsPage /><Footer /></>} />
             <Route path="/booking/:hotelId" element={
               <ProtectedRoute>
                 <><PaymentPage /><Footer /></>

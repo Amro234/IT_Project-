@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { FaGoogle, FaFacebook, FaApple } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 import { Link, useNavigate } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const UserRegistration = () => {
   const navigate = useNavigate();
@@ -82,35 +84,64 @@ const UserRegistration = () => {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (formData.password !== formData.confirmPassword) {
-      setError("Passwords do not match!");
+      toast.error("Passwords do not match!");
       return;
     }
     if (!formData.gender) {
-      setError("Please select your gender.");
+      toast.error("Please select your gender.");
       return;
     }
     if (calculatedAge < 12) {
-      setError("You must be at least 12 years old to register.");
+      toast.error("You must be at least 12 years old to register.");
       return;
     }
 
-    // In a real application, you would make an API call here to register the user
-    const userData = {
-      firstName: formData.firstName,
-      lastName: formData.lastName,
-      email: formData.email,
-      phoneNumber: formData.phoneNumber,
-      gender: formData.gender,
-      dateOfBirth: formData.dateOfBirth,
-      age: calculatedAge,
-    };
+    try {
+      const userData = {
+        name: `${formData.firstName} ${formData.lastName}`,
+        email: formData.email,
+        password: formData.password,
+        password_confirmation: formData.confirmPassword,
+        role: "user",
+        date_of_birth: formData.dateOfBirth,
+        age: calculatedAge,
+        sex: formData.gender.toLowerCase(),
+        mobile_num: formData.phoneNumber
+      };
 
-    // TODO: Add API call here
-    console.log('User data:', userData);
-    navigate('/home'); // Redirect to home page after successful registration
+      const response = await fetch('http://localhost:8000/api/register', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+        body: JSON.stringify(userData)
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        if (data.errors) {
+          if (data.errors.email && data.errors.email[0].includes('taken')) {
+            toast.error('This email is already registered. Please use another email.');
+            return;
+          }
+          if (data.errors.mobile_num && data.errors.mobile_num[0].includes('taken')) {
+            toast.error('This mobile number is already registered. Please use another number.');
+            return;
+          }
+        }
+        throw new Error(data.message || 'Registration failed');
+      }
+
+      toast.success('Registration successful!');
+      setTimeout(() => navigate('/home'), 1500);
+    } catch (error) {
+      toast.error(error.message || 'An error occurred during registration');
+    }
   };
 
   const styles = {
@@ -323,7 +354,8 @@ const UserRegistration = () => {
 
         <div style={styles.rightSection}>
           <div style={styles.formContainer}>
-            {error && <div style={styles.error}>{error}</div>}
+            {/* Toast notifications */}
+            <ToastContainer position="top-center" autoClose={3000} hideProgressBar={false} newestOnTop closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover />
             <form onSubmit={handleSubmit}>
               <div style={styles.formRow}>
                 <div style={styles.formGroup}>

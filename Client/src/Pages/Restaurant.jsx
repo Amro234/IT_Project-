@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Star, MapPin, Phone, Mail, Utensils, Filter, Calendar, Users, Heart, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Search, Star, MapPin, Phone, Mail, Filter, Calendar, Users, Heart, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { addToFavorites, removeFromFavorites, isInFavorites } from '../utils/favorites';
 import { toast } from 'react-toastify';
 
-const RestaurantUserPage = () => {
+const Restaurant = () => {
   const navigate = useNavigate();
   const [restaurants, setRestaurants] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
@@ -15,6 +15,7 @@ const RestaurantUserPage = () => {
   const [filters, setFilters] = useState({
     priceRange: [0, 1000],
     rating: 0,
+    cuisine: [],
     location: '',
   });
   const [favorites, setFavorites] = useState([]);
@@ -26,30 +27,48 @@ const RestaurantUserPage = () => {
     const loadAllRestaurantData = async () => {
       setIsLoading(true);
       try {
-        const response = await fetch('http://localhost:8000/api/restaurants');
+        // Fetch restaurants from API
+        const restaurantsResponse = await fetch('http://localhost:8000/api/restaurants');
 
-        if (!response.ok) {
+        if (!restaurantsResponse.ok) {
           throw new Error('Failed to fetch restaurants');
         }
 
-        const data = await response.json();
+        const { data: allRestaurantData } = await restaurantsResponse.json();
 
-        const processedRestaurants = data.map((restaurant) => ({
-          id: restaurant.id,
-          name: restaurant.name,
-          location: restaurant.city?.name || 'Unknown Location',
-          rating: restaurant.rating || 0,
-          averageCost: restaurant.average_cost || 0,
-          smallMeal: restaurant.small_meal || 0,
-          mediumMeal: restaurant.medium_meal || 0,
-          largeMeal: restaurant.large_meal || 0,
-          contact: restaurant.contact || 'N/A',
-          email: restaurant.email || 'N/A',
-          address: restaurant.address || 'N/A',
-          description: restaurant.description || 'No description available.',
-          image: restaurant.logo || defaultRestaurantImage,
-          reviewCount: restaurant.review_count || 0,
-        }));
+        const processedRestaurants = allRestaurantData.map((restaurant) => {
+          // Parse cuisine types from JSON string if it exists
+          let cuisine = [];
+          try {
+            if (restaurant.cuisine) {
+              const parsedCuisine = JSON.parse(restaurant.cuisine);
+              cuisine = typeof parsedCuisine === 'string' ? JSON.parse(parsedCuisine) : parsedCuisine;
+              cuisine = Array.isArray(cuisine) ? cuisine : [];
+            }
+          } catch (e) {
+            console.error('Error parsing cuisine:', e);
+            cuisine = [];
+          }
+
+          // Prioritize main restaurant image, then default
+          const mainRestaurantImage = restaurant.images?.[0]?.image_url || defaultRestaurantImage;
+          
+          return {
+            id: restaurant.id,
+            name: restaurant.name,
+            location: restaurant.city?.name || 'Unknown Location',
+            rating: restaurant.restaurant_ranking || 0,
+            price: restaurant.average_price || 0,
+            contact: restaurant.mobile_num || 'N/A',
+            email: restaurant.email || 'N/A',
+            address: restaurant.address || 'N/A',
+            cuisine: cuisine,
+            description: restaurant.description || 'No description available.',
+            image: mainRestaurantImage,
+            openingHours: restaurant.opening_hours || 'N/A',
+            reviews: restaurant.reviews || [],
+          };
+        });
 
         setRestaurants(processedRestaurants);
       } catch (error) {
@@ -99,12 +118,13 @@ const RestaurantUserPage = () => {
     const matchesSearch = restaurant.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
                          restaurant.location.toLowerCase().includes(searchQuery.toLowerCase());
     
-    const matchesPrice = restaurant.averageCost >= filters.priceRange[0] && 
-                        restaurant.averageCost <= filters.priceRange[1];
+    const matchesPrice = restaurant.price >= filters.priceRange[0] && restaurant.price <= filters.priceRange[1];
     const matchesRating = restaurant.rating >= filters.rating;
     const matchesLocation = !filters.location || restaurant.location === filters.location;
+    const matchesCuisine = filters.cuisine.length === 0 || 
+                          filters.cuisine.every(cuisine => restaurant.cuisine.includes(cuisine));
 
-    return matchesSearch && matchesPrice && matchesRating && matchesLocation;
+    return matchesSearch && matchesPrice && matchesRating && matchesLocation && matchesCuisine;
   });
 
   const currentRestaurants = filteredRestaurants.slice(
@@ -192,7 +212,7 @@ const RestaurantUserPage = () => {
 
           {showFilters && (
             <div className="bg-white p-4 rounded-lg shadow-md">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">Price Range</label>
                   <div className="flex items-center space-x-2">
@@ -200,7 +220,7 @@ const RestaurantUserPage = () => {
                       type="number"
                       value={filters.priceRange[0]}
                       onChange={(e) => handleFilterChange('priceRange', [parseInt(e.target.value), filters.priceRange[1]])}
-                      className="w-full border border-gray-300 rounded-md px-3 py-2"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md"
                       placeholder="Min"
                     />
                     <span>-</span>
@@ -208,34 +228,66 @@ const RestaurantUserPage = () => {
                       type="number"
                       value={filters.priceRange[1]}
                       onChange={(e) => handleFilterChange('priceRange', [filters.priceRange[0], parseInt(e.target.value)])}
-                      className="w-full border border-gray-300 rounded-md px-3 py-2"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md"
                       placeholder="Max"
                     />
                   </div>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">Minimum Rating</label>
-                  <div className="flex items-center">
-                    {[1, 2, 3, 4, 5].map((rating) => (
-                      <button
-                        key={`rating-${rating}`}
-                        onClick={() => handleFilterChange('rating', rating)}
-                        className={`p-1 ${filters.rating >= rating ? 'text-yellow-400' : 'text-gray-300'}`}
-                      >
-                        <Star className="w-5 h-5 fill-current" />
-                      </button>
-                    ))}
-                  </div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">Rating</label>
+                  <select
+                    value={filters.rating}
+                    onChange={(e) => handleFilterChange('rating', parseInt(e.target.value))}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md"
+                  >
+                    <option value={0}>Any Rating</option>
+                    <option value={1}>1+ Stars</option>
+                    <option value={2}>2+ Stars</option>
+                    <option value={3}>3+ Stars</option>
+                    <option value={4}>4+ Stars</option>
+                    <option value={5}>5 Stars</option>
+                  </select>
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">Location</label>
+                  <input
+                    type="text"
+                    value={filters.location}
+                    onChange={(e) => handleFilterChange('location', e.target.value)}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md"
+                    placeholder="Enter location"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">Cuisine</label>
+                  <select
+                    multiple
+                    value={filters.cuisine}
+                    onChange={(e) => handleFilterChange('cuisine', Array.from(e.target.selectedOptions, option => option.value))}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md"
+                  >
+                    <option value="italian">Italian</option>
+                    <option value="chinese">Chinese</option>
+                    <option value="japanese">Japanese</option>
+                    <option value="indian">Indian</option>
+                    <option value="mexican">Mexican</option>
+                    <option value="american">American</option>
+                    <option value="thai">Thai</option>
+                    <option value="mediterranean">Mediterranean</option>
+                  </select>
                 </div>
               </div>
             </div>
           )}
         </div>
 
-        {/* Restaurants Grid */}
+        {/* Restaurant Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {currentRestaurants.map((restaurant) => (
-            <div key={restaurant.id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <div
+              key={restaurant.id}
+              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+            >
               <div className="relative">
                 <img
                   src={restaurant.image}
@@ -248,104 +300,84 @@ const RestaurantUserPage = () => {
                 >
                   <Heart
                     className={`w-5 h-5 ${
-                      favorites.includes(restaurant.id) ? 'text-red-500 fill-current' : 'text-gray-400'
+                      favorites.includes(restaurant.id) ? 'text-red-500 fill-red-500' : 'text-gray-400'
                     }`}
                   />
                 </button>
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
-                  <h2 className="text-xl font-bold text-white">{restaurant.name}</h2>
-                  <div className="flex items-center text-white">
-                    <MapPin className="w-4 h-4 mr-1" />
-                    <span>{restaurant.location}</span>
-                  </div>
-                </div>
               </div>
-
               <div className="p-4">
-                <div className="flex justify-between items-center mb-4">
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="text-lg font-semibold text-gray-800">{restaurant.name}</h3>
                   <div className="flex items-center">
-                    {[...Array(5)].map((_, i) => (
-                      <Star
-                        key={i}
-                        className={`w-5 h-5 ${
-                          i < restaurant.rating ? 'text-yellow-400 fill-current' : 'text-gray-300'
-                        }`}
-                      />
-                    ))}
-                    <span className="ml-2 text-gray-600">({restaurant.rating})</span>
-                  </div>
-                  <span className="text-xl font-bold text-blue-600">${restaurant.averageCost}</span>
-                </div>
-
-                <div className="space-y-2 mb-4">
-                  <div className="flex items-center text-gray-600">
-                    <Utensils className="w-4 h-4 mr-2" />
-                    <span>Meal Prices: ${restaurant.smallMeal} - ${restaurant.largeMeal}</span>
-                  </div>
-                  <div className="flex items-center text-gray-600">
-                    <Phone className="w-4 h-4 mr-2" />
-                    <span>{restaurant.contact}</span>
+                    <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
+                    <span className="ml-1 text-sm text-gray-600">{restaurant.rating}</span>
                   </div>
                 </div>
-
-                <div className="flex justify-between items-center">
-                  <button
-                    onClick={() => navigate(`/restaurant/${restaurant.id}`)}
-                    className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 flex items-center"
-                  >
-                    <Calendar className="w-4 h-4 mr-2" />
-                    View Menu
-                  </button>
-                  <button
-                    onClick={() => navigate(`/restaurant/${restaurant.id}`)}
-                    className="text-gray-600 hover:text-gray-800"
-                  >
-                    View Details
-                  </button>
+                <div className="flex items-center text-gray-600 mb-2">
+                  <MapPin className="w-4 h-4 mr-1" />
+                  <span className="text-sm">{restaurant.location}</span>
                 </div>
+                <div className="flex items-center text-gray-600 mb-2">
+                  <span className="text-sm">Average Price: ${restaurant.price}</span>
+                </div>
+                <p className="text-gray-600 text-sm mb-4 line-clamp-2">{restaurant.description}</p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {restaurant.cuisine.map((cuisine, index) => (
+                    <span
+                      key={index}
+                      className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full"
+                    >
+                      {cuisine}
+                    </span>
+                  ))}
+                </div>
+                <button
+                  onClick={() => navigate(`/restaurant/${restaurant.id}`)}
+                  className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition-colors duration-300"
+                >
+                  View Details
+                </button>
               </div>
             </div>
           ))}
         </div>
 
         {/* Pagination */}
-        <div className="flex justify-center mt-8">
-          <nav className="relative z-0 inline-flex rounded-md shadow-sm -space-x-px">
+        {totalPages > 1 && (
+          <div className="flex justify-center items-center mt-8 space-x-2">
             <button
-              onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
+              onClick={() => handlePageChange(currentPage - 1)}
               disabled={currentPage === 1}
-              className="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="p-2 rounded-md hover:bg-gray-100 disabled:opacity-50"
             >
-              <span className="sr-only">Previous</span>
-              <ChevronLeft className="h-5 w-5" />
+              <ChevronLeft className="w-5 h-5" />
             </button>
             {paginationGroup.map((page, index) => (
               <button
                 key={index}
                 onClick={() => typeof page === 'number' && handlePageChange(page)}
-                disabled={page === '...'}
-                className={`relative inline-flex items-center px-4 py-2 border text-sm font-medium ${
+                className={`px-3 py-1 rounded-md ${
                   page === currentPage
-                    ? 'z-10 bg-blue-50 border-blue-500 text-blue-600'
-                    : 'bg-white border-gray-300 text-gray-500 hover:bg-gray-50'
-                } ${page === '...' ? 'cursor-default' : 'cursor-pointer'}`}
+                    ? 'bg-blue-500 text-white'
+                    : 'hover:bg-gray-100'
+                }`}
+                disabled={page === '...'}
               >
                 {page}
               </button>
             ))}
             <button
-              onClick={() => handlePageChange(Math.min(totalPages, currentPage + 1))}
+              onClick={() => handlePageChange(currentPage + 1)}
               disabled={currentPage === totalPages}
-              className="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="p-2 rounded-md hover:bg-gray-100 disabled:opacity-50"
             >
-              <span className="sr-only">Next</span>
-              <ChevronRight className="h-5 w-5" />
+              <ChevronRight className="w-5 h-5" />
             </button>
-          </nav>
-        </div>
+          </div>
+        )}
       </div>
     </div>
   );
 };
 
-export default RestaurantUserPage; 
+export default Restaurant; 
